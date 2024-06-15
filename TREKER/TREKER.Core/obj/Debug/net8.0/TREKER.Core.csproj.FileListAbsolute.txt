@@ -1,0 +1,12 @@
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\bin\Debug\net8.0\TREKER.Core.deps.json
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\bin\Debug\net8.0\TREKER.Core.dll
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\bin\Debug\net8.0\TREKER.Core.pdb
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\obj\Debug\net8.0\TREKER.Core.csproj.AssemblyReference.cache
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\obj\Debug\net8.0\TREKER.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\obj\Debug\net8.0\TREKER.Core.AssemblyInfoInputs.cache
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\obj\Debug\net8.0\TREKER.Core.AssemblyInfo.cs
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\obj\Debug\net8.0\TREKER.Core.csproj.CoreCompileInputs.cache
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\obj\Debug\net8.0\TREKER.Core.dll
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\obj\Debug\net8.0\refint\TREKER.Core.dll
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\obj\Debug\net8.0\TREKER.Core.pdb
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\obj\Debug\net8.0\ref\TREKER.Core.dll

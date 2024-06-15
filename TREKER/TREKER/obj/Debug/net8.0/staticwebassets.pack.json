@@ -1,0 +1,3445 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TREKER.MVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TREKER.MVC.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\css\\custom-animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\custom-animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\css\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\css\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\css\\jquery.bootstrap-touchspin.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery.bootstrap-touchspin.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\css\\odometer-theme-default.css",
+      "PackagePath": "staticwebassets\\assets\\css\\odometer-theme-default.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\css\\owl.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\css\\simple-line-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\simple-line-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\fa-duotone-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-duotone-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\fa-duotone-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-duotone-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\fa-thin-100.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-thin-100.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\fa-thin-100.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-thin-100.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\banner-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\banner-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\banner-image-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\banner-image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\banner-pattern.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\banner-pattern.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\booking-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\booking-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\buy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\buy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\category-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\category-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\category-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\category-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\category-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\category-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\category-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\category-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\f-bottom-bg.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\f-bottom-bg.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\footer-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\footer-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\image-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\image-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\image-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\image-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\image-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\image-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\image-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\image-5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\image-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\image-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\image-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\image-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\image-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\newsletter-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\newsletter-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\not-found-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\not-found-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\pattern-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\pattern-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\pattern-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\pattern-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\pattern-layer.png",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\pattern-layer.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\testi-image-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\testi-image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\fancybox\\blank.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\fancybox\\blank.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\fancybox\\fancybox_loading.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\fancybox\\fancybox_loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\fancybox\\fancybox_loading@2x.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\fancybox\\fancybox_loading@2x.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\fancybox\\fancybox_overlay.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fancybox\\fancybox_overlay.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\fancybox\\fancybox_sprite.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fancybox\\fancybox_sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\fancybox\\fancybox_sprite@2x.png",
+      "PackagePath": "staticwebassets\\assets\\images\\fancybox\\fancybox_sprite@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\arrow-left.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\arrow-left.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\arrow-left.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\arrow-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\arrow-right-o.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\arrow-right-o.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\arrow-right.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\arrow-right.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\arrow-right.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\arrow-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\arrow-up.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\arrow-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\back-arrow.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\back-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\banned.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\banned.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\bill.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\bill.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\buy-treker.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\buy-treker.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\calendar.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\calendar.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\campings.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\campings.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\cart-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\cart-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\category-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\category-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\check-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\check-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\close-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\close-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\close-menu.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\close-menu.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\coupon-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\coupon-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\duration.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\duration.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\email-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\email-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\events.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\events.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\heart-icon-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\heart-icon-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\heart-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\heart-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\hill.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\hill.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\icon-arrow-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\icon-arrow-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\icon-check-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\icon-check-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\icon-check-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\icon-check-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\icon-check.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\icon-check.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\icon-phone-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\icon-phone-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\icon-select-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\icon-select-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\icon-select.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\icon-select.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\icon-upload.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\icon-upload.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\key.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\key.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\kitchen-tool.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\kitchen-tool.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\lights.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\lights.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\loc-hover.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\loc-hover.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\loc.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\loc.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\location-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\location-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\location.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\location.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\logo-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\logo-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\map-marker.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\map-marker.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\menu-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\menu-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\menu-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\menu-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\menu.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\menu.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\more-arrow-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\more-arrow-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\more-arrow.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\more-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\passport.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\passport.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\phone-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\phone-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\phone-call.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\phone-call.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\preloader.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\preloader.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\printer.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\printer.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\queue.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\queue.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\quote-icon-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\quote-icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\quote-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\quote-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\quotes-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\quotes-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\quotes-2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\quotes-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\quotes-3.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\quotes-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\quotes-4.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\quotes-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\review-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\review-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\search-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\search-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\share-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\share-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\ship.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\ship.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\smoking.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\smoking.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\speedometer.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\speedometer.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\team-group.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\team-group.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\ticket.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\ticket.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\title-vector-2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\title-vector-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\title-vector.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\title-vector.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\toilet.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\toilet.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\tour-guide.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\tour-guide.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\travel-insurance.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\travel-insurance.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\vid-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\vid-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\video-icon-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\video-icon-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\video-icon-2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\video-icon-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\wifi-signal.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\wifi-signal.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\zoom-2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\zoom-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\zoom-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\zoom-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\main-slider\\banner-bg-text.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\main-slider\\banner-bg-text.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\main-slider\\banner-image-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\main-slider\\banner-image-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\main-slider\\banner-image-2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\main-slider\\banner-image-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\main-slider\\banner-image-3.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\main-slider\\banner-image-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\main-slider\\banner-image-4.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\main-slider\\banner-image-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\main-slider\\banner-stones-left.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\main-slider\\banner-stones-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\main-slider\\banner-stones-right.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\main-slider\\banner-stones-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\404-cloud-left.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\404-cloud-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\404-cloud-right.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\404-cloud-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\404-image.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\404-image.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\about-icon-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\about-icon-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\about-icon-2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\about-icon-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\about-image-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\about-image-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\about-image-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\about-image-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\about-image-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\about-image-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\about-image-3.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\about-image-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\about-stone-right.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\about-stone-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\about-stone-two.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\about-stone-two.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\about-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\about-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\about-vector-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\about-vector-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\activity-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\activity-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\activity-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\activity-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\activity-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\activity-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\activity-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\activity-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\activity-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\activity-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\activity-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\activity-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\activity-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\activity-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\activity-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\activity-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\activity-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\activity-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\asia-map.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\asia-map.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\author-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\author-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\author-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\author-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\dotted-pattern-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\dotted-pattern-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\europe-map.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\europe-map.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\f-icon-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\f-icon-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\f-icon-2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\f-icon-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\f-icon-3.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\f-icon-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\f-icon-4.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\f-icon-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\f-image-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\f-image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\f-image-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\f-image-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\f-image-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\f-image-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\f-image-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\f-image-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\f-image-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\f-image-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\faq-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\faq-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\faq-image-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\faq-image-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\floated-icon-right-2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\floated-icon-right-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\footer-stones.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\footer-stones.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\footer-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\footer-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\footer-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\footer-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\footer-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\footer-thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\footer-thumb-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\footer-thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\footer-thumb-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\footer-thumb-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\footer-thumb-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\footer-thumb-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-18.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-19.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-20.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-21.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\gallery.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\hills-image-2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\hills-image-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\hills-image.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\hills-image.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\hotel.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\hotel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\icon-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\icon-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\icon-2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\icon-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\icon-3.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\icon-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\icon-4.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\icon-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\icon-5.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\icon-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\icon-6.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\icon-6.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-1 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\news-1 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\news-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-2 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\news-2 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\news-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-3 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\news-3 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\news-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-4 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\news-4 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\news-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-5 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\news-5 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\news-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-6 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\news-6 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\news-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-7 - Copy (2).jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\news-7 - Copy (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-7 - Copy - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\news-7 - Copy - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-7 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\news-7 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\news-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\newsletter-image.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\newsletter-image.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\north-america-map.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\north-america-map.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\plant-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\plant-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\post-thumb-1 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\post-thumb-1 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\post-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\post-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\post-thumb-2 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\post-thumb-2 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\post-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\post-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\post-thumb-3 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\post-thumb-3 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\post-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\post-thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\rev-thumb-1 - Copy.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\rev-thumb-1 - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\rev-thumb-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\rev-thumb-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\rev-thumb-2 - Copy.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\rev-thumb-2 - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\rev-thumb-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\rev-thumb-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\rev-thumb-3 - Copy.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\rev-thumb-3 - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\rev-thumb-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\rev-thumb-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\rev-thumb-4 - Copy.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\rev-thumb-4 - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\rev-thumb-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\rev-thumb-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\shop\\prod-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\shop\\prod-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\shop\\prod-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\shop\\prod-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\shop\\prod-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\shop\\prod-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\shop\\prod-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\shop\\prod-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\shop\\prod-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\shop\\prod-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\shop\\prod-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\shop\\prod-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\shop\\prod-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\shop\\prod-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\shop\\prod-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\shop\\prod-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\shop\\rev-thumb-shop.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\shop\\rev-thumb-shop.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\shop\\s-cart-thumb.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\shop\\s-cart-thumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\shop\\shop-single-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\shop\\shop-single-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\shop\\shop-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\shop\\shop-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\shop\\shop-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\shop\\shop-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\shop\\shop-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\shop\\shop-thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\signature-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\signature-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\sponsor-1 - Copy.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\sponsor-1 - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\sponsor-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\sponsor-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\sponsor-2 - Copy.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\sponsor-2 - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\sponsor-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\sponsor-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\sponsor-3 - Copy.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\sponsor-3 - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\sponsor-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\sponsor-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\sponsor-4 - Copy.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\sponsor-4 - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\sponsor-4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\sponsor-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\stones-alt.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\stones-alt.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\stones-left.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\stones-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\stones-right-2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\stones-right-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\stones-right-3.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\stones-right-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\stones-right.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\stones-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\team-2 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\team-2 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\team-3 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\team-3 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\team-4 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\team-4 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\team-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\team-5 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\team-5 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\team-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\team-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\team-6 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\team-6 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\team-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\team-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\team-7 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\team-7 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\team-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\team-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\team-icon-left.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\team-icon-left.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\testi-image-1 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\testi-image-1 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\testi-image-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\testi-image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\testi-thumb-1 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\testi-thumb-1 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\testi-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\testi-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\testi-thumb-2 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\testi-thumb-2 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\testi-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\testi-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\tour-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\tour-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\tour-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\tour-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\tour-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\tour-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\tour-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\tour-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\tour-13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\tour-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\tour-14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\tour-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\tour-15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\tour-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\tour-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\tour-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\tour-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\tour-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\tour-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\tour-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\tour-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\tour-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\tour-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\tour-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\tour-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\tour-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\tour-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\tour-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\tour-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\tour-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\why-image-1.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\why-image-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\world-map.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\world-map.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\js\\appear.js",
+      "PackagePath": "staticwebassets\\assets\\js\\appear.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\js\\bxslider.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bxslider.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\js\\countdown.js",
+      "PackagePath": "staticwebassets\\assets\\js\\countdown.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\js\\custom-script.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom-script.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\js\\isotope.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\js\\jquery.fancybox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.fancybox.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\js\\mixitup.js",
+      "PackagePath": "staticwebassets\\assets\\js\\mixitup.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\js\\odometer.js",
+      "PackagePath": "staticwebassets\\assets\\js\\odometer.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\js\\owl.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\js\\touchspin.js",
+      "PackagePath": "staticwebassets\\assets\\js\\touchspin.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\js\\wow.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\css\\bootstrap-material-design.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\bootstrap-material-design.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\css\\icons.css",
+      "PackagePath": "staticwebassets\\manage\\css\\icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\css\\icons.css.map",
+      "PackagePath": "staticwebassets\\manage\\css\\icons.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\css\\style.css",
+      "PackagePath": "staticwebassets\\manage\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\manage\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\manage\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\manage\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\manage\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\manage\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\manage\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\manage\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\manage\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\fonts\\materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets\\manage\\fonts\\materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\manage\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\manage\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\manage\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\manage\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\manage\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\manage\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\manage\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\css\\materialdesignicons.css",
+      "PackagePath": "staticwebassets\\manage\\icons\\css\\materialdesignicons.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\css\\materialdesignicons.css.map",
+      "PackagePath": "staticwebassets\\manage\\icons\\css\\materialdesignicons.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\manage\\icons\\css\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\css\\themify-icons.css.map",
+      "PackagePath": "staticwebassets\\manage\\icons\\css\\themify-icons.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\css\\font-awesome.css.map",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\css\\font-awesome.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\css\\mixins.css",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\css\\mixins.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\css\\variables.css",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\css\\variables.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\less\\animated.less",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\less\\animated.less"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\less\\core.less",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\less\\icons.less",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\less\\larger.less",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\less\\list.less",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\less\\path.less",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\less\\screen-reader.less"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\less\\variables.less",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\scss\\_animated.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\font-awesome\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\manage\\icons\\font-awesome\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\material-design\\css\\materialdesignicons.css",
+      "PackagePath": "staticwebassets\\manage\\icons\\material-design\\css\\materialdesignicons.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\material-design\\css\\materialdesignicons.css.map",
+      "PackagePath": "staticwebassets\\manage\\icons\\material-design\\css\\materialdesignicons.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\material-design\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\manage\\icons\\material-design\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\material-design\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\manage\\icons\\material-design\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\material-design\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\manage\\icons\\material-design\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\material-design\\fonts\\materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets\\manage\\icons\\material-design\\fonts\\materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\material-design\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\manage\\icons\\material-design\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\material-design\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\manage\\icons\\material-design\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\material-design\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\manage\\icons\\material-design\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\material-design\\materialdesignicons.scss",
+      "PackagePath": "staticwebassets\\manage\\icons\\material-design\\materialdesignicons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\themify-icons\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\manage\\icons\\themify-icons\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\themify-icons\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\manage\\icons\\themify-icons\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\themify-icons\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\manage\\icons\\themify-icons\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\themify-icons\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\manage\\icons\\themify-icons\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\themify-icons\\ie7\\ie7.css",
+      "PackagePath": "staticwebassets\\manage\\icons\\themify-icons\\ie7\\ie7.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\themify-icons\\ie7\\ie7.js",
+      "PackagePath": "staticwebassets\\manage\\icons\\themify-icons\\ie7\\ie7.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\themify-icons\\themify-icons.css",
+      "PackagePath": "staticwebassets\\manage\\icons\\themify-icons\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\icons\\themify-icons\\themify-icons.scss",
+      "PackagePath": "staticwebassets\\manage\\icons\\themify-icons\\themify-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\bg-account.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\bg-account.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\carousel\\img-01.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\carousel\\img-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\carousel\\img-02.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\carousel\\img-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\carousel\\img-03.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\carousel\\img-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\colorpicker\\alpha.png",
+      "PackagePath": "staticwebassets\\manage\\images\\colorpicker\\alpha.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\colorpicker\\hue.png",
+      "PackagePath": "staticwebassets\\manage\\images\\colorpicker\\hue.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\colorpicker\\saturation.png",
+      "PackagePath": "staticwebassets\\manage\\images\\colorpicker\\saturation.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\colorpicker\\transparent.png",
+      "PackagePath": "staticwebassets\\manage\\images\\colorpicker\\transparent.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\extra.png",
+      "PackagePath": "staticwebassets\\manage\\images\\extra.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\manage\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\flags\\french_flag.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\flags\\french_flag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\flags\\germany_flag.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\flags\\germany_flag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\flags\\italy_flag.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\flags\\italy_flag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\flags\\russia_flag.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\flags\\russia_flag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\flags\\spain_flag.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\flags\\spain_flag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\flags\\us_flag.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\flags\\us_flag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\logo-h-lg.png",
+      "PackagePath": "staticwebassets\\manage\\images\\logo-h-lg.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\logo-sm.png",
+      "PackagePath": "staticwebassets\\manage\\images\\logo-sm.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\products\\pro1.png",
+      "PackagePath": "staticwebassets\\manage\\images\\products\\pro1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\products\\pro2.png",
+      "PackagePath": "staticwebassets\\manage\\images\\products\\pro2.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\products\\pro3.png",
+      "PackagePath": "staticwebassets\\manage\\images\\products\\pro3.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\products\\pro4.png",
+      "PackagePath": "staticwebassets\\manage\\images\\products\\pro4.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\small\\circle.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\small\\circle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\small\\img-1.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\small\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\small\\img-2.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\small\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\small\\img-3.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\small\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\small\\img-4.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\small\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\small\\img-5.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\small\\img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\small\\img-6.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\small\\img-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\small\\img-7.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\small\\img-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\users\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\users\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\users\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\users\\avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\users\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\users\\avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\users\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\users\\avatar-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\users\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\users\\avatar-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\users\\avatar-6.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\users\\avatar-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\js\\app.js",
+      "PackagePath": "staticwebassets\\manage\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\js\\bootstrap-material-design.js",
+      "PackagePath": "staticwebassets\\manage\\js\\bootstrap-material-design.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\js\\detect.js",
+      "PackagePath": "staticwebassets\\manage\\js\\detect.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\js\\fastclick.js",
+      "PackagePath": "staticwebassets\\manage\\js\\fastclick.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\js\\jquery.blockUI.js",
+      "PackagePath": "staticwebassets\\manage\\js\\jquery.blockUI.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\js\\jquery.nicescroll.js",
+      "PackagePath": "staticwebassets\\manage\\js\\jquery.nicescroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\js\\jquery.scrollTo.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\jquery.scrollTo.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\js\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\manage\\js\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\js\\modernizr.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\modernizr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\js\\waves.js",
+      "PackagePath": "staticwebassets\\manage\\js\\waves.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\alertify-init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\alertify-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\animate-init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\animate-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\c3-chart-init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\c3-chart-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\calendar-init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\calendar-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\chart-other-init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\chart-other-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\chartist.init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\chartist.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\chartjs.init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\chartjs.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\dashborad.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\dashborad.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\datatables.init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\datatables.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\flot.init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\flot.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\form-advanced.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\form-advanced.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\form-editor-init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\form-editor-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\gmaps.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\jvectormap.init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\jvectormap.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\morris.init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\morris.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\nestable-init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\nestable-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\rangeslider-init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\rangeslider-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\rating-init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\rating-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\upload-init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\upload-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\validation-init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\validation-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\pages\\xchart.init.js",
+      "PackagePath": "staticwebassets\\manage\\pages\\xchart.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\alertify\\css\\alertify.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\alertify\\css\\alertify.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\alertify\\js\\alertify.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\alertify\\js\\alertify.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\alertify\\js\\ngAlertify.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\alertify\\js\\ngAlertify.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-colorpicker\\css\\bootstrap-colorpicker.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-colorpicker\\css\\bootstrap-colorpicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-colorpicker\\css\\bootstrap-colorpicker.css.map",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-colorpicker\\css\\bootstrap-colorpicker.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-colorpicker\\css\\bootstrap-colorpicker.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-colorpicker\\css\\bootstrap-colorpicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-colorpicker\\css\\bootstrap-colorpicker.min.css.map",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-colorpicker\\css\\bootstrap-colorpicker.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\alpha-horizontal.png",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\alpha-horizontal.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\alpha.png",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\alpha.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\hue-horizontal.png",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\hue-horizontal.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\hue.png",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\hue.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\saturation.png",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\saturation.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-colorpicker\\js\\bootstrap-colorpicker.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-colorpicker\\js\\bootstrap-colorpicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-colorpicker\\js\\bootstrap-colorpicker.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-colorpicker\\js\\bootstrap-colorpicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-datepicker\\css\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-datepicker\\css\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-datepicker\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-datepicker\\js\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-inputmask\\bootstrap-inputmask.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-inputmask\\bootstrap-inputmask.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-maxlength\\bootstrap-maxlength.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-maxlength\\bootstrap-maxlength.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-maxlength\\bootstrap-maxlength.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-maxlength\\bootstrap-maxlength.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-maxlength\\src\\bootstrap-maxlength.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-maxlength\\src\\bootstrap-maxlength.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-rating\\bootstrap-rating.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-rating\\bootstrap-rating.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-rating\\bootstrap-rating.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-rating\\bootstrap-rating.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-session-timeout\\bootstrap-session-timeout.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-session-timeout\\bootstrap-session-timeout.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-session-timeout\\bootstrap-session-timeout.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-session-timeout\\bootstrap-session-timeout.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-touchspin\\css\\jquery.bootstrap-touchspin.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-touchspin\\css\\jquery.bootstrap-touchspin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\bootstrap-touchspin\\js\\jquery.bootstrap-touchspin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\bootstrap-touchspin\\js\\jquery.bootstrap-touchspin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\c3\\c3.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\c3\\c3.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\c3\\c3.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\c3\\c3.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\c3\\c3.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\c3\\c3.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\c3\\c3.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\c3\\c3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\carousel\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\carousel\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\carousel\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\carousel\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\carousel\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\carousel\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\carousel\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\carousel\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\chart.js\\Chart.bundle.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\chart.js\\Chart.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\chart.js\\chart.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\chart.js\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\chartist\\css\\chartist.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\chartist\\css\\chartist.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\chartist\\js\\chartist-plugin-tooltip.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\chartist\\js\\chartist-plugin-tooltip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\chartist\\js\\chartist.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\chartist\\js\\chartist.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\clockpicker\\jquery-clockpicker.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\clockpicker\\jquery-clockpicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\clockpicker\\jquery-clockpicker.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\clockpicker\\jquery-clockpicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\colorpicker\\asColorPicker.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\colorpicker\\asColorPicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\colorpicker\\bootstrap-colorpicker.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\colorpicker\\bootstrap-colorpicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\colorpicker\\bootstrap-colorpicker.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\colorpicker\\bootstrap-colorpicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\colorpicker\\colorpicker.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\colorpicker\\colorpicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\colorpicker\\img\\alpha.png",
+      "PackagePath": "staticwebassets\\manage\\plugins\\colorpicker\\img\\alpha.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\colorpicker\\img\\hue.png",
+      "PackagePath": "staticwebassets\\manage\\plugins\\colorpicker\\img\\hue.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\colorpicker\\img\\saturation.png",
+      "PackagePath": "staticwebassets\\manage\\plugins\\colorpicker\\img\\saturation.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\colorpicker\\img\\transparent.png",
+      "PackagePath": "staticwebassets\\manage\\plugins\\colorpicker\\img\\transparent.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\colorpicker\\jquery-asColor.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\colorpicker\\jquery-asColor.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\colorpicker\\jquery-asColorPicker.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\colorpicker\\jquery-asColorPicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\colorpicker\\jquery-asGradient.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\colorpicker\\jquery-asGradient.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\d3\\d3.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\d3\\d3.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\d3\\d3.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\d3\\d3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\datatables\\buttons.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\datatables\\buttons.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\datatables\\buttons.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\datatables\\buttons.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\datatables\\buttons.colVis.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\datatables\\buttons.colVis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\datatables\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\datatables\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\datatables\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\datatables\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\datatables\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\datatables\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\datatables\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\datatables\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\datatables\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\datatables\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\datatables\\dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\datatables\\dataTables.responsive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\datatables\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\datatables\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\datatables\\json\\scroller-demo.json",
+      "PackagePath": "staticwebassets\\manage\\plugins\\datatables\\json\\scroller-demo.json"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\datatables\\jszip.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\datatables\\jszip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\datatables\\pdfmake.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\datatables\\pdfmake.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\datatables\\responsive.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\datatables\\responsive.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\datatables\\responsive.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\datatables\\responsive.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\datatables\\vfs_fonts.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\datatables\\vfs_fonts.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropify\\css\\demo.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropify\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropify\\css\\dropify.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropify\\css\\dropify.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropify\\css\\dropify.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropify\\css\\dropify.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropify\\fonts\\dropify.eot",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropify\\fonts\\dropify.eot"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropify\\fonts\\dropify.svg",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropify\\fonts\\dropify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropify\\fonts\\dropify.ttf",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropify\\fonts\\dropify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropify\\fonts\\dropify.woff",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropify\\fonts\\dropify.woff"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropify\\images\\cover.jpg",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropify\\images\\cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropify\\images\\test-image-1.jpg",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropify\\images\\test-image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropify\\images\\test-image-2.jpg",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropify\\images\\test-image-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropify\\js\\dropify.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropify\\js\\dropify.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropify\\js\\dropify.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropify\\js\\dropify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropzone\\dist\\basic.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropzone\\dist\\basic.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropzone\\dist\\dropzone-amd-module.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropzone\\dist\\dropzone-amd-module.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropzone\\dist\\dropzone.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropzone\\dist\\dropzone.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropzone\\dist\\dropzone.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropzone\\dist\\dropzone.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropzone\\dist\\min\\basic.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropzone\\dist\\min\\basic.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropzone\\dist\\min\\dropzone-amd-module.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropzone\\dist\\min\\dropzone-amd-module.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropzone\\dist\\min\\dropzone.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropzone\\dist\\min\\dropzone.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropzone\\dist\\min\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropzone\\dist\\min\\dropzone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\dropzone\\dist\\readme.md",
+      "PackagePath": "staticwebassets\\manage\\plugins\\dropzone\\dist\\readme.md"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\emotion-rating\\emotion-ratings.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\emotion-rating\\emotion-ratings.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\flot-chart\\curvedLines.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\flot-chart\\curvedLines.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\flot-chart\\jquery.flot.crosshair.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\flot-chart\\jquery.flot.crosshair.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\flot-chart\\jquery.flot.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\flot-chart\\jquery.flot.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\flot-chart\\jquery.flot.orderBars.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\flot-chart\\jquery.flot.orderBars.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\flot-chart\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\flot-chart\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\flot-chart\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\flot-chart\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\flot-chart\\jquery.flot.selection.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\flot-chart\\jquery.flot.selection.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\flot-chart\\jquery.flot.stack.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\flot-chart\\jquery.flot.stack.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\flot-chart\\jquery.flot.time.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\flot-chart\\jquery.flot.time.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\flot-chart\\jquery.flot.tooltip.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\flot-chart\\jquery.flot.tooltip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\fullcalendar\\css\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\fullcalendar\\css\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\fullcalendar\\js\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\fullcalendar\\js\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\fullcalendar\\vanillaCalendar.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\fullcalendar\\vanillaCalendar.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\fullcalendar\\vanillaCalendar.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\fullcalendar\\vanillaCalendar.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\gmaps.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\gmaps.min.js.map",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\gmaps.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\lib\\gmaps.controls.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\lib\\gmaps.controls.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\lib\\gmaps.core.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\lib\\gmaps.core.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\lib\\gmaps.events.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\lib\\gmaps.events.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\lib\\gmaps.geofences.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\lib\\gmaps.geofences.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\lib\\gmaps.geometry.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\lib\\gmaps.geometry.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\lib\\gmaps.layers.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\lib\\gmaps.layers.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\lib\\gmaps.map_types.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\lib\\gmaps.map_types.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\lib\\gmaps.markers.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\lib\\gmaps.markers.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\lib\\gmaps.native_extensions.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\lib\\gmaps.native_extensions.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\lib\\gmaps.overlays.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\lib\\gmaps.overlays.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\lib\\gmaps.routes.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\lib\\gmaps.routes.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\lib\\gmaps.static.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\lib\\gmaps.static.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\lib\\gmaps.streetview.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\lib\\gmaps.streetview.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\lib\\gmaps.styles.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\lib\\gmaps.styles.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\gmaps\\lib\\gmaps.utils.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\gmaps\\lib\\gmaps.utils.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\ion-rangeslider\\ion.rangeSlider.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\ion-rangeslider\\ion.rangeSlider.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\ion-rangeslider\\ion.rangeSlider.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\ion-rangeslider\\ion.rangeSlider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\ion-rangeslider\\ion.rangeSlider.skinFlat.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\ion-rangeslider\\ion.rangeSlider.skinFlat.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\ion-rangeslider\\ion.rangeSlider.skinModern.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\ion-rangeslider\\ion.rangeSlider.skinModern.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\ion-rangeslider\\jquery-ui-slider-pips.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\ion-rangeslider\\jquery-ui-slider-pips.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\ion-rangeslider\\jquery-ui-slider-pips.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\ion-rangeslider\\jquery-ui-slider-pips.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\ion-rangeslider\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\ion-rangeslider\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\ion-rangeslider\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\ion-rangeslider\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\ion-rangeslider\\sprite-skin-flat.png",
+      "PackagePath": "staticwebassets\\manage\\plugins\\ion-rangeslider\\sprite-skin-flat.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\ion-rangeslider\\sprite-skin-modern.png",
+      "PackagePath": "staticwebassets\\manage\\plugins\\ion-rangeslider\\sprite-skin-modern.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jquery-knob\\excanvas.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jquery-knob\\excanvas.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jquery-knob\\jquery.knob.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jquery-knob\\jquery.knob.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jquery-sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jquery-sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jquery-ui\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jquery-ui\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jquery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jsgrid\\db.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jsgrid\\db.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jsgrid\\jsgrid-theme.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jsgrid\\jsgrid-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jsgrid\\jsgrid.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jsgrid\\jsgrid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jsgrid\\jsgrid.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jsgrid\\jsgrid.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jvectormap\\gdp-data.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jvectormap\\gdp-data.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jvectormap\\jquery-jvectormap-2.0.2.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jvectormap\\jquery-jvectormap-2.0.2.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jvectormap\\jquery-jvectormap-2.0.2.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jvectormap\\jquery-jvectormap-2.0.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jvectormap\\jquery-jvectormap-ca-lcc.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jvectormap\\jquery-jvectormap-ca-lcc.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jvectormap\\jquery-jvectormap-europe-mill-en.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jvectormap\\jquery-jvectormap-europe-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jvectormap\\jquery-jvectormap-uk-mill-en.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jvectormap\\jquery-jvectormap-uk-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jvectormap\\jquery-jvectormap-us-aea-en.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jvectormap\\jquery-jvectormap-us-aea-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jvectormap\\jquery-jvectormap-us-il-chicago-mill-en.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jvectormap\\jquery-jvectormap-us-il-chicago-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\jvectormap\\jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jvectormap\\jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\metro\\MetroJs.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\metro\\MetroJs.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\metro\\MetroJs.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\metro\\MetroJs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\moment\\moment.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\moment\\moment.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\morris\\morris.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\morris\\morris.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\morris\\morris.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\morris\\morris.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\nestable\\jquery.nestable.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\nestable\\jquery.nestable.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\nestable\\jquery.nestable.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\nestable\\jquery.nestable.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\parsleyjs\\parsley.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\parsleyjs\\parsley.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\peity\\jquery.peity.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\peity\\jquery.peity.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\raphael\\raphael.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\raphael\\raphael.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\select2\\img\\droparrows.png",
+      "PackagePath": "staticwebassets\\manage\\plugins\\select2\\img\\droparrows.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\select2\\img\\select2-spinner.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\select2\\img\\select2-spinner.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\select2\\img\\select2.png",
+      "PackagePath": "staticwebassets\\manage\\plugins\\select2\\img\\select2.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\select2\\img\\select2x2.png",
+      "PackagePath": "staticwebassets\\manage\\plugins\\select2\\img\\select2x2.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\select2\\select2.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\select2\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\select2\\select2.full.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\select2\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\timepicker\\bootstrap-material-datetimepicker.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\timepicker\\bootstrap-material-datetimepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\timepicker\\bootstrap-material-datetimepicker.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\timepicker\\bootstrap-material-datetimepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\timepicker\\bootstrap-timepicker.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\timepicker\\bootstrap-timepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\timepicker\\moment.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\timepicker\\moment.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\timepicker\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\timepicker\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\timepicker\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\timepicker\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\jquery.tinymce.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\jquery.tinymce.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\langs\\readme.md",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\langs\\readme.md"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\license.txt",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\license.txt"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\advlist\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\anchor\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\autolink\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\autoresize\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\autosave\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\bbcode\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\bbcode\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\charmap\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\code\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\code\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\codesample\\css\\prism.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\codesample\\css\\prism.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\codesample\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\colorpicker\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\colorpicker\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\contextmenu\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\contextmenu\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\directionality\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-cool.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-cool.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-cry.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-cry.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-embarassed.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-embarassed.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-foot-in-mouth.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-foot-in-mouth.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-frown.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-frown.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-innocent.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-innocent.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-kiss.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-kiss.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-laughing.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-laughing.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-money-mouth.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-money-mouth.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-sealed.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-sealed.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-smile.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-smile.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-surprised.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-surprised.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-tongue-out.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-tongue-out.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-undecided.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-undecided.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-wink.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-wink.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-yell.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\img\\smiley-yell.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\emoticons\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\example\\dialog.html",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\example\\dialog.html"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\example\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\example\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\example_dependency\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\example_dependency\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\fullpage\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\fullpage\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\fullscreen\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\hr\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\hr\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\image\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\image\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\imagetools\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\imagetools\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\importcss\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\layer\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\layer\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\legacyoutput\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\legacyoutput\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\link\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\link\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\lists\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\lists\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\media\\moxieplayer.swf",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\media\\moxieplayer.swf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\media\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\media\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\noneditable\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\noneditable\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\pagebreak\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\paste\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\paste\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\preview\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\preview\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\print\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\print\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\save\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\save\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\searchreplace\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\spellchecker\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\spellchecker\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\tabfocus\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\tabfocus\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\table\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\table\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\template\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\template\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\textcolor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\textcolor\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\textpattern\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\textpattern\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\visualblocks\\css\\visualblocks.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\visualblocks\\css\\visualblocks.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\visualblocks\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\visualchars\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\plugins\\wordcount\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\skins\\lightgray\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\skins\\lightgray\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\skins\\lightgray\\content.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\skins\\lightgray\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.eot",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.eot"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.svg",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.ttf",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.woff",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\skins\\lightgray\\fonts\\tinymce-small.woff"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\skins\\lightgray\\fonts\\tinymce.eot",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\skins\\lightgray\\fonts\\tinymce.eot"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\skins\\lightgray\\fonts\\tinymce.svg",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\skins\\lightgray\\fonts\\tinymce.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\skins\\lightgray\\fonts\\tinymce.ttf",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\skins\\lightgray\\fonts\\tinymce.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\skins\\lightgray\\fonts\\tinymce.woff",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\skins\\lightgray\\fonts\\tinymce.woff"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\skins\\lightgray\\img\\anchor.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\skins\\lightgray\\img\\anchor.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\skins\\lightgray\\img\\loader.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\skins\\lightgray\\img\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\skins\\lightgray\\img\\object.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\skins\\lightgray\\img\\object.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\skins\\lightgray\\img\\trans.gif",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\skins\\lightgray\\img\\trans.gif"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\skins\\lightgray\\skin.ie7.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\skins\\lightgray\\skin.ie7.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\skins\\lightgray\\skin.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\skins\\lightgray\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\config\\bolt\\atomic.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\config\\bolt\\atomic.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\config\\bolt\\bootstrap-atomic.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\config\\bolt\\bootstrap-atomic.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\config\\bolt\\bootstrap-browser.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\config\\bolt\\bootstrap-browser.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\config\\bolt\\bootstrap-demo.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\config\\bolt\\bootstrap-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\config\\bolt\\bootstrap-prod.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\config\\bolt\\bootstrap-prod.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\config\\bolt\\browser.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\config\\bolt\\browser.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\config\\bolt\\demo.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\config\\bolt\\demo.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\config\\bolt\\prod.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\config\\bolt\\prod.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\config\\dent\\depend.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\config\\dent\\depend.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\scratch\\compile\\bootstrap.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\scratch\\compile\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\scratch\\compile\\theme.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\scratch\\compile\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\scratch\\inline\\theme.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\scratch\\inline\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\scratch\\inline\\theme.raw.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\scratch\\inline\\theme.raw.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\demo\\css\\demo.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\demo\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\demo\\html\\demo.html",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\demo\\html\\demo.html"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\demo\\js\\tinymce\\inlite\\Demo.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\demo\\js\\tinymce\\inlite\\Demo.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\Theme.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\Theme.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\alien\\Arr.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\alien\\Arr.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\alien\\Bookmark.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\alien\\Bookmark.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\alien\\Unlink.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\alien\\Unlink.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\alien\\Uuid.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\alien\\Uuid.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\Actions.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\Actions.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\Convert.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\Convert.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\ElementMatcher.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\ElementMatcher.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\Layout.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\Layout.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\Matcher.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\Matcher.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\Measure.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\Measure.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\PredicateId.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\PredicateId.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\SelectionMatcher.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\SelectionMatcher.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\SkinLoader.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\SkinLoader.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\UrlType.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\core\\UrlType.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\file\\Conversions.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\file\\Conversions.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\file\\Picker.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\file\\Picker.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\ui\\Buttons.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\ui\\Buttons.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\ui\\Forms.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\ui\\Forms.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\ui\\Panel.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\ui\\Panel.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\ui\\Toolbar.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\main\\js\\tinymce\\inlite\\ui\\Toolbar.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\.eslintrc",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\.eslintrc"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\atomic\\alien\\ArrTest.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\atomic\\alien\\ArrTest.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\atomic\\alien\\UuidTest.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\atomic\\alien\\UuidTest.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\atomic\\core\\ConvertTest.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\atomic\\core\\ConvertTest.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\atomic\\core\\MatcherTest.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\atomic\\core\\MatcherTest.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\atomic\\core\\UrlTypeTest.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\atomic\\core\\UrlTypeTest.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\ThemeTest.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\ThemeTest.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\alien\\BookmarkTest.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\alien\\BookmarkTest.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\alien\\UnlinkTest.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\alien\\UnlinkTest.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\core\\ActionsTest.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\core\\ActionsTest.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\core\\ElementMatcher.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\core\\ElementMatcher.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\core\\LayoutTest.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\core\\LayoutTest.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\core\\MeasureTest.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\core\\MeasureTest.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\core\\PredicateIdTest.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\core\\PredicateIdTest.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\core\\SelectionMatcherTest.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\core\\SelectionMatcherTest.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\file\\ConversionsTest.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\file\\ConversionsTest.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\file\\SelectionMatcher.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\src\\test\\js\\browser\\file\\SelectionMatcher.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\inlite\\theme.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\inlite\\theme.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\themes\\modern\\theme.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\themes\\modern\\theme.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\xchart\\d3.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\xchart\\d3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\xchart\\master.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\xchart\\master.css"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\xchart\\rainbow.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\xchart\\rainbow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\plugins\\xchart\\xcharts.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\xchart\\xcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_account-pages.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_account-pages.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_alertify.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_alertify.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_alerts.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_alerts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_bootstrap-custom.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_bootstrap-custom.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_calendar.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_calendar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_charts.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_charts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_demo-only.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_demo-only.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_form-advanced.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_form-advanced.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_form-editor.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_form-editor.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_form-elements.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_form-elements.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_form-upload.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_form-upload.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_form-validation.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_form-validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_general.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_general.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_helper.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_helper.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_loader.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_loader.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_maps.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_menu.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_menu.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_nestable.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_nestable.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_popover-tooltips.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_popover-tooltips.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_print.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_progressbar.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_progressbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_range-slider.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_range-slider.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_responsive.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_session-timeout.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_session-timeout.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_waves.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_waves.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\_widgets.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\_widgets.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\icons.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\manage\\scss\\style.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TREKER.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TREKER.MVC.props",
+      "PackagePath": "build\\TREKER.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TREKER.MVC.props",
+      "PackagePath": "buildMultiTargeting\\TREKER.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TREKER.MVC.props",
+      "PackagePath": "buildTransitive\\TREKER.MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

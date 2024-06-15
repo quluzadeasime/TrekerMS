@@ -1,0 +1,348 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\treker.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\treker.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3FA6B98-9103-4751-A7B0-B0708B8BBB4A}|TREKER.Core\\TREKER.Core.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.core\\entities\\commons\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3FA6B98-9103-4751-A7B0-B0708B8BBB4A}|TREKER.Core\\TREKER.Core.csproj|solutionrelative:treker.core\\entities\\commons\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FCF4289-DAE3-40C7-8D27-C27915D6415D}|TREKER.Data\\TREKER.DAL.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FCF4289-DAE3-40C7-8D27-C27915D6415D}|TREKER.Data\\TREKER.DAL.csproj|solutionrelative:treker.data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\home\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\home\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\home\\trekking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\home\\trekking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\home\\destinations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\home\\destinations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "TREKER\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAADUBAAAAAAAAAADwv0MBAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T05:01:11.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "TREKER\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "TREKER\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T05:01:03.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "TREKER\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T05:00:30.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "TREKER\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T05:00:16.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TREKER\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T05:00:07.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Program.cs",
+              "RelativeDocumentMoniker": "TREKER\\Program.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Program.cs",
+              "RelativeToolTip": "TREKER\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T04:58:30.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "TREKER\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "TREKER\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-15T04:58:19.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TREKER.MVC",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\TREKER.MVC.csproj",
+              "RelativeDocumentMoniker": "TREKER\\TREKER.MVC.csproj",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\TREKER.MVC.csproj",
+              "RelativeToolTip": "TREKER\\TREKER.MVC.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-15T04:57:49.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T17:44:31.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Core\\Entities\\Commons\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "TREKER.Core\\Entities\\Commons\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Core\\Entities\\Commons\\BaseEntity.cs",
+              "RelativeToolTip": "TREKER.Core\\Entities\\Commons\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:38:05.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "News.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Home\\News.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\Home\\News.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Home\\News.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\Home\\News.cshtml",
+              "ViewState": "AQIAAPAAAAAAAAAAAADwvwQBAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T18:31:03.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Trekking.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Home\\Trekking.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\Home\\Trekking.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Home\\Trekking.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\Home\\Trekking.cshtml",
+              "ViewState": "AQIAAC0BAAAAAAAAAAAAADMBAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T18:28:03.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T18:19:38.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TREKER\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TREKER\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:44:06.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwBMAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T18:31:15.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Destinations.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Home\\Destinations.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\Home\\Destinations.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Home\\Destinations.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\Home\\Destinations.cshtml",
+              "ViewState": "AQIAAAwBAAAAAAAAAADwvxcBAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T18:21:49.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAJYBAAAAAAAAAADwv7kBAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T18:21:18.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Data\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TREKER.Data\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Data\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "TREKER.Data\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:15:00.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAN0DAAAAAAAAAADwvwAEAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T18:20:37.226Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

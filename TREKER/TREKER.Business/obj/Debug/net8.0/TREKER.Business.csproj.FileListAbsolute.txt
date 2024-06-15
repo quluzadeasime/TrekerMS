@@ -1,0 +1,17 @@
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\bin\Debug\net8.0\TREKER.Business.deps.json
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\bin\Debug\net8.0\TREKER.Business.dll
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\bin\Debug\net8.0\TREKER.Business.pdb
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\bin\Debug\net8.0\TREKER.Core.dll
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\bin\Debug\net8.0\TREKER.DAL.dll
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\bin\Debug\net8.0\TREKER.DAL.pdb
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\bin\Debug\net8.0\TREKER.Core.pdb
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\obj\Debug\net8.0\TREKER.Business.csproj.AssemblyReference.cache
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\obj\Debug\net8.0\TREKER.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\obj\Debug\net8.0\TREKER.Business.AssemblyInfoInputs.cache
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\obj\Debug\net8.0\TREKER.Business.AssemblyInfo.cs
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\obj\Debug\net8.0\TREKER.Business.csproj.CoreCompileInputs.cache
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\obj\Debug\net8.0\TREKER.B.48F551A1.Up2Date
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\obj\Debug\net8.0\TREKER.Business.dll
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\obj\Debug\net8.0\refint\TREKER.Business.dll
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\obj\Debug\net8.0\TREKER.Business.pdb
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Business\obj\Debug\net8.0\ref\TREKER.Business.dll
