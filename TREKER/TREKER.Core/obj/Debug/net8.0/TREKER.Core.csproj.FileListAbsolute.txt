@@ -10,3 +10,4 @@ C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\obj\Debug\net8.0\TREKER.Core.dl
 C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\obj\Debug\net8.0\refint\TREKER.Core.dll
 C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\obj\Debug\net8.0\TREKER.Core.pdb
 C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\obj\Debug\net8.0\ref\TREKER.Core.dll
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Core\obj\Debug\net8.0\TREKER.Core.sourcelink.json

@@ -262,3 +262,4 @@ C:\Users\Asime\Desktop\TREKER\TREKER\TREKER\bin\Debug\net8.0\runtimes\win\lib\ne
 C:\Users\Asime\Desktop\TREKER\TREKER\TREKER\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\Asime\Desktop\TREKER\TREKER\TREKER\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Asime\Desktop\TREKER\TREKER\TREKER\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER\obj\Debug\net8.0\TREKER.MVC.sourcelink.json

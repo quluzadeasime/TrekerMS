@@ -15,3 +15,4 @@ C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Data\obj\Debug\net8.0\refint\TREKER.
 C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Data\obj\Debug\net8.0\TREKER.DAL.pdb
 C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Data\obj\Debug\net8.0\TREKER.DAL.genruntimeconfig.cache
 C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Data\obj\Debug\net8.0\ref\TREKER.DAL.dll
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER.Data\obj\Debug\net8.0\TREKER.DAL.sourcelink.json
