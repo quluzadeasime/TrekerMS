@@ -1,0 +1,81 @@
+﻿@using TREKER.Core.Entities
+@using TREKER.MVC.Areas.Admin.Functions
+@model IQueryable<TeamMember>
+
+<div class="wrapper">
+    <div class="container-fluid">
+
+        <!-- Page-Title -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-title-box">
+                    <div class="btn-group m-0 pull-right">
+                        <ol class="breadcrumb hide-phone p-0 m-0">
+                            <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Urora</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Tables" asp-controller="Dashboard">DB Tables</a></li>
+                            <li class="breadcrumb-item active">Team Members</li>
+                        </ol>
+                    </div>
+                    <h4 class="page-title">Our Team Members</h4>
+                </div>
+            </div>
+        </div>
+        <!-- end page title end breadcrumb -->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="d-flex justify-content-end mb-3">
+                    <a href="#" class="btn btn-raised btn-primary">Create</a>
+                </div>
+                <div class="card m-b-30">
+                    <div class="card-body">
+                        <a asp-action="Table" asp-controller="TeamMember">
+                            <h4 class="mt-0 header-title text-center">Team Members</h4>
+                        </a>
+                        <div class="table-responsive">
+                            <table class="table table-striped mb-0 text-center">
+                                <thead class="thead-default">
+                                    <tr>
+                                        <th class="text-center">#</th>
+                                        <th class="text-center">Full Name</th>
+                                        <th class="text-center">Role</th>
+                                        <th class="text-center">Joined Date</th>
+                                        <th class="text-center">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{
+                                        var count = 0;
+                                    }
+                                    @foreach (var item in Model)
+                                    {
+                                        count++;
+                                        <tr>
+                                            <td class="text-center">@count</td>
+                                            <td class="text-center">@item.FullName</td>
+                                            <td class="text-center">@ViewFunctions.InsertSpacesBeforeUppercase(item.TeamMemberRoles.ToString())</td>
+                                            <td class="text-center">@item.CreatedDate.ToString("dd MMM yyyy")</td>
+                                            <td class="text-center">
+                                                <div class="btn-group d-flex justify-content-center">
+                                                    <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-raised mx-2 btn-warning">Update</a>
+                                                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-raised mx-2 btn-danger">Delete</a>
+                                                    <a asp-action="Detail" asp-route-id="@item.Id" class="btn btn-raised mx-2 btn-info">Detail</a>
+                                                    <!-- Additional buttons if needed -->
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end col -->
+        </div>
+
+        <!-- end row -->
+
+
+    </div> <!-- end container -->
+</div>
+<!-- end wrapper -->

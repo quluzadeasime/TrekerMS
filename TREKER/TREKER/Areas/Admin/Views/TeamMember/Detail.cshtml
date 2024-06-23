@@ -1,0 +1,68 @@
+﻿﻿@using System.Text
+@using TREKER.Business.ViewModels.TeamMemberVMs
+@using TREKER.Core.Entities
+@using TREKER.MVC.Areas.Admin.Functions
+@model TeamMember
+
+<div class="wrapper">
+    <div class="container-fluid">
+
+        <!-- Page-Title -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-title-box">
+                    <div class="btn-group m-0 pull-right">
+                        <ol class="breadcrumb hide-phone p-0 m-0">
+                            <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Urora</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Tables" asp-controller="Dashboard">DB Tables</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Table" asp-controller="TeamMember">Team Members</a></li>
+                            <li class="breadcrumb-item active">@Model.FullName</li>
+                        </ol>
+                    </div>
+                    <h4 class="page-title">Our Team Member: @Model.FullName</h4>
+                </div>
+            </div>
+        </div>
+        <!-- end page title end breadcrumb -->
+        <!-- Form for CreateTeamMemberVM -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card m-b-30">
+                    <div class="card-body">
+                        <h4 class="mt-0 header-title text-center">Team Member Details</h4>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="text-center">
+                                    <img src="@Model.ImageUrl" alt="@Model.FullName" class="img-fluid rounded-circle" style="max-width: 250px;">
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <dl class="row" style="font-size: 20px;">
+                                    <dt class="col-sm-3">Full Name:</dt>
+                                    <dd class="col-sm-9">@Model.FullName</dd>
+
+                                    <dt class="col-sm-3">Role:</dt>
+                                    <dd class="col-sm-9">@ViewFunctions.InsertSpacesBeforeUppercase(Model.TeamMemberRoles.ToString())</dd>
+
+                                    <dt class="col-sm-3">Joined Date:</dt>
+                                    <dd class="col-sm-9">@Model.CreatedDate.ToString("dd MMM yyyy")</dd>
+                                </dl>
+                                <div class="text-right m-5">
+                                    <a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-raised btn-warning">Update</a>
+                                    <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-raised btn-danger">Delete</a>
+                                    <!-- Additional actions if needed -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- end form -->
+
+    </div> <!-- end container -->
+</div>
+<!-- end wrapper -->

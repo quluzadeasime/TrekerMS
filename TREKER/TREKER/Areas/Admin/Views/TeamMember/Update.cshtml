@@ -1,0 +1,72 @@
+﻿﻿@using System.Text
+@using TREKER.Business.ViewModels.TeamMemberVMs
+@using TREKER.MVC.Areas.Admin.Functions
+@model UpdateTeamMemberVm
+<div class="wrapper">
+    <div class="container-fluid">
+
+        <!-- Page-Title -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-title-box">
+                    <div class="btn-group m-0 pull-right">
+                        <ol class="breadcrumb hide-phone p-0 m-0">
+                            <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Urora</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Tables" asp-controller="Dashboard">DB Tables</a></li>
+                            <li class="breadcrumb-item active">Team Members</li>
+                        </ol>
+                    </div>
+                    <h4 class="page-title">Our Team Members</h4>
+                </div>
+            </div>
+        </div>
+        <!-- end page title end breadcrumb -->
+        <!-- Form for CreateTeamMemberVM -->
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card mt-5 shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Create New Team Member</h4>
+                    </div>
+                    <div class="card-body mx-5 mb-4">
+                        <div asp-validation-summary="All" style="color: red; font-size: 16px">
+                        </div>
+                        <form method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label asp-for="FullName" class="form-label">Full Name</label>
+                                <br />
+                                <input type="text" class="form-control" asp-for="FullName" placeholder="Enter full name">
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label asp-for="File" class="form-label">Upload File</label>
+                                <br />
+                                <input type="file" class="form-control" asp-for="File">
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label asp-for="MemberRole" class="form-label">Member Role</label>
+                                <br />
+                                <select class="form-control" name="MemberRole" asp-for="MemberRole">
+                                    @foreach (var role in Model.TeamMemberRoles)
+                                    {
+                                        <option value="@role">@ViewFunctions.InsertSpacesBeforeUppercase(role.ToString())</option>
+                                    }
+                                </select>
+
+                            </div>
+                            <br />
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary btn-block mt-3">Update</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end form -->
+
+    </div> <!-- end container -->
+</div>
+<!-- end wrapper

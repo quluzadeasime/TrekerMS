@@ -17,7 +17,7 @@ namespace TREKER.DAL.Repositories.Implementations
         private readonly DbSet<T> _table;
         public Repository(AppDbContext context)
         {
-            _context = context ?? throw new ArgumentException(nameof(context;
+            _context = context ?? throw new ArgumentException(nameof(context));
             _table = _context.Set<T>();
         }
 

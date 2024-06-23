@@ -9,5 +9,10 @@ namespace TREKER.MVC.Areas.Admin.Controllers
         {
             return View();
         }
+
+        public async Task<IActionResult> Tables()
+        {
+            return View();
+        }
     }
 }

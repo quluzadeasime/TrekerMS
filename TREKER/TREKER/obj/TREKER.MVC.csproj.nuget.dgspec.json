@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[12.20.0, )"
             },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
             "Microsoft.Extensions.Hosting.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )"
