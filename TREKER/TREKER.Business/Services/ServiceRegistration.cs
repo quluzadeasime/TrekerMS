@@ -11,9 +11,11 @@ namespace TREKER.Business.Services
 {
     public static class ServiceRegistration
     {
-        public static void AddService(this IServiceCollection services)
+        public static void AddServices(this IServiceCollection services)
         {
             services.AddScoped<ITeamMemberService, TeamMemberService>();
+            services.AddScoped<IAccountService, AccountService>();
+            services.AddScoped<ISendMessageService, SendMessageService>();
         }
     }
 }

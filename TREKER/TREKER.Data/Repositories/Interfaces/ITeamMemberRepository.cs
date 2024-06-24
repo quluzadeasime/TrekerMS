@@ -7,7 +7,7 @@ using TREKER.Core.Entities;
 
 namespace TREKER.DAL.Repositories.Interfaces
 {
-    public interface ITeamMemberRepository:IRepository<TeamMember>
+    public interface ITeamMemberRepository : IRepository<TeamMember>
     {
     }
 }

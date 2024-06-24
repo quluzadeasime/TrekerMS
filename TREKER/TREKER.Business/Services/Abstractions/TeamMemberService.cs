@@ -17,14 +17,15 @@ namespace TREKER.Business.Services.Abstractions
         private readonly ITeamMemberRepository _teamMemberRepository;
         private readonly IConfiguration _configuration;
         private readonly string _connectionString;
-        public TeamMemberService(ITeamMemberRepository teamMemberRepository, IConfiguration configuration, string connectionString)
+
+
+        public TeamMemberService(ITeamMemberRepository teamMemberRepository, IConfiguration configuration)
         {
             _teamMemberRepository = teamMemberRepository;
             _configuration = configuration;
             _connectionString = _configuration.GetConnectionString("AzureContainer");
         }
 
-        
         public async Task CreateAsync(CreateTeamMemberVm vm)
         {
             TeamMember newTeamMember = new()
@@ -33,10 +34,33 @@ namespace TREKER.Business.Services.Abstractions
                 ImageUrl = await vm.File.UploadFileAsync(_connectionString, "TeamMemberPictures/"),
                 TeamMemberRoles = vm.MemberRole,
                 CreatedDate = DateTime.UtcNow,
-                UpdatedDate = DateTime.UtcNow
+                UpdatedDate = DateTime.UtcNow,
             };
 
             await _teamMemberRepository.CreateAsync(newTeamMember);
+            await _teamMemberRepository.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync(UpdateTeamMemberVm vm)
+        {
+            var oldTeamMember = await _teamMemberRepository.GetByIdAsync(vm.Id);
+
+            oldTeamMember.FullName = vm.FullName ?? oldTeamMember.FullName;
+            oldTeamMember.TeamMemberRoles = vm.MemberRole ?? oldTeamMember.TeamMemberRoles;
+
+            if (vm.File is not null)
+            {
+                if (!string.IsNullOrEmpty(oldTeamMember.ImageUrl) && vm.File != null)
+                {
+                    Uri uri = new Uri(oldTeamMember.ImageUrl);
+                    string blobName = uri.Segments.Last();
+                    await FileManager.DeleteFileAsync(blobName, _connectionString, "TeamMemberPictures/");
+                }
+
+                oldTeamMember.ImageUrl = await vm.File.UploadFileAsync(_connectionString, "TeamMemberPictures/");
+            }
+
+            await _teamMemberRepository.UpdateAsync(oldTeamMember);
             await _teamMemberRepository.SaveChangesAsync();
         }
 
@@ -64,30 +88,9 @@ namespace TREKER.Business.Services.Abstractions
 
         public async Task RemoveAsync(int id)
         {
-            await _teamMemberRepository.RecoverAsync(id);
+            _teamMemberRepository.Remove(id);
             await _teamMemberRepository.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(UpdateTeamMemberVm vm)
-        {
-            var oldTeamMember = await _teamMemberRepository.GetByIdAsync(vm.Id);
-
-            oldTeamMember.FullName = vm.FullName ?? oldTeamMember.FullName;
-            oldTeamMember.TeamMemberRoles = vm.MemberRole ?? oldTeamMember.TeamMemberRoles;
-
-            if(vm.File != null)
-            {
-                if(!string.IsNullOrEmpty(oldTeamMember.ImageUrl) && vm.File != null)
-                {
-                    Uri uri = new Uri(oldTeamMember.ImageUrl);
-                    string blobName = uri.Segments.Last();
-                    await FileManager.DeleteFileAsync(blobName, _connectionString, "TeamMemberPictures/");
-                }
-                oldTeamMember.ImageUrl = await vm.File.UploadFileAsync(_connectionString, "TeamMemberPictures");
-            }
-
-            await _teamMemberRepository.UpdateAsync(oldTeamMember);
-            await _teamMemberRepository.SaveChangesAsync();
-        }
     }
 }

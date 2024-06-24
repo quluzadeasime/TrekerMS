@@ -24,11 +24,11 @@ namespace TREKER.Business.ViewModels.TeamMemberVMs
         public CreateTeamMemberVmValidator()
         {
             RuleFor(x => x.FullName)
-            .NotEmpty()
-            .WithMessage("You must filleed the input full name.")
-            .MinimumLength(6)
-            .MaximumLength(100)
-            .WithMessage("Full name's length between 6-100 character.");
+                .NotEmpty()
+                .WithMessage("You must filleed the input full name.")
+                .MinimumLength(6)
+                .MaximumLength(100)
+                .WithMessage("Full name's length between 6-100 character.");
 
             RuleFor(x => x.File)
                 .NotNull()

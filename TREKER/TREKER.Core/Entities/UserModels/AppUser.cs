@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TREKER.Core.Entities.UserModels
 {
-    public class AppUser:IdentityUser
+    public class AppUser : IdentityUser
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

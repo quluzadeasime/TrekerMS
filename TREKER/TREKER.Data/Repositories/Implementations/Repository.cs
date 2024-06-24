@@ -21,7 +21,8 @@ namespace TREKER.DAL.Repositories.Implementations
             _table = _context.Set<T>();
         }
 
-        public async Task<T> CheckEntity(int id,
+        public async Task<T> CheckEntity(
+             int id,
              params string[] entityIncludes
             )
         {
@@ -54,8 +55,8 @@ namespace TREKER.DAL.Repositories.Implementations
             return entity;
         }
 
-        public async Task<IQueryable<T>> GetAllAsync(Expression<Func<T,
-            bool>>? expression = null,
+        public async Task<IQueryable<T>> GetAllAsync(
+            Expression<Func<T, bool>>? expression = null,
             Expression<Func<T, object>>? expressionOrder = null,
             bool isDescending = false,
             params string[] includes
@@ -111,6 +112,7 @@ namespace TREKER.DAL.Repositories.Implementations
         public async Task<T> UpdateAsync(T entity)
         {
             _table.Update(entity);
+
             return entity;
         }
     }

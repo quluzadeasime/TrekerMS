@@ -62,6 +62,7 @@ namespace TREKER.MVC.Areas.Admin.Controllers
                 }
             }
             await _teamMemberService.CreateAsync(vm);
+
             return RedirectToAction(nameof(Table));
         }
 

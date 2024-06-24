@@ -14,5 +14,6 @@ namespace TREKER.DAL.Context
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
         public DbSet<TeamMember> TeamMembers { get; set; }
+        public DbSet<Setting> Settings { get; set; }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TREKER.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d26c5106a04d32427b358f14739c2d38a8135f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01ce2772435908564fba544343db8e1cc5279f12")]
 [assembly: System.Reflection.AssemblyProductAttribute("TREKER.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TREKER.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

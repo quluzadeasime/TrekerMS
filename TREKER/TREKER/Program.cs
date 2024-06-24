@@ -21,7 +21,7 @@ namespace TREKER.MVC
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddRepositories();
-            builder.Services.AddService();
+            builder.Services.AddServices();
             builder.Services.AddSession();
 
 
@@ -70,7 +70,6 @@ namespace TREKER.MVC
             app.UseStatusCodePagesWithReExecute("/Account/Error");
 
             app.UseStaticFiles();
-
             app.UseRouting();
             app.UseSession();
 
