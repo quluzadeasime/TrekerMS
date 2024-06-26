@@ -26,6 +26,19 @@ namespace TREKER.MVC.Controllers
             return RedirectToAction("Login", "Account");
         }
 
+        public async Task<IActionResult> ConfirmChangePassword(string emailAddress,string token)
+        {
+            if (!Request.Cookies.ContainsKey("ConfirmationLinkSent"))
+            {
+                return RedirectToAction(nameof(ConfirmationCookieExpired));
+            }
+
+            Response.Cookies.Delete("ConfirmationLinkSent");
+            string url =  Url.Action("ChangePassword", "Account", new { token = token, emailAddress = emailAddress });
+
+            return Redirect(url);
+        }
+
         public IActionResult ConfirmationCookieExpired()
         {
             return View();

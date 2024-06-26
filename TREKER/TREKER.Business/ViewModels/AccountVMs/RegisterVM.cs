@@ -1,9 +1,11 @@
 ﻿using FluentValidation;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TREKER.Core.Entities.UserModels;
 
 namespace TREKER.Business.ViewModels.AccountVMs
 {
@@ -18,13 +20,16 @@ namespace TREKER.Business.ViewModels.AccountVMs
 
     public class RegisterVMValidator : AbstractValidator<RegisterVM>
     {
-        public RegisterVMValidator()
+        private readonly UserManager<AppUser> _userManager;
+
+        public RegisterVMValidator(UserManager<AppUser> userManager)
         {
+            _userManager = userManager;
             RuleFor(vm => vm.FirstName)
-                .NotEmpty()
-                .WithMessage("First name is required.")
-                .MaximumLength(50)
-                .WithMessage("First name cannot exced 50 characters.");
+               .NotEmpty()
+               .WithMessage("First name is required.")
+               .MaximumLength(50)
+               .WithMessage("First name cannot exced 50 characters.");
 
             RuleFor(vm => vm.LastName)
                 .NotEmpty()
@@ -51,6 +56,21 @@ namespace TREKER.Business.ViewModels.AccountVMs
                  .WithMessage("Please enter your confirm password.")
                  .Equal(x => x.Password)
                  .WithMessage("Password and Confirm Password do not match.");
+        }
+
+      
+        private async Task<bool> BeAValidUser(string email, CancellationToken cancellationToken)
+        {
+            var user = email is null ? null : await _userManager.FindByEmailAsync(email);
+
+            if (user == null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

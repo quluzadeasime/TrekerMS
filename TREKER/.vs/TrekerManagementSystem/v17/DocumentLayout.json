@@ -3,104 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3FA6B98-9103-4751-A7B0-B0708B8BBB4A}|TREKER.Core\\TREKER.Core.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.core\\entities\\usermodels\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3FA6B98-9103-4751-A7B0-B0708B8BBB4A}|TREKER.Core\\TREKER.Core.csproj|solutionrelative:treker.core\\entities\\usermodels\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3FA6B98-9103-4751-A7B0-B0708B8BBB4A}|TREKER.Core\\TREKER.Core.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.core\\entities\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3FA6B98-9103-4751-A7B0-B0708B8BBB4A}|TREKER.Core\\TREKER.Core.csproj|solutionrelative:treker.core\\entities\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.business\\services\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|solutionrelative:treker.business\\services\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.business\\services\\abstractions\\teammemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|solutionrelative:treker.business\\services\\abstractions\\teammemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.business\\services\\interfaces\\iteammemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|solutionrelative:treker.business\\services\\interfaces\\iteammemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.business\\services\\abstractions\\sendmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|solutionrelative:treker.business\\services\\abstractions\\sendmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.business\\viewmodels\\accountvms\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|solutionrelative:treker.business\\viewmodels\\accountvms\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FCF4289-DAE3-40C7-8D27-C27915D6415D}|TREKER.Data\\TREKER.DAL.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FCF4289-DAE3-40C7-8D27-C27915D6415D}|TREKER.Data\\TREKER.DAL.csproj|solutionrelative:treker.data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\trekking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\trekking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\controllers\\trekkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\controllers\\trekkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\account\\checkemailaddress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\account\\checkemailaddress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\destination\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\destination\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\controllers\\sendmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\controllers\\sendmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\controllers\\destinationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\controllers\\destinationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.business\\services\\interfaces\\isendmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|solutionrelative:treker.business\\services\\interfaces\\isendmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.business\\services\\abstractions\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|solutionrelative:treker.business\\services\\abstractions\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.business\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|solutionrelative:treker.business\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.business\\viewmodels\\teammembervms\\createteammembervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|solutionrelative:treker.business\\viewmodels\\teammembervms\\createteammembervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.business\\viewmodels\\accountvms\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|solutionrelative:treker.business\\viewmodels\\accountvms\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\areas\\admin\\controllers\\teammembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\areas\\admin\\controllers\\teammembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FCF4289-DAE3-40C7-8D27-C27915D6415D}|TREKER.Data\\TREKER.DAL.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.data\\repositories\\interfaces\\iteammemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FCF4289-DAE3-40C7-8D27-C27915D6415D}|TREKER.Data\\TREKER.DAL.csproj|solutionrelative:treker.data\\repositories\\interfaces\\iteammemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.business\\viewmodels\\pagevm\\layoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|solutionrelative:treker.business\\viewmodels\\pagevm\\layoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FCF4289-DAE3-40C7-8D27-C27915D6415D}|TREKER.Data\\TREKER.DAL.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.data\\repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FCF4289-DAE3-40C7-8D27-C27915D6415D}|TREKER.Data\\TREKER.DAL.csproj|solutionrelative:treker.data\\repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Data\\Migrations\\20240626090913_SettingTableAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TREKER.Data\\Migrations\\20240626090913_SettingTableAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker.business\\backgroundservices\\unverifiedaccountcleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BF1E594-02C5-480D-A525-CD06991BB7FE}|TREKER.Business\\TREKER.Business.csproj|solutionrelative:treker.business\\backgroundservices\\unverifiedaccountcleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|c:\\users\\asime\\desktop\\treker\\treker\\treker\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38EAFE0E-A350-4B81-B167-0C3264F9892D}|TREKER\\TREKER.MVC.csproj|solutionrelative:treker\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,8 +82,242 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAEEAAAAAAAAAAAArwFIAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T15:05:58.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Trekking\\Index.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\Trekking\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Trekking\\Index.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\Trekking\\Index.cshtml",
+              "ViewState": "AQIAAA4BAAAAAAAAAAAYwDMBAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T15:03:52.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TrekkingController.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\TrekkingController.cs",
+              "RelativeDocumentMoniker": "TREKER\\Controllers\\TrekkingController.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\TrekkingController.cs",
+              "RelativeToolTip": "TREKER\\Controllers\\TrekkingController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:03:46.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Destination\\Index.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\Destination\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Destination\\Index.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\Destination\\Index.cshtml",
+              "ViewState": "AQIAAP4AAAAAAAAAAAAYwCMBAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T15:03:20.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DestinationController.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\DestinationController.cs",
+              "RelativeDocumentMoniker": "TREKER\\Controllers\\DestinationController.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\DestinationController.cs",
+              "RelativeToolTip": "TREKER\\Controllers\\DestinationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:03:09.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAYwMAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T15:02:34.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "TREKER\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "TREKER\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:02:29.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAB8BAAAAAAAAAAAuwD0BAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T08:57:23.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\News\\Index.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\News\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\News\\Index.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\News\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T15:01:57.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "TREKER\\Controllers\\NewsController.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "TREKER\\Controllers\\NewsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:01:50.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\About\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAArwCsAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T14:14:05.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TREKER\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TREKER\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:13:53.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "TREKER\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "TREKER\\Controllers\\AboutController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:13:34.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LayoutVM.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\ViewModels\\PageVM\\LayoutVM.cs",
+              "RelativeDocumentMoniker": "TREKER.Business\\ViewModels\\PageVM\\LayoutVM.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\ViewModels\\PageVM\\LayoutVM.cs",
+              "RelativeToolTip": "TREKER.Business\\ViewModels\\PageVM\\LayoutVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:08:20.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240626090913_SettingTableAdded.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Data\\Migrations\\20240626090913_SettingTableAdded.cs",
+              "RelativeDocumentMoniker": "TREKER.Data\\Migrations\\20240626090913_SettingTableAdded.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Data\\Migrations\\20240626090913_SettingTableAdded.cs",
+              "RelativeToolTip": "TREKER.Data\\Migrations\\20240626090913_SettingTableAdded.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T09:09:13.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TREKER\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFABAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T09:00:51.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\Account\\ChangePassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T08:56:01.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "TREKER\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "TREKER\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T08:54:09.871Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -123,308 +329,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\Services\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "TREKER.Business\\Services\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\Services\\ServiceRegistration.cs",
-              "RelativeToolTip": "TREKER.Business\\Services\\ServiceRegistration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T12:13:19.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginVM.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\ViewModels\\AccountVMs\\LoginVM.cs",
-              "RelativeDocumentMoniker": "TREKER.Business\\ViewModels\\AccountVMs\\LoginVM.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\ViewModels\\AccountVMs\\LoginVM.cs",
-              "RelativeToolTip": "TREKER.Business\\ViewModels\\AccountVMs\\LoginVM.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwCEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:25:09.532Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TeamMemberService.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\Services\\Abstractions\\TeamMemberService.cs",
-              "RelativeDocumentMoniker": "TREKER.Business\\Services\\Abstractions\\TeamMemberService.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\Services\\Abstractions\\TeamMemberService.cs",
-              "RelativeToolTip": "TREKER.Business\\Services\\Abstractions\\TeamMemberService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T10:55:05.784Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ITeamMemberService.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\Services\\Interfaces\\ITeamMemberService.cs",
-              "RelativeDocumentMoniker": "TREKER.Business\\Services\\Interfaces\\ITeamMemberService.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\Services\\Interfaces\\ITeamMemberService.cs",
-              "RelativeToolTip": "TREKER.Business\\Services\\Interfaces\\ITeamMemberService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T19:32:35.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SendMessageService.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\Services\\Abstractions\\SendMessageService.cs",
-              "RelativeDocumentMoniker": "TREKER.Business\\Services\\Abstractions\\SendMessageService.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\Services\\Abstractions\\SendMessageService.cs",
-              "RelativeToolTip": "TREKER.Business\\Services\\Abstractions\\SendMessageService.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAqwCAAAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T12:06:51.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Setting.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Core\\Entities\\Setting.cs",
-              "RelativeDocumentMoniker": "TREKER.Core\\Entities\\Setting.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Core\\Entities\\Setting.cs",
-              "RelativeToolTip": "TREKER.Core\\Entities\\Setting.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T16:17:53.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Core\\Entities\\UserModels\\AppUser.cs",
-              "RelativeDocumentMoniker": "TREKER.Core\\Entities\\UserModels\\AppUser.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Core\\Entities\\UserModels\\AppUser.cs",
-              "RelativeToolTip": "TREKER.Core\\Entities\\UserModels\\AppUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T16:52:36.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Program.cs",
-              "RelativeDocumentMoniker": "TREKER\\Program.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Program.cs",
-              "RelativeToolTip": "TREKER\\Program.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAowBgAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:15:49.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "TREKER\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "TREKER\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAMBdwCYAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:32:41.982Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "TREKER\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "TREKER\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHsAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T12:23:12.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Data\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "TREKER.Data\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Data\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "TREKER.Data\\Context\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T16:44:03.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "TREKER\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "TREKER\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAOQAAAAAAAAAAIBJwPcAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T12:33:30.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "TREKER\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "TREKER\\Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIoAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T12:24:40.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CheckEmailAddress.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Account\\CheckEmailAddress.cshtml",
-              "RelativeDocumentMoniker": "TREKER\\Views\\Account\\CheckEmailAddress.cshtml",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Views\\Account\\CheckEmailAddress.cshtml",
-              "RelativeToolTip": "TREKER\\Views\\Account\\CheckEmailAddress.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T12:22:22.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SendMessageController.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\SendMessageController.cs",
-              "RelativeDocumentMoniker": "TREKER\\Controllers\\SendMessageController.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Controllers\\SendMessageController.cs",
-              "RelativeToolTip": "TREKER\\Controllers\\SendMessageController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:42:19.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\Services\\Abstractions\\AccountService.cs",
-              "RelativeDocumentMoniker": "TREKER.Business\\Services\\Abstractions\\AccountService.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\Services\\Abstractions\\AccountService.cs",
-              "RelativeToolTip": "TREKER.Business\\Services\\Abstractions\\AccountService.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwEMAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:57:36.089Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ISendMessageService.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\Services\\Interfaces\\ISendMessageService.cs",
-              "RelativeDocumentMoniker": "TREKER.Business\\Services\\Interfaces\\ISendMessageService.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\Services\\Interfaces\\ISendMessageService.cs",
-              "RelativeToolTip": "TREKER.Business\\Services\\Interfaces\\ISendMessageService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:55:13.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IAccountService.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\Services\\Interfaces\\IAccountService.cs",
-              "RelativeDocumentMoniker": "TREKER.Business\\Services\\Interfaces\\IAccountService.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\Services\\Interfaces\\IAccountService.cs",
-              "RelativeToolTip": "TREKER.Business\\Services\\Interfaces\\IAccountService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:53:47.464Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CreateTeamMemberVm.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\ViewModels\\TeamMemberVMs\\CreateTeamMemberVm.cs",
-              "RelativeDocumentMoniker": "TREKER.Business\\ViewModels\\TeamMemberVMs\\CreateTeamMemberVm.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\ViewModels\\TeamMemberVMs\\CreateTeamMemberVm.cs",
-              "RelativeToolTip": "TREKER.Business\\ViewModels\\TeamMemberVMs\\CreateTeamMemberVm.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAxwCYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T10:59:30.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RegisterVM.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\ViewModels\\AccountVMs\\RegisterVM.cs",
-              "RelativeDocumentMoniker": "TREKER.Business\\ViewModels\\AccountVMs\\RegisterVM.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\ViewModels\\AccountVMs\\RegisterVM.cs",
-              "RelativeToolTip": "TREKER.Business\\ViewModels\\AccountVMs\\RegisterVM.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAYwCkAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:19:17.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "TREKER\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "TREKER\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T11:15:15.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "TeamMemberController.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Areas\\Admin\\Controllers\\TeamMemberController.cs",
-              "RelativeDocumentMoniker": "TREKER\\Areas\\Admin\\Controllers\\TeamMemberController.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\Areas\\Admin\\Controllers\\TeamMemberController.cs",
-              "RelativeToolTip": "TREKER\\Areas\\Admin\\Controllers\\TeamMemberController.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAwwHMAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:12:21.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ITeamMemberRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Data\\Repositories\\Interfaces\\ITeamMemberRepository.cs",
-              "RelativeDocumentMoniker": "TREKER.Data\\Repositories\\Interfaces\\ITeamMemberRepository.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Data\\Repositories\\Interfaces\\ITeamMemberRepository.cs",
-              "RelativeToolTip": "TREKER.Data\\Repositories\\Interfaces\\ITeamMemberRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:10:53.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Data\\Repositories\\Implementations\\Repository.cs",
-              "RelativeDocumentMoniker": "TREKER.Data\\Repositories\\Implementations\\Repository.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Data\\Repositories\\Implementations\\Repository.cs",
-              "RelativeToolTip": "TREKER.Data\\Repositories\\Implementations\\Repository.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAswHIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:05:48.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UnverifiedAccountCleanupService.cs",
-              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\BackgroundServices\\UnverifiedAccountCleanupService.cs",
-              "RelativeDocumentMoniker": "TREKER.Business\\BackgroundServices\\UnverifiedAccountCleanupService.cs",
-              "ToolTip": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER.Business\\BackgroundServices\\UnverifiedAccountCleanupService.cs",
-              "RelativeToolTip": "TREKER.Business\\BackgroundServices\\UnverifiedAccountCleanupService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T10:52:58.205Z"
             }
           ]
         }

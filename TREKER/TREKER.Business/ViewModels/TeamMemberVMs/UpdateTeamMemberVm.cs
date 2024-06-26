@@ -11,7 +11,7 @@ using TREKER.Core.Enums;
 
 namespace TREKER.Business.ViewModels.TeamMemberVMs
 {
-    public class UpdateTeamMemberVm:BaseEntityVm
+    public class UpdateTeamMemberVm : BaseEntityVm
     {
         public string? FullName { get; set; }
         public IFormFile? File { get; set; }

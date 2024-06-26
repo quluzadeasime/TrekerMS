@@ -12,5 +12,7 @@ namespace TREKER.Business.Services.Interfaces
         Task SendUrlMessageAsync(string userEmailAddress, string url);
         Task<string> GenerateTokenAsync(string currentUserUdOrName);
         Task ConfirmEmailAddress(string userEmailAddress,string token);
+        Task<string> GenerateUserPasswordResetTokenAsync(string userEmailAddress);
+        Task ConfirmChangePassword(string userEmailAddress, string token, string password);
     }
 }

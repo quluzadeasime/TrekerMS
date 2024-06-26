@@ -21,6 +21,14 @@ namespace TREKER.Business.Services.Abstractions
             _accountService = accountService;
             _userManager = userManager;
         }
+
+        public async Task ConfirmChangePassword(string userEmailAddress, string token, string password)
+        {
+            var oldUser = await _accountService.GetUserByEmailAddress(userEmailAddress);
+
+            await _userManager.ResetPasswordAsync(oldUser, token, password);
+        }
+
         public async Task ConfirmEmailAddress(string userEmailAddress, string token)
         {
             var oldUser = await _accountService.GetUserByEmailAddress(userEmailAddress);
@@ -33,6 +41,13 @@ namespace TREKER.Business.Services.Abstractions
             var currentUser = await _accountService.GetUserByEmailAddress(userEmailAddress);
 
             return await _userManager.GenerateEmailConfirmationTokenAsync(currentUser);
+        }
+
+        public async Task<string> GenerateUserPasswordResetTokenAsync(string userEmailAddress)
+        {
+            var currentUser = await _accountService.GetUserByEmailAddress(userEmailAddress);
+
+            return await _userManager.GeneratePasswordResetTokenAsync(currentUser);
         }
 
         public void SendUrlMessage(string toUser, string member, string url)

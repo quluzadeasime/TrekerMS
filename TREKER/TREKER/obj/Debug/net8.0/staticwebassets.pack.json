@@ -157,6 +157,10 @@
       "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\60+ Pine Tree Backgrounds, Wallpapers, Illustrations (Free, High-Res).jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\60+ Pine Tree Backgrounds, Wallpapers, Illustrations (Free, High-Res).jpg"
+    },
+    {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\background\\banner-1.jpg"
     },
@@ -237,6 +241,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\background\\image-7.jpg"
     },
     {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\image_1.png.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\image_1.png.jpg"
+    },
+    {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\newsletter-bg.png",
       "PackagePath": "staticwebassets\\assets\\images\\background\\newsletter-bg.png"
     },
@@ -287,6 +295,10 @@
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\favicon.png",
       "PackagePath": "staticwebassets\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\footer.img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\footer.img.jpg"
     },
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\ajax-loader.gif",
@@ -645,6 +657,58 @@
       "PackagePath": "staticwebassets\\assets\\images\\resource\\404-image.svg"
     },
     {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\Ancient  Khudaferin bridge  in Azerbaijan ; XI century.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\Ancient  Khudaferin bridge  in Azerbaijan ; XI century.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\Azerbaijan, Qarabağ.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\Azerbaijan, Qarabağ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\Church of Kish, Sheki, Azerbaijan.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\Church of Kish, Sheki, Azerbaijan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\Khudaferin bridge _ Xudaferin 1027 ( XI century) Azerbaijan ( Jabrayil region ).jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\Khudaferin bridge _ Xudaferin 1027 ( XI century) Azerbaijan ( Jabrayil region ).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\My Biggest Takeaway from DPO PRO_ The Ultimate Photo Organizing Masterclass - Organizing Photos.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\My Biggest Takeaway from DPO PRO_ The Ultimate Photo Organizing Masterclass - Organizing Photos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\Premium AI Image _ Exotic foggy forest Jungle panorama forest oasis Foggy dark forest Natural forest landscape 3D illustration.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\Premium AI Image _ Exotic foggy forest Jungle panorama forest oasis Foggy dark forest Natural forest landscape 3D illustration.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\Qusar.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\Qusar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\Shusha Castle.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\Shusha Castle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\Shusha.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\Shusha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\Susha_Azerbaijan.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\Susha_Azerbaijan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\Treker_kamp.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\Treker_kamp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\Xudaferin körpüsü _ Khudaferin bridge XI century.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\Xudaferin körpüsü _ Khudaferin bridge XI century.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\Yayla.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\Yayla.jpg"
+    },
+    {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\about-icon-1.svg",
       "PackagePath": "staticwebassets\\assets\\images\\resource\\about-icon-1.svg"
     },
@@ -733,8 +797,32 @@
       "PackagePath": "staticwebassets\\assets\\images\\resource\\author-2.jpg"
     },
     {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\background_.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\background_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\background_image.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\background_image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\backgroundphoto.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\backgroundphoto.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\beshbarmaq1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\beshbarmaq1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\beshbarmaq2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\beshbarmaq2.jpg"
+    },
+    {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\dotted-pattern-1.png",
       "PackagePath": "staticwebassets\\assets\\images\\resource\\dotted-pattern-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\download.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\download.jpg"
     },
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\europe-map.svg",
@@ -815,6 +903,14 @@
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\footer-thumb-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\resource\\footer-thumb-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\footer.img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\footer.img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\founder.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\founder.jpg"
     },
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\gallery-1.jpg",
@@ -939,6 +1035,42 @@
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\icon-6.svg",
       "PackagePath": "staticwebassets\\assets\\images\\resource\\icon-6.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\kamp1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\kamp1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\kamp2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\kamp2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\kamp3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\kamp3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\kamp4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\kamp4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\kamp5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\kamp5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\kamp6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\kamp6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\kamp7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\kamp7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\kamp8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\kamp8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\lachin.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\lachin.jpg"
     },
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\news-1 - Copy.jpg",
@@ -1071,6 +1203,22 @@
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\rev-thumb-4.png",
       "PackagePath": "staticwebassets\\assets\\images\\resource\\rev-thumb-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\same1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\same1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\same2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\same2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\same3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\same3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\same4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\same4.jpg"
     },
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\shop\\prod-1.jpg",
@@ -1325,12 +1473,120 @@
       "PackagePath": "staticwebassets\\assets\\images\\resource\\tour-9.jpg"
     },
     {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\treker_img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\treker_img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\treker_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\treker_img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking_vol1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking_vol1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking_vol11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking_vol11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking_vol2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking_vol2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking_vol3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking_vol3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking_vol4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking_vol4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking_vol5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking_vol5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking_vol6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking_vol6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking_vol7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking_vol7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking_vol8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking_vol8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\trekking_vol9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\trekking_vol9.jpg"
+    },
+    {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\why-image-1.svg",
       "PackagePath": "staticwebassets\\assets\\images\\resource\\why-image-1.svg"
     },
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\world-map.svg",
       "PackagePath": "staticwebassets\\assets\\images\\resource\\world-map.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\İlandag.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\İlandag.jpg"
     },
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\js\\appear.js",
