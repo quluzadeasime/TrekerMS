@@ -1,13 +1,13 @@
-﻿<!-- Banner Section -->
+﻿    <!-- Banner Section -->
 <section class="inner-banner">
-    <div class="image-layer" style="background-image: url(../images/background/banner-image-1.jpg);"></div>
+    <div class="image-layer" style="background-image: url('@Url.Content("/assets/images/resource/background_image.jpg")');"></div>
     <div class="auto-container">
         <div class="content-box">
-            <h2>Destinations tours</h2>
+            <h2>Destinations</h2>
             <div class="bread-crumb">
                 <ul class="clearfix">
                     <li><span class="icon-home fa fa-home"></span><a href="index.html">Home</a></li>
-                    <li class="current">Destinations tours</li>
+                    <li class="current">Destinations</li>
                 </ul>
             </div>
         </div>
@@ -15,157 +15,152 @@
 </section>
 <!--End Banner Section -->
 <!--Destination Tours Section-->
-<section class="dest-tours">
+<section class="dest-section">
     <div class="floated-icon left"><img src="~/assets/images/resource/stones-left.svg" alt="" title=""></div>
     <div class="floated-icon right"><img src="~/assets/images/resource/stones-right.svg" alt="" title=""></div>
     <div class="auto-container">
         <div class="title-box centered">
-            <h2><span>Discover Rajasthan</span></h2>
+            <h2><span>Trending Destinations</span></h2>
             <div class="text">Since 2014, we’ve helped more than 500,000 people of all ages enjoy the best outdoor experience of their lives. Whether it’s for one day or a two-week vacation, close to home or a foreign land.</div>
         </div>
-        <div class="content-box">
-            <div class="row clearfix">
+        <!--MixitUp Galery-->
+        <div class="mixitup-gallery">
+            <!--Filter-->
+            <div class="gallery-filters centered clearfix">
+                <ul class="filter-tabs filter-btns clearfix">
+                    <li class="active filter" data-role="button" data-filter="all">All</li>
+                    <li class="filter" data-role="button" data-filter=".europe">Europe</li>
+                    <li class="filter" data-role="button" data-filter=".asia">Asia</li>
+                    <li class="filter" data-role="button" data-filter=".s-america">South America</li>
+                    <li class="filter" data-role="button" data-filter=".n-america">North America</li>
+                    <li class="filter" data-role="button" data-filter=".africa">Africa</li>
+                    <li class="filter" data-role="button" data-filter=".australia">Australia</li>
+                </ul>
+            </div>
+            <div class="filter-list row clearfix">
                 <!--Block-->
-                <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <div class="trend-block-one mix all africa australia col-xl-4 col-lg-6 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/tour-1.jpg" alt="" title=""></a></div>
+                            <div class="image"><a href="#"><img src="~/assets/images/resource/tour-7.jpg" alt="" title=""></a></div>
                         </div>
-                        <div class="lower-content">
-                            <div class="price"><span>$120</span></div>
-                            <h4><a href="#">Amber Palace </a></h4>
-                            <div class="ratings clearfix">
-                                <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                <div class="rev"><a href="#">05 Review</a></div>
-                            </div>
-                            <div class="text">Richly varied landscapes, luxurious accommodation.</div>
-                            <div class="bottom-box clearfix">
-                                <div class="info">
-                                    <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span> &ensp; | &ensp; <span class="i-block">259P, Himalaya Ag</span>
-                                </div>
-                            </div>
+                        <div class="count"><span>6 Tours</span></div>
+                        <div class="title clearfix">
+                            <h4><a href="#">Rajasthan</a></h4>
+                            <div class="more-link"><a href="#" class="theme-btn"><span class="far fa-long-arrow-right"></span></a></div>
                         </div>
-
                     </div>
                 </div>
 
                 <!--Block-->
-                <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <div class="trend-block-one mix all europe n-america africa australia col-xl-4 col-lg-6 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/tour-2.jpg" alt="" title=""></a></div>
+                            <div class="image"><a href="#"><img src="~/assets/images/resource/tour-8.jpg" alt="" title=""></a></div>
                         </div>
-                        <div class="lower-content">
-                            <div class="price"><span>$120</span></div>
-                            <h4><a href="#">Hawa Mahal </a></h4>
-                            <div class="ratings clearfix">
-                                <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                <div class="rev"><a href="#">05 Review</a></div>
-                            </div>
-                            <div class="text">Richly varied landscapes, luxurious accommodation.</div>
-                            <div class="bottom-box clearfix">
-                                <div class="info">
-                                    <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span> &ensp; | &ensp; <span class="i-block">259P, Himalaya Ag</span>
-                                </div>
-                            </div>
+                        <div class="count"><span>6 Tours</span></div>
+                        <div class="title clearfix">
+                            <h4><a href="#">Indonesia</a></h4>
+                            <div class="more-link"><a href="#" class="theme-btn"><span class="far fa-long-arrow-right"></span></a></div>
                         </div>
-
                     </div>
                 </div>
 
                 <!--Block-->
-                <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <div class="trend-block-one mix all europe asia s-america australia col-xl-4 col-lg-6 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/tour-3.jpg" alt="" title=""></a></div>
+                            <div class="image"><a href="#"><img src="~/assets/images/resource/tour-9.jpg" alt="" title=""></a></div>
                         </div>
-                        <div class="lower-content">
-                            <div class="price"><span>$120</span></div>
-                            <h4><a href="#">Sariska Tiger  </a></h4>
-                            <div class="ratings clearfix">
-                                <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                <div class="rev"><a href="#">05 Review</a></div>
-                            </div>
-                            <div class="text">Richly varied landscapes, luxurious accommodation.</div>
-                            <div class="bottom-box clearfix">
-                                <div class="info">
-                                    <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span> &ensp; | &ensp; <span class="i-block">259P, Himalaya Ag</span>
-                                </div>
-                            </div>
+                        <div class="count"><span>6 Tours</span></div>
+                        <div class="title clearfix">
+                            <h4><a href="#">Bekasi</a></h4>
+                            <div class="more-link"><a href="#" class="theme-btn"><span class="far fa-long-arrow-right"></span></a></div>
                         </div>
-
                     </div>
                 </div>
 
                 <!--Block-->
-                <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <div class="trend-block-one mix all europe asia s-america col-xl-4 col-lg-6 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/tour-4.jpg" alt="" title=""></a></div>
+                            <div class="image"><a href="#"><img src="~/assets/images/resource/tour-10.jpg" alt="" title=""></a></div>
                         </div>
-                        <div class="lower-content">
-                            <div class="price"><span>$120</span></div>
-                            <h4><a href="#">Nahargarh Fort </a></h4>
-                            <div class="ratings clearfix">
-                                <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                <div class="rev"><a href="#">05 Review</a></div>
-                            </div>
-                            <div class="text">Richly varied landscapes, luxurious accommodation.</div>
-                            <div class="bottom-box clearfix">
-                                <div class="info">
-                                    <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span> &ensp; | &ensp; <span class="i-block">259P, Himalaya Ag</span>
-                                </div>
-                            </div>
+                        <div class="count"><span>6 Tours</span></div>
+                        <div class="title clearfix">
+                            <h4><a href="#">Helsingfors</a></h4>
+                            <div class="more-link"><a href="#" class="theme-btn"><span class="far fa-long-arrow-right"></span></a></div>
                         </div>
-
                     </div>
                 </div>
 
                 <!--Block-->
-                <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <div class="trend-block-one mix all s-america n-america australia col-xl-4 col-lg-6 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/tour-5.jpg" alt="" title=""></a></div>
+                            <div class="image"><a href="#"><img src="~/assets/images/resource/tour-11.jpg" alt="" title=""></a></div>
                         </div>
-                        <div class="lower-content">
-                            <div class="price"><span>$120</span></div>
-                            <h4><a href="#">Jal Mahal </a></h4>
-                            <div class="ratings clearfix">
-                                <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                <div class="rev"><a href="#">05 Review</a></div>
-                            </div>
-                            <div class="text">Richly varied landscapes, luxurious accommodation.</div>
-                            <div class="bottom-box clearfix">
-                                <div class="info">
-                                    <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span> &ensp; | &ensp; <span class="i-block">259P, Himalaya Ag</span>
-                                </div>
-                            </div>
+                        <div class="count"><span>6 Tours</span></div>
+                        <div class="title clearfix">
+                            <h4><a href="#">Tavastehus</a></h4>
+                            <div class="more-link"><a href="#" class="theme-btn"><span class="far fa-long-arrow-right"></span></a></div>
                         </div>
-
                     </div>
                 </div>
 
                 <!--Block-->
-                <div class="tour-block-one col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <div class="trend-block-one mix all europe asia africa australia col-xl-4 col-lg-6 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/tour-6.jpg" alt="" title=""></a></div>
+                            <div class="image"><a href="#"><img src="~/assets/images/resource/tour-12.jpg" alt="" title=""></a></div>
                         </div>
-                        <div class="lower-content">
-                            <div class="price"><span>$120</span></div>
-                            <h4><a href="#">Chittorgarh  </a></h4>
-                            <div class="ratings clearfix">
-                                <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                <div class="rev"><a href="#">05 Review</a></div>
-                            </div>
-                            <div class="text">Richly varied landscapes, luxurious accommodation.</div>
-                            <div class="bottom-box clearfix">
-                                <div class="info">
-                                    <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span> &ensp; | &ensp; <span class="i-block">259P, Himalaya Ag</span>
-                                </div>
-                            </div>
+                        <div class="count"><span>6 Tours</span></div>
+                        <div class="title clearfix">
+                            <h4><a href="#">Grankulla</a></h4>
+                            <div class="more-link"><a href="#" class="theme-btn"><span class="far fa-long-arrow-right"></span></a></div>
                         </div>
+                    </div>
+                </div>
 
+                <!--Block-->
+                <div class="trend-block-one mix all s-america n-america africa col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><a href="#"><img src="~/assets/images/resource/tour-13.jpg" alt="" title=""></a></div>
+                        </div>
+                        <div class="count"><span>6 Tours</span></div>
+                        <div class="title clearfix">
+                            <h4><a href="#">Rajasthan</a></h4>
+                            <div class="more-link"><a href="#" class="theme-btn"><span class="far fa-long-arrow-right"></span></a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Block-->
+                <div class="trend-block-one mix all europe asia africa australia col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><a href="#"><img src="~/assets/images/resource/tour-14.jpg" alt="" title=""></a></div>
+                        </div>
+                        <div class="count"><span>6 Tours</span></div>
+                        <div class="title clearfix">
+                            <h4><a href="#">Indonesia</a></h4>
+                            <div class="more-link"><a href="#" class="theme-btn"><span class="far fa-long-arrow-right"></span></a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Block-->
+                <div class="trend-block-one mix all europe asia s-america australia col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><a href="#"><img src="~/assets/images/resource/tour-15.jpg" alt="" title=""></a></div>
+                        </div>
+                        <div class="count"><span>6 Tours</span></div>
+                        <div class="title clearfix">
+                            <h4><a href="#">Bekasi</a></h4>
+                            <div class="more-link"><a href="#" class="theme-btn"><span class="far fa-long-arrow-right"></span></a></div>
+                        </div>
                     </div>
                 </div>
 
@@ -178,7 +173,7 @@
 
 <!-- Facts Section -->
 <section class="facts-section">
-    <div class="image-layer" style="background-image: url(../images/background/image-6.jpg);"></div>
+    <div class="image-layer" style="background-image: url(images/background/image-6.jpg);"></div>
     <div class="auto-container">
         <div class="content-box">
             <div class="video-btn"><a href="https://www.youtube.com/watch?v=0xhr0j877bI" class="theme-btn lightbox-image"><span class="icon"><img src="~/assets/images/icons/video-icon-2.svg" alt="" title=""></span></a></div>
@@ -190,7 +185,6 @@
         <div class="auto-container">
             <div class="inner-box">
                 <div class="row clearfix">
-
                     <!--Block-->
                     <div class="fact-block col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="inner">
@@ -219,73 +213,106 @@
                             <div class="fact-title"><span>Client Avilable</span></div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!--End Facts Section -->
-<!--FAQs Section-->
-<section class="faq-one style-three">
+<!--Testimonials Section-->
+<section class="testimonials-one">
+    <div class="floated-icon right"><img src="~/assets/images/resource/team-icon-left.svg" alt="" title=""></div>
     <div class="floated-icon left"><img src="~/assets/images/resource/stones-left.svg" alt="" title=""></div>
-    <div class="floated-icon right"><img src="~/assets/images/resource/floated-icon-right-2.svg" alt="" title=""></div>
     <div class="auto-container">
         <div class="title-box centered">
-            <h2><span>Get Some Important Answer</span></h2>
+            <h2><span>Top Reviews for Treker</span></h2>
         </div>
-        <div class="row clearfix">
-            <!--Text Col-->
-            <div class="text-col col-lg-6 col-md-12 col-sm-12">
-                <div class="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
-                    <div class="accordion-box clearfix">
-                        <!--Block-->
-                        <div class="accordion block active-block">
-                            <div class="acc-btn active">What is Trekking? <i class="fa-regular fa-angle-down"></i></div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">One of the major benefits of trekking is that it improves your physical health immensely. Spending multiple hours on the trail, climbing around boulders, rock hopping and ascending hills gives your whole body a workout, improving your strength, agility and cardio fitness.</div>
-                                </div>
+        <div class="carousel-box">
+            <div class="testi-carousel owl-theme owl-carousel">
+                <!--Testi Block-->
+                <div class="testi-block">
+                    <div class="inner-box">
+                        <div class="icon"><img src="~/assets/images/icons/quotes-1.svg" alt=""></div>
+                        <div class="image"><img src="~/assets/images/resource/testi-thumb-1.jpg" alt=""></div>
+                        <div class="text">Fight School has specialized in martial arts since 1986 and has one of the most Fight School has specialized.</div>
+                        <div class="info">
+                            <div class="name">Randall Schwartz</div>
+                            <div class="clearfix">
+                                <div class="designation">Women's Trainner</div>
+                                <div class="rating"><div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div></div>
                             </div>
                         </div>
-                        <!--Block-->
-                        <div class="accordion block">
-                            <div class="acc-btn">What do I need to carry? <i class="fa-regular fa-angle-down"></i></div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">One of the major benefits of trekking is that it improves your physical health immensely. Spending multiple hours on the trail, climbing around boulders, rock hopping and ascending hills gives your whole body a workout, improving your strength, agility and cardio fitness.</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Block-->
-                        <div class="accordion block">
-                            <div class="acc-btn">How concerned should I be about the altitude? <i class="fa-regular fa-angle-down"></i></div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">One of the major benefits of trekking is that it improves your physical health immensely. Spending multiple hours on the trail, climbing around boulders, rock hopping and ascending hills gives your whole body a workout, improving your strength, agility and cardio fitness.</div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Block-->
-                        <div class="accordion block">
-                            <div class="acc-btn">What do we eat and drink while on trek? <i class="fa-regular fa-angle-down"></i></div>
-                            <div class="acc-content">
-                                <div class="content">
-                                    <div class="text">One of the major benefits of trekking is that it improves your physical health immensely. Spending multiple hours on the trail, climbing around boulders, rock hopping and ascending hills gives your whole body a workout, improving your strength, agility and cardio fitness.</div>
-                                </div>
-                            </div>
-                        </div>
+                    </div>
+                </div>
 
+                <!--Testi Block-->
+                <div class="testi-block">
+                    <div class="inner-box">
+                        <div class="icon"><img src="~/assets/images/icons/quotes-1.svg" alt=""></div>
+                        <div class="image"><img src="~/assets/images/resource/testi-thumb-2.jpg" alt=""></div>
+                        <div class="text">We teach martial arts because we love it — not because we want to make money on you. Unlike other martial.</div>
+                        <div class="info">
+                            <div class="name">Andru Smith</div>
+                            <div class="clearfix">
+                                <div class="designation">Boxing Trainer</div>
+                                <div class="rating"><div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!--Image Col-->
-            <div class="image-col col-lg-6 col-md-12 col-sm-12">
-                <div class="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
-                    <div class="image-box">
-                        <img src="~/assets/images/resource/faq-image-1.svg" alt="" title="">
+
+                <!--Testi Block-->
+                <div class="testi-block alternate">
+                    <div class="inner-box">
+                        <div class="image-layer" style="background-image: url(images/background/testi-image-1.jpg);"></div>
+                        <div class="over-box">
+                            <div class="over-title"><a href="#">MASTER TREKER TRAVEL</a></div>
+                        </div>
                     </div>
                 </div>
+
+                <!--Testi Block-->
+                <div class="testi-block">
+                    <div class="inner-box">
+                        <div class="icon"><img src="~/assets/images/icons/quotes-1.svg" alt=""></div>
+                        <div class="image"><img src="~/assets/images/resource/testi-thumb-1.jpg" alt=""></div>
+                        <div class="text">Fight School has specialized in martial arts since 1986 and has one of the most Fight School has specialized.</div>
+                        <div class="info">
+                            <div class="name">Randall Schwartz</div>
+                            <div class="clearfix">
+                                <div class="designation">Women's Trainner</div>
+                                <div class="rating"><div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Testi Block-->
+                <div class="testi-block">
+                    <div class="inner-box">
+                        <div class="icon"><img src="~/assets/images/icons/quotes-1.svg" alt=""></div>
+                        <div class="image"><img src="~/assets/images/resource/testi-thumb-2.jpg" alt=""></div>
+                        <div class="text">We teach martial arts because we love it — not because we want to make money on you. Unlike other martial.</div>
+                        <div class="info">
+                            <div class="name">Andru Smith</div>
+                            <div class="clearfix">
+                                <div class="designation">Boxing Trainer</div>
+                                <div class="rating"><div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Testi Block-->
+                <div class="testi-block alternate">
+                    <div class="inner-box">
+                        <div class="image-layer" style="background-image: url(images/background/testi-image-1.jpg);"></div>
+                        <div class="over-box">
+                            <div class="over-title"><a href="#">MASTER TREKER TRAVEL</a></div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

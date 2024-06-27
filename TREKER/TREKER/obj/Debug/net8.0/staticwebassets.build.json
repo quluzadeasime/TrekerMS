@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "St05K89/u9cyld+950ApbyhN2LGlPjg29mNu2Xf5iik=",
+  "Hash": "n0Gbo0TAyjbDPaaqHzhKUz9GavxtDDdAtedol55cc18=",
   "Source": "TREKER.MVC",
   "BasePath": "_content/TREKER.MVC",
   "Mode": "Default",
@@ -3644,6 +3644,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\resource\\background_image.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\background_photo2.jpg",
+      "SourceId": "TREKER.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\",
+      "BasePath": "_content/TREKER.MVC",
+      "RelativePath": "assets/images/resource/background_photo2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\resource\\background_photo2.jpg"
     },
     {
       "Identity": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\backgroundphoto.png",
@@ -9857,6 +9876,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\manage\\images\\logo-sm.png"
+    },
+    {
+      "Identity": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\natureanimation.jpg",
+      "SourceId": "TREKER.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\",
+      "BasePath": "_content/TREKER.MVC",
+      "RelativePath": "manage/images/natureanimation.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\manage\\images\\natureanimation.jpg"
     },
     {
       "Identity": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\products\\pro1.png",

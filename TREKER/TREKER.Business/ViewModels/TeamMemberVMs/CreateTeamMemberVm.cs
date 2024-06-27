@@ -10,7 +10,7 @@ using TREKER.Core.Enums;
 
 namespace TREKER.Business.ViewModels.TeamMemberVMs
 {
-    public class CreateTeamMemberVm
+    public class CreateTeamMemberVm 
     {
         public string FullName { get; set; }
         public IFormFile File { get; set; }

@@ -805,6 +805,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\resource\\background_image.jpg"
     },
     {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\background_photo2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\background_photo2.jpg"
+    },
+    {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\backgroundphoto.png",
       "PackagePath": "staticwebassets\\assets\\images\\resource\\backgroundphoto.png"
     },
@@ -2067,6 +2071,10 @@
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\logo-sm.png",
       "PackagePath": "staticwebassets\\manage\\images\\logo-sm.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\natureanimation.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\natureanimation.jpg"
     },
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\products\\pro1.png",
