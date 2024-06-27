@@ -7,6 +7,7 @@ using TREKER.Core.Enums;
 namespace TREKER.MVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class TeamMemberController : Controller
     {
         private readonly ITeamMemberService _teamMemberService;
@@ -17,7 +18,7 @@ namespace TREKER.MVC.Areas.Admin.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Moderator,Admin")]
+        [Authorize(Roles = "Moderator, Admin")]
         public async Task<IActionResult> Table()
         {
             if (User.IsInRole("Admin"))
@@ -27,12 +28,11 @@ namespace TREKER.MVC.Areas.Admin.Controllers
             else
             {
                 return View((await _teamMemberService.GetAllAsync()).Where(x => !x.IsDeleted));
-
             }
         }
 
         [HttpGet]
-        [Authorize(Roles = "Moderator,Admin")]
+        [Authorize(Roles = "Moderator, Admin")]
         public async Task<IActionResult> Create()
         {
             CreateTeamMemberVm vm = new()
@@ -44,7 +44,7 @@ namespace TREKER.MVC.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Moderator,Admin")]
+        [Authorize(Roles = "Moderator, Admin")]
         public async Task<IActionResult> Create(CreateTeamMemberVm vm)
         {
             vm.TeamMemberRoles = Enum.GetValues<TeamMemberRoles>();
@@ -55,19 +55,19 @@ namespace TREKER.MVC.Areas.Admin.Controllers
             if (!validationResult.IsValid)
             {
                 ModelState.Clear();
-                foreach (var item in validationResult.Errors)
-                {
-                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
-                    return View(vm);
-                }
+
+                validationResult.Errors.ForEach(x => ModelState.AddModelError(x.PropertyName, x.ErrorMessage));
+
+                return View(vm);
             }
+
             await _teamMemberService.CreateAsync(vm);
 
             return RedirectToAction(nameof(Table));
         }
 
         [HttpGet]
-        [Authorize(Roles = "Moderator,Admin")]
+        [Authorize(Roles = "Moderator, Admin")]
         public async Task<IActionResult> Update(int id)
         {
             var oldTeamMember = await _teamMemberService.GetByIdAsync(id);
@@ -78,45 +78,48 @@ namespace TREKER.MVC.Areas.Admin.Controllers
                 MemberRole = oldTeamMember.TeamMemberRoles,
                 TeamMemberRoles = Enum.GetValues<TeamMemberRoles>()
             };
+
             return View(vm);
         }
 
         [HttpPost]
-        [Authorize(Roles = "Moderator,Admin")]
+        [Authorize(Roles = "Moderator, Admin")]
         public async Task<IActionResult> Update(UpdateTeamMemberVm vm)
         {
             vm.TeamMemberRoles = Enum.GetValues<TeamMemberRoles>();
 
             UpdateTeamMemberVmValidator validations = new UpdateTeamMemberVmValidator();
-
             var validationResult = await validations.ValidateAsync(vm);
 
             if (!validationResult.IsValid)
             {
                 ModelState.Clear();
-                foreach (var item in validationResult.Errors)
-                {
-                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
-                    return View(vm);
-                }
+
+                validationResult.Errors.ForEach(x => ModelState.AddModelError(x.PropertyName, x.ErrorMessage));
+
+                return View(vm);
             }
+
             await _teamMemberService.UpdateAsync(vm);
+
             return RedirectToAction(nameof(Table));
         }
 
         [HttpGet]
-        [Authorize(Roles = "Moderator,Admin")]
+        [Authorize(Roles = "Moderator, Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             await _teamMemberService.DeleteAsync(id);
+
             return RedirectToAction(nameof(Table));
         }
 
         [HttpGet]
-        [Authorize(Roles = "Moderator,Admin")]
+        [Authorize(Roles = "Moderator, Admin")]
         public async Task<IActionResult> Detail(int id)
         {
             var teamMember = await _teamMemberService.GetByIdAsync(id);
+
             return View(teamMember);
         }
 
@@ -125,6 +128,7 @@ namespace TREKER.MVC.Areas.Admin.Controllers
         public async Task<IActionResult> Recover(int id)
         {
             await _teamMemberService.RecoverAsync(id);
+
             return RedirectToAction(nameof(Table));
         }
 
@@ -133,6 +137,7 @@ namespace TREKER.MVC.Areas.Admin.Controllers
         public async Task<IActionResult> Remove(int id)
         {
             await _teamMemberService.RemoveAsync(id);
+
             return RedirectToAction(nameof(Table));
         }
     }

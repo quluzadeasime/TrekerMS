@@ -15,6 +15,7 @@ namespace TREKER.DAL.Repositories
         public static void AddRepositories(this IServiceCollection services)
         {
             services.AddScoped<ITeamMemberRepository, TeamMemberRepository>();
+            services.AddScoped<ISettingRepository, SettingRepository>();
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TREKER.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc94d5f987b6b969a98705361c6ef4f38013151b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d5f9707a8523db061855d7b2275d00cb52dd1d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("TREKER.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TREKER.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,7 +8,7 @@ using TREKER.Core.Enums;
 
 namespace TREKER.Core.Entities
 {
-    public class TeamMember:BaseAuditableEntity
+    public class TeamMember : BaseAuditableEntity
     {
         public string FullName { get; set; }
         public string ImageUrl { get; set; }

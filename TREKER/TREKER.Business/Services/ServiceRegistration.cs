@@ -16,6 +16,7 @@ namespace TREKER.Business.Services
             services.AddScoped<ITeamMemberService, TeamMemberService>();
             services.AddScoped<IAccountService, AccountService>();
             services.AddScoped<ISendMessageService, SendMessageService>();
+            services.AddScoped<ISettingService, SettingService>();
         }
     }
 }

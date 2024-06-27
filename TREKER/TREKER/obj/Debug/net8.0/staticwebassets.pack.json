@@ -1981,6 +1981,22 @@
       "PackagePath": "staticwebassets\\manage\\icons\\themify-icons\\themify-icons.scss"
     },
     {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\admin-panel-icon.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\admin-panel-icon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\admin_panel.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\admin_panel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\admin_panelLogo.png",
+      "PackagePath": "staticwebassets\\manage\\images\\admin_panelLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\adminpanellogo.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\adminpanellogo.jpg"
+    },
+    {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\bg-account.jpg",
       "PackagePath": "staticwebassets\\manage\\images\\bg-account.jpg"
     },
