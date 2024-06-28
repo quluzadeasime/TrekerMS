@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n0Gbo0TAyjbDPaaqHzhKUz9GavxtDDdAtedol55cc18=",
+  "Hash": "h2giY4VKRjF9TTTFGIkK0l3N1HieyISmDYU5eYEPRQc=",
   "Source": "TREKER.MVC",
   "BasePath": "_content/TREKER.MVC",
   "Mode": "Default",
@@ -3720,6 +3720,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\resource\\beshbarmaq2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\bg-1.jpg",
+      "SourceId": "TREKER.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\",
+      "BasePath": "_content/TREKER.MVC",
+      "RelativePath": "assets/images/resource/bg-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\resource\\bg-1.jpg"
     },
     {
       "Identity": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\Church of Kish, Sheki, Azerbaijan.jpg",

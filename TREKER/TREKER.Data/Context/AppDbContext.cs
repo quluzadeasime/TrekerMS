@@ -15,5 +15,17 @@ namespace TREKER.DAL.Context
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
         public DbSet<TeamMember> TeamMembers { get; set; }
         public DbSet<Setting> Settings { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+        public DbSet<BlogImage> BlogImages { get; set; }
+        public DbSet<Destination> Destinations { get; set; }
+        public DbSet<Difficulty> Difficulties { get; set; }
+        public DbSet<Facility> Facilities { get; set; }
+        public DbSet<Feature> Features { get; set; }
+        public DbSet<Region> Regions { get; set; }
+        public DbSet<Trekking> Trekkings { get; set; }
+        public DbSet<TrekkingDay> TrekkingDays { get; set; }
+        public DbSet<TrekkingFacility> TrekkingFacilities { get; set; }
+        public DbSet<TrekkingFeature> TrekkingFeatures { get; set; }
+        public DbSet<TrekkingImage> TrekkingImages { get; set; }
     }
 }

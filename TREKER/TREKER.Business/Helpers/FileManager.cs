@@ -11,7 +11,7 @@ namespace TREKER.Business.Helpers
 {
     public static class FileManager
     {
-        private static string containerName = "images";
+        private static string containerName = "trekker";
 
         public static bool CheckFile(this IFormFile file)
         {

@@ -31,7 +31,7 @@ namespace TREKER.Business.Services.Abstractions
             TeamMember newTeamMember = new()
             {
                 FullName = vm.FullName,
-                ImageUrl = await vm.File.UploadFileAsync(_connectionString, "TeamMemberPictures/"),
+                ImageUrl = await vm.File.UploadFileAsync(_connectionString, "/TeamMemberPictures/"),
                 TeamMemberRoles = vm.MemberRole,
                 CreatedDate = DateTime.UtcNow,
                 UpdatedDate = DateTime.UtcNow,
@@ -88,6 +88,12 @@ namespace TREKER.Business.Services.Abstractions
 
         public async Task RemoveAsync(int id)
         {
+            var oldTeamMember = await _teamMemberRepository.GetByIdAsync(id);
+
+            Uri uri = new Uri(oldTeamMember.ImageUrl);
+            string blobName = uri.Segments.Last();
+            await FileManager.DeleteFileAsync(blobName, _connectionString, "TeamMemberPictures/");
+
             _teamMemberRepository.Remove(id);
             await _teamMemberRepository.SaveChangesAsync();
         }

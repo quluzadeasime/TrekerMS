@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="d-flex justify-content-end mb-3">
-                    <a href="#" class="btn btn-raised btn-primary">Create</a>
+                    <a asp-action="Create" asp-controller="TeamMember" class="btn btn-raised btn-primary">Create</a>
                 </div>
                 <div class="card m-b-30">
                     <div class="card-body">
@@ -50,7 +50,7 @@
                                     @foreach (var item in Model)
                                     {
                                         count++;
-                                        <tr>
+                                        <tr style="background-color: @(item.IsDeleted ? "orangered" : "")">
                                             <td class="text-center">@count</td>
                                             <td class="text-center">@item.FullName</td>
                                             <td class="text-center">@ViewFunctions.InsertSpacesBeforeUppercase(item.TeamMemberRoles.ToString())</td>
@@ -58,8 +58,16 @@
                                             <td class="text-center">
                                                 <div class="btn-group d-flex justify-content-center">
                                                     <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-raised mx-2 btn-warning">Update</a>
-                                                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-raised mx-2 btn-danger">Delete</a>
                                                     <a asp-action="Detail" asp-route-id="@item.Id" class="btn btn-raised mx-2 btn-info">Detail</a>
+                                                    @if (item.IsDeleted)
+                                                    {
+                                                        <a asp-action="Recover" asp-route-id="@item.Id" class="btn btn-raised mx-2 btn-success">Recover</a>
+                                                        <a asp-action="Remove" asp-route-id="@item.Id" class="btn btn-raised mx-2 btn-danger">Remove</a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-raised mx-2 btn-danger">Delete</a>
+                                                    }
                                                     <!-- Additional buttons if needed -->
                                                 </div>
                                             </td>

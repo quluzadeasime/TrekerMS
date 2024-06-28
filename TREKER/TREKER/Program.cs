@@ -54,7 +54,9 @@ namespace TREKER.MVC
 
             builder.Services.ConfigureApplicationCookie(opt =>
             {
-                opt.AccessDeniedPath = "/Account/AccessDeniedCustom";
+                opt.AccessDeniedPath = "/Home/AccessDeniedCustom";
+
+                opt.LoginPath = "/Account/Register";
             });
 
             builder.Services.AddAuthentication().AddCookie();
@@ -67,7 +69,7 @@ namespace TREKER.MVC
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            app.UseStatusCodePagesWithReExecute("/Account/Error");
+            app.UseStatusCodePagesWithReExecute("/Home/Error");
 
             app.UseStaticFiles();
             app.UseRouting();

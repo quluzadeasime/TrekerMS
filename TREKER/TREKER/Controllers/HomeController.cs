@@ -8,19 +8,13 @@ namespace TREKER.Controllers
         {
             return View();
         }
-        public IActionResult Destinations()
+
+        public IActionResult AccessDeniedCustom()
         {
             return View();
         }
-        public IActionResult Trekking()
-        {
-            return View();
-        }
-        public IActionResult News()
-        {
-            return View();
-        }
-        public IActionResult Contact()
+
+        public IActionResult Error()
         {
             return View();
         }

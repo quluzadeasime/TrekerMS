@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TREKER.Business.Services.Interfaces;
 using TREKER.Business.ViewModels.TeamMemberVMs;

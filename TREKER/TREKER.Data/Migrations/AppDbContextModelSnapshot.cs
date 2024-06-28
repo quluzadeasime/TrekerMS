@@ -155,7 +155,117 @@ namespace TREKER.DAL.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("TREKER.Core.Entities.Setting", b =>
+            modelBuilder.Entity("TREKER.Core.Entities.Blog", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("BlogId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ByUsername")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DestinationId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BlogId");
+
+                    b.HasIndex("DestinationId");
+
+                    b.ToTable("Blogs");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.BlogImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BlogId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BlogId");
+
+                    b.ToTable("BlogImages");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Destination", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("RegionId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RegionId");
+
+                    b.ToTable("Destinations");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Difficulty", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -169,14 +279,158 @@ namespace TREKER.DAL.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Key")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Value")
+                    b.HasKey("Id");
+
+                    b.ToTable("Difficulties");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Facility", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Icon")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Facilities");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Feature", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Features");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Region", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Regions");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Setting", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Address1")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Address2")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Facebook")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Instagram")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LogoUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone1")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone2")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Twitter")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Youtube")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -216,6 +470,194 @@ namespace TREKER.DAL.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("TeamMembers");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Trekking", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DestinationId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DifficultyId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Duration")
+                        .HasColumnType("datetime2");
+
+                    b.Property<byte>("GroupSize")
+                        .HasColumnType("tinyint");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ReviewCount")
+                        .HasColumnType("int");
+
+                    b.Property<float>("RoadHeight")
+                        .HasColumnType("real");
+
+                    b.Property<float>("Star")
+                        .HasColumnType("real");
+
+                    b.Property<string>("SubTitle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DestinationId");
+
+                    b.HasIndex("DifficultyId");
+
+                    b.ToTable("Trekkings");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.TrekkingDay", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("TrekkingId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TrekkingId");
+
+                    b.ToTable("TrekkingDays");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.TrekkingFacility", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("FacilityId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("TrekkingId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FacilityId");
+
+                    b.HasIndex("TrekkingId");
+
+                    b.ToTable("TrekkingFacilities");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.TrekkingFeature", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("FeatureId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("TrekkingId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FeatureId");
+
+                    b.HasIndex("TrekkingId");
+
+                    b.ToTable("TrekkingFeatures");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.TrekkingImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("TrekkingId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TrekkingId");
+
+                    b.ToTable("TrekkingImages");
                 });
 
             modelBuilder.Entity("TREKER.Core.Entities.UserModels.AppUser", b =>
@@ -340,6 +782,165 @@ namespace TREKER.DAL.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Blog", b =>
+                {
+                    b.HasOne("TREKER.Core.Entities.Blog", null)
+                        .WithMany("Blogs")
+                        .HasForeignKey("BlogId");
+
+                    b.HasOne("TREKER.Core.Entities.Destination", "Destination")
+                        .WithMany("Blogs")
+                        .HasForeignKey("DestinationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Destination");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.BlogImage", b =>
+                {
+                    b.HasOne("TREKER.Core.Entities.Blog", "Blog")
+                        .WithMany()
+                        .HasForeignKey("BlogId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Blog");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Destination", b =>
+                {
+                    b.HasOne("TREKER.Core.Entities.Region", "Region")
+                        .WithMany("Destinations")
+                        .HasForeignKey("RegionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Region");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Trekking", b =>
+                {
+                    b.HasOne("TREKER.Core.Entities.Destination", "Destination")
+                        .WithMany("Trekkings")
+                        .HasForeignKey("DestinationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TREKER.Core.Entities.Difficulty", "Difficulty")
+                        .WithMany("Trekkings")
+                        .HasForeignKey("DifficultyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Destination");
+
+                    b.Navigation("Difficulty");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.TrekkingDay", b =>
+                {
+                    b.HasOne("TREKER.Core.Entities.Trekking", "Trekking")
+                        .WithMany("Days")
+                        .HasForeignKey("TrekkingId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Trekking");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.TrekkingFacility", b =>
+                {
+                    b.HasOne("TREKER.Core.Entities.Facility", "Facility")
+                        .WithMany("Trekkings")
+                        .HasForeignKey("FacilityId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TREKER.Core.Entities.Trekking", "Trekking")
+                        .WithMany("Facilities")
+                        .HasForeignKey("TrekkingId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Facility");
+
+                    b.Navigation("Trekking");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.TrekkingFeature", b =>
+                {
+                    b.HasOne("TREKER.Core.Entities.Feature", "Feature")
+                        .WithMany("Trekkings")
+                        .HasForeignKey("FeatureId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TREKER.Core.Entities.Trekking", "Trekking")
+                        .WithMany("Features")
+                        .HasForeignKey("TrekkingId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Feature");
+
+                    b.Navigation("Trekking");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.TrekkingImage", b =>
+                {
+                    b.HasOne("TREKER.Core.Entities.Trekking", "Trekking")
+                        .WithMany("Images")
+                        .HasForeignKey("TrekkingId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Trekking");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Blog", b =>
+                {
+                    b.Navigation("Blogs");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Destination", b =>
+                {
+                    b.Navigation("Blogs");
+
+                    b.Navigation("Trekkings");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Difficulty", b =>
+                {
+                    b.Navigation("Trekkings");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Facility", b =>
+                {
+                    b.Navigation("Trekkings");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Feature", b =>
+                {
+                    b.Navigation("Trekkings");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Region", b =>
+                {
+                    b.Navigation("Destinations");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Trekking", b =>
+                {
+                    b.Navigation("Days");
+
+                    b.Navigation("Facilities");
+
+                    b.Navigation("Features");
+
+                    b.Navigation("Images");
                 });
 #pragma warning restore 612, 618
         }

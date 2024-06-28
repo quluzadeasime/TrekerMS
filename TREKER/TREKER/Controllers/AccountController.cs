@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
 using System.Net.Mail;
 using TREKER.Business.Services.Interfaces;
 using TREKER.Business.ViewModels.AccountVMs;
@@ -71,6 +69,8 @@ namespace TREKER.MVC.Controllers
             }
             else
             {
+                HttpContext.Session.SetString("BeginRegister", "true");
+
                 return View();
             }
         }
@@ -111,6 +111,7 @@ namespace TREKER.MVC.Controllers
                 Expires = DateTimeOffset.UtcNow.AddMinutes(30)
             });
 
+            HttpContext.Session.Remove("BeginRegister");
             HttpContext.Session.SetString("MessageSended", "true");
 
             return RedirectToAction(nameof(CheckEmailAddress));
@@ -128,9 +129,16 @@ namespace TREKER.MVC.Controllers
             }
             else
             {
-                HttpContext.Session.Remove("MessageSended");
+                if (HttpContext.Session.Keys.Any(x => x == "BeginRegister"))
+                {
+                    return Redirect("/Account/Register?beginRegister=1");
+                }
+                else
+                {
+                    HttpContext.Session.Remove("MessageSended");
 
-                return View();
+                    return View();
+                }
             }
         }
 
@@ -185,6 +193,7 @@ namespace TREKER.MVC.Controllers
             {
                 return Redirect("/Admin");
             }
+
         }
 
         [HttpGet]

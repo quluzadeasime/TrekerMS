@@ -16,6 +16,13 @@ namespace TREKER.DAL.Repositories
         {
             services.AddScoped<ITeamMemberRepository, TeamMemberRepository>();
             services.AddScoped<ISettingRepository, SettingRepository>();
+            services.AddScoped<IBlogRepository, BlogRepository>();
+            services.AddScoped<IDestinationRepository, DestinationRepository>();
+            services.AddScoped<IDifficultyRepository, DifficultyRepository>();
+            services.AddScoped<IFacilityRepository, FacilityRepository>();
+            services.AddScoped<IFeatureRepository, FeatureRepository>();
+            services.AddScoped<IRegionRepository, RegionRepository>();
+            services.AddScoped<ITrekkingRepository, TrekkingRepository>();          
         }
     }
 }

@@ -34,6 +34,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXFRhYmxlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Asime/Desktop/TREKER/TREKER/TREKER/Areas/Admin/Views/Difficulty/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGlmZmljdWx0eVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asime/Desktop/TREKER/TREKER/TREKER/Areas/Admin/Views/Difficulty/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGlmZmljdWx0eVxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asime/Desktop/TREKER/TREKER/TREKER/Areas/Admin/Views/Difficulty/Table.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGlmZmljdWx0eVxUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asime/Desktop/TREKER/TREKER/TREKER/Areas/Admin/Views/Difficulty/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGlmZmljdWx0eVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Asime/Desktop/TREKER/TREKER/TREKER/Areas/Admin/Views/Setting/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2V0dGluZ1xEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -100,6 +116,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Asime/Desktop/TREKER/TREKER/TREKER/Views/Destination/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asime/Desktop/TREKER/TREKER/TREKER/Views/Home/AccessDeniedCustom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc3NEZW5pZWRDdXN0b20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Asime/Desktop/TREKER/TREKER/TREKER/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Asime/Desktop/TREKER/TREKER/TREKER/Views/Home/Index.cshtml]

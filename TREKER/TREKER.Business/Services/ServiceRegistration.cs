@@ -17,6 +17,13 @@ namespace TREKER.Business.Services
             services.AddScoped<IAccountService, AccountService>();
             services.AddScoped<ISendMessageService, SendMessageService>();
             services.AddScoped<ISettingService, SettingService>();
+            services.AddScoped<IBlogService, BlogService>();
+            services.AddScoped<IDestinationService, DestinationService>();
+            services.AddScoped<IDifficultyService, DifficultyService>();
+            services.AddScoped<IFacilityService, FacilityService>();
+            services.AddScoped<IFeatureService, FeatureService>();
+            services.AddScoped<IRegionService, RegionService>();
+            services.AddScoped<ITrekkingService, TrekkingService>();
         }
     }
 }
