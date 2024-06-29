@@ -6,44 +6,72 @@ using System.Threading.Tasks;
 using TREKER.Business.Services.Interfaces;
 using TREKER.Business.ViewModels.FacilityVMs;
 using TREKER.Core.Entities;
+using TREKER.DAL.Repositories.Implementations;
+using TREKER.DAL.Repositories.Interfaces;
 
 namespace TREKER.Business.Services.Abstractions
 {
     public class FacilityService : IFacilityService
     {
-        public Task CreateAsync(CreateFacilityVM vm)
+        private readonly IFacilityRepository _facilityRepository;
+
+        public FacilityService(IFacilityRepository facilityRepository)
         {
-            throw new NotImplementedException();
+            _facilityRepository = facilityRepository;
         }
 
-        public Task DeleteAsync(int id)
+        public async Task CreateAsync(CreateFacilityVM vm)
         {
-            throw new NotImplementedException();
+            var newFacility = new Facility()
+            {
+                Name = vm.Name,
+                Icon = vm.Icon,
+                CreatedDate = DateTime.UtcNow,
+                UpdatedDate = DateTime.UtcNow
+            };
+
+            await _facilityRepository.CreateAsync(newFacility);
+            await _facilityRepository.SaveChangesAsync();
         }
 
-        public Task<IQueryable<Facility>> GetAllAsync()
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            await _facilityRepository.DeleteAsync(id);
+            await _facilityRepository.SaveChangesAsync();
         }
 
-        public Task<Facility> GetByIdAsync(int id)
+        public async Task<IQueryable<Facility>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _facilityRepository.GetAllAsync();
         }
 
-        public Task RecoverAsync(int id)
+        public async Task<Facility> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _facilityRepository.GetByIdAsync(id);
         }
 
-        public Task RemoveAsync(int id)
+        public async Task RecoverAsync(int id)
         {
-            throw new NotImplementedException();
+            await _facilityRepository.RecoverAsync(id);
+            await _facilityRepository.SaveChangesAsync();
         }
 
-        public Task UpdateAsync(UpdateFacilityVM vm)
+        public async Task RemoveAsync(int id)
         {
-            throw new NotImplementedException();
+            _facilityRepository.Remove(id);
+            await _facilityRepository.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync(UpdateFacilityVM vm)
+        {
+            var oldFacility = await _facilityRepository.GetByIdAsync(vm.Id);
+
+            oldFacility.Name = vm.Name ?? oldFacility.Name;
+            oldFacility.Icon = vm.Icon ?? oldFacility.Icon;
+            oldFacility.UpdatedDate = DateTime.UtcNow;
+
+            await _facilityRepository.UpdateAsync(oldFacility);
+            await _facilityRepository.SaveChangesAsync();
         }
     }
 }

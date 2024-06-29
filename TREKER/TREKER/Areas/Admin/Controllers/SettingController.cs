@@ -5,6 +5,7 @@ using TREKER.Business.Services.Interfaces;
 namespace TREKER.MVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class SettingController : Controller
     {
         private readonly ISettingService _settingService;
@@ -16,7 +17,7 @@ namespace TREKER.MVC.Areas.Admin.Controllers
 
         [HttpGet]
         [Authorize(Roles = "Moderator,Admin")]
-        public IActionResult Detail()
+        public async Task<IActionResult> Detail(int id)
         {
             var settings = _settingService.GetAllAsync();
             return View(settings);
@@ -24,7 +25,7 @@ namespace TREKER.MVC.Areas.Admin.Controllers
 
         [HttpGet]
         [Authorize(Roles = "Moderator,Admin")]
-        public IActionResult Update()
+        public async Task<IActionResult> Update()
         {
             return View();
         }

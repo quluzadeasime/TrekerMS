@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,10 +14,7 @@ namespace TREKER.Business.Services.Abstractions
     public class SettingService : ISettingService
     {
         private readonly ISettingRepository _settingRepository;
-        public async Task<IQueryable<Setting>> GetAllAsync()
-        {
-            return await _settingRepository.GetAllAsync();
-        }
+
 
         public async Task Update(LayoutVM vm)
         {
@@ -35,6 +33,11 @@ namespace TREKER.Business.Services.Abstractions
 
             await _settingRepository.UpdateAsync(oldSetting);
             await _settingRepository.SaveChangesAsync();
+        }
+
+        async Task<Setting> ISettingService.GetByIdAsync(int id)
+        {
+            return await _settingRepository.GetByIdAsync(id);
         }
     }
 }

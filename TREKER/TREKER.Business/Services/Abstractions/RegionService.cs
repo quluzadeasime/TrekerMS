@@ -6,44 +6,70 @@ using System.Threading.Tasks;
 using TREKER.Business.Services.Interfaces;
 using TREKER.Business.ViewModels.RegionVMs;
 using TREKER.Core.Entities;
+using TREKER.DAL.Repositories.Implementations;
+using TREKER.DAL.Repositories.Interfaces;
 
 namespace TREKER.Business.Services.Abstractions
 {
     public class RegionService : IRegionService
     {
-        public Task CreateAsync(CreateRegionVM vm)
+        private readonly IRegionRepository _regionRepository;
+
+        public RegionService(IRegionRepository regionRepository)
         {
-            throw new NotImplementedException();
+            _regionRepository = regionRepository;
         }
 
-        public Task DeleteAsync(int id)
+        public async Task CreateAsync(CreateRegionVM vm)
         {
-            throw new NotImplementedException();
+            var newRegion = new Region()
+            {
+                Name = vm.Name,
+                CreatedDate = DateTime.UtcNow,
+                UpdatedDate = DateTime.UtcNow
+            };
+
+            await _regionRepository.CreateAsync(newRegion);
+            await _regionRepository.SaveChangesAsync();
         }
 
-        public Task<IQueryable<Region>> GetAllAsync()
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            await _regionRepository.DeleteAsync(id);
+            await _regionRepository.SaveChangesAsync();
         }
 
-        public Task<Region> GetByIdAsync(int id)
+        public async Task<IQueryable<Region>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _regionRepository.GetAllAsync();
         }
 
-        public Task RecoverAsync(int id)
+        public async Task<Region> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _regionRepository.GetByIdAsync(id);
         }
 
-        public Task RemoveAsync(int id)
+        public async Task RecoverAsync(int id)
         {
-            throw new NotImplementedException();
+            await _regionRepository.RecoverAsync(id);
+            await _regionRepository.SaveChangesAsync();
         }
 
-        public Task UpdateAsync(UpdateRegionVM vm)
+        public async Task RemoveAsync(int id)
         {
-            throw new NotImplementedException();
+            _regionRepository.Remove(id);
+            await _regionRepository.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync(UpdateRegionVM vm)
+        {
+            var oldRegion = await _regionRepository.GetByIdAsync(vm.Id);
+
+            oldRegion.Name = vm.Name ?? oldRegion.Name;
+            oldRegion.UpdatedDate = DateTime.UtcNow;
+
+            await _regionRepository.UpdateAsync(oldRegion);
+            await _regionRepository.SaveChangesAsync();
         }
     }
 }

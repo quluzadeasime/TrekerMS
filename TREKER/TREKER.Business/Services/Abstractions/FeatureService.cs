@@ -6,44 +6,70 @@ using System.Threading.Tasks;
 using TREKER.Business.Services.Interfaces;
 using TREKER.Business.ViewModels.FeatureVMs;
 using TREKER.Core.Entities;
+using TREKER.DAL.Repositories.Implementations;
+using TREKER.DAL.Repositories.Interfaces;
 
 namespace TREKER.Business.Services.Abstractions
 {
     public class FeatureService : IFeatureService
     {
-        public Task CreateAsync(CreateFeatureVM vm)
+        private readonly IFeatureRepository _featureRepository;
+
+        public FeatureService(IFeatureRepository featureRepository)
         {
-            throw new NotImplementedException();
+            _featureRepository = featureRepository;
         }
 
-        public Task DeleteAsync(int id)
+        public async Task CreateAsync(CreateFeatureVM vm)
         {
-            throw new NotImplementedException();
+            var newFeature = new Feature()
+            {
+                Name = vm.Name,
+                CreatedDate = DateTime.UtcNow,
+                UpdatedDate = DateTime.UtcNow
+            };
+
+            await _featureRepository.CreateAsync(newFeature);
+            await _featureRepository.SaveChangesAsync();
         }
 
-        public Task<IQueryable<Feature>> GetAllAsync()
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            await _featureRepository.DeleteAsync(id);
+            await _featureRepository.SaveChangesAsync();
         }
 
-        public Task<Feature> GetByIdAsync(int id)
+        public async Task<IQueryable<Feature>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _featureRepository.GetAllAsync();
         }
 
-        public Task RecoverAsync(int id)
+        public async Task<Feature> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _featureRepository.GetByIdAsync(id);
         }
 
-        public Task RemoveAsync(int id)
+        public async Task RecoverAsync(int id)
         {
-            throw new NotImplementedException();
+            await _featureRepository.RecoverAsync(id);
+            await _featureRepository.SaveChangesAsync();
         }
 
-        public Task UpdateAsync(UpdateFeatureVM vm)
+        public async Task RemoveAsync(int id)
         {
-            throw new NotImplementedException();
+            _featureRepository.Remove(id);
+            await _featureRepository.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync(UpdateFeatureVM vm)
+        {
+            var oldFeature = await _featureRepository.GetByIdAsync(vm.Id);
+
+            oldFeature.Name = vm.Name ?? oldFeature.Name;
+            oldFeature.UpdatedDate = DateTime.UtcNow;
+
+            await _featureRepository.UpdateAsync(oldFeature);
+            await _featureRepository.SaveChangesAsync();
         }
     }
 }

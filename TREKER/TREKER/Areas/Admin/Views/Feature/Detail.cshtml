@@ -1,0 +1,62 @@
+﻿@using TREKER.Core.Entities
+@model Feature
+
+<div class="wrapper">
+    <div class="container-fluid">
+
+        <!-- Page-Title -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-title-box">
+                    <div class="btn-group m-0 pull-right">
+                        <ol class="breadcrumb hide-phone p-0 m-0">
+                            <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Urora</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Tables" asp-controller="Dashboard">DB Tables</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Table" asp-controller="Feature">Features</a></li>
+                            <li class="breadcrumb-item active">@Model.Name</li>
+                        </ol>
+                    </div>
+                    <h4 class="page-title">Our Feature: @Model.Name</h4>
+                </div>
+            </div>
+        </div>
+        <!-- end page title end breadcrumb -->
+        <!-- Form for CreateTeamMemberVM -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card m-b-30">
+                    <div class="card-body">
+                        <h4 class="mt-0 header-title text-center">Feature Details</h4>
+                        <hr>
+                        <div class="row">
+
+                            <div class="col-md-9">
+                                <dl class="row" style="font-size: 20px;">
+                                    <dt class="col-sm-3"> Name:</dt>
+                                    <dd class="col-sm-9">@Model.Name</dd>
+
+                                    <dt class="col-sm-3">Created Date:</dt>
+                                    <dd class="col-sm-9">@Model.CreatedDate.ToString("dd MMM yyyy")</dd>
+                                </dl>
+                                @if (!Model.IsDeleted)
+                                {
+                                    <div class="text-right m-5">
+                                        <a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-raised btn-warning">Update</a>
+                                        <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-raised btn-danger">Delete</a>
+                                        <a asp-action="Table" class="btn btn-raised btn-info">Back</a>
+                                        <!-- Additional actions if needed -->
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- end form -->
+
+    </div> <!-- end container -->
+</div>
+<!-- end wrapper -->

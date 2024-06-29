@@ -20,7 +20,7 @@ namespace TREKER.Business.ViewModels.DifficultyVMs
                 .NotEmpty()
                 .MinimumLength(4)
                 .MaximumLength(50)
-                .WithMessage("Full name's length between 4-50 character.");
+                .WithMessage("Name's length between 4-50 character.");
         }
     }
 }

@@ -42,7 +42,7 @@ namespace TREKER.MVC
 
                 // Lockout settings.
                 options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
-                options.Lockout.MaxFailedAccessAttempts = 5;
+                options.Lockout.MaxFailedAccessAttempts = 8;
                 options.Lockout.AllowedForNewUsers = true;
 
                 // User settings.

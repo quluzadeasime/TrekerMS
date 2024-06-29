@@ -10,6 +10,7 @@ using TREKER.Core.Enums;
 namespace TREKER.MVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class DifficultyController : Controller
     {
         private readonly IDifficultyService _difficultyService;
