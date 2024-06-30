@@ -22,7 +22,8 @@ namespace TREKER.DAL.Repositories
             services.AddScoped<IFacilityRepository, FacilityRepository>();
             services.AddScoped<IFeatureRepository, FeatureRepository>();
             services.AddScoped<IRegionRepository, RegionRepository>();
-            services.AddScoped<ITrekkingRepository, TrekkingRepository>();          
+            services.AddScoped<ITrekkingRepository, TrekkingRepository>();
+            services.AddScoped<IDayRepository, DayRepository>();
         }
     }
 }

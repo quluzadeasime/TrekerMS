@@ -1,0 +1,109 @@
+﻿@using TREKER.Core.Entities
+@model Trekking
+
+<div class="wrapper">
+    <div class="container-fluid">
+
+        <!-- Page-Title -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-title-box">
+                    <div class="btn-group m-0 pull-right">
+                        <ol class="breadcrumb hide-phone p-0 m-0">
+                            <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Urora</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Tables" asp-controller="Dashboard">DB Tables</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Table" asp-controller="Trekking">Trekking Table</a></li>
+                            <li class="breadcrumb-item active">@Model.Title</li>
+                        </ol>
+                    </div>
+                    <h4 class="page-title">Our Trekking: @Model.Title</h4>
+                </div>
+            </div>
+        </div>
+        <!-- end page title end breadcrumb -->
+        <!-- Form for CreateTeamMemberVM -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card m-b-30">
+                    <div class="card-body">
+                        <h4 class="mt-0 header-title text-center">Trekking Details</h4>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="text-center">
+                                    <img src="@Model.Images" alt="@Model.Title" class="img-fluid rounded-circle" style="max-width: 250px;">
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <dl class="row" style="font-size: 20px;">
+                                    <dt class="col-sm-3">Title:</dt>
+                                    <dd class="col-sm-9">@Model.Title</dd>
+
+                                    <dt class="col-sm-3">Sub Title:</dt>
+                                    <dd class="col-sm-9">@Model.SubTitle</dd>
+
+                                    <dt class="col-sm-3">Price:</dt>
+                                    <dd class="col-sm-9">@Model.Price</dd>
+
+                                    <dt class="col-sm-3">Group Size:</dt>
+                                    <dd class="col-sm-9">@Model.GroupSize</dd>
+
+                                    <dt class="col-sm-3">Road Height:</dt>
+                                    <dd class="col-sm-9">@Model.RoadHeight</dd>
+
+                                    <dt class="col-sm-3">Star:</dt>
+                                    <dd class="col-sm-9">@Model.Star</dd>
+
+                                    <dt class="col-sm-3">Review Count:</dt>
+                                    <dd class="col-sm-9">@Model.ReviewCount</dd>
+
+                                    <dt class="col-sm-3">Description:</dt>
+                                    <dd class="col-sm-9">@Model.Description</dd>
+
+                                    <dt class="col-sm-3">Difficulty:</dt>
+                                    <dd class="col-sm-9">@Model.Difficulty.Name</dd>
+
+                                    <dt class="col-sm-3">Destination:</dt>
+                                    <dd class="col-sm-9">@Model.Destination.Title</dd>
+
+                                    <dt class="col-sm-3">Duration:</dt>
+                                    <dd class="col-sm-9">@Model.Duration.ToString("dd MMM yyyy")</dd>
+
+                                    <dt class="col-sm-3">Facilities:</dt>
+                                    <dd class="col-sm-9">@(string.Join(", ", Model.Facilities.Select(x => x.Facility).Select(x => x.Name)   .ToList()))</dd>
+
+                                    <dt class="col-sm-3">Features:</dt>
+                                    <dd class="col-sm-9">@(string.Join(", ", Model.Features.Select(x => x.Feature).Select(x => x.Name).ToList()))</dd>
+
+                                    <div class="row align-items-start">
+                                        @foreach (var item in Model.Images.ToList())
+                                        {
+                                            <div class="col-2 mb-3 position-relative">
+                                                <img style="width: 100%; height: 200px; border-radius: 5px;" src="~/Upload/ProductImages/@item.ImageUrl" />
+                                            </div>
+                                        }
+                                    </div>
+
+                                </dl>
+                                @if (!Model.IsDeleted)
+                                {
+                                    <div class="text-right m-5">
+                                        <a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-raised btn-warning">Update</a>
+                                        <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-raised btn-danger">Delete</a>
+                                        <a asp-action="Table" class="btn btn-raised btn-info">Back</a>
+                                        <!-- Additional actions if needed -->
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- end form -->
+
+    </div> <!-- end container -->
+</div>
+<!-- end wrapper -->

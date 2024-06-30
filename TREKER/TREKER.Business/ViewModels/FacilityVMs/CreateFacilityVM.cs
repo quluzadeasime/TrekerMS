@@ -13,9 +13,9 @@ namespace TREKER.Business.ViewModels.FacilityVMs
         public string Icon { get; set; }
     }
 
-    public class CreateDFacilityVMValidator : AbstractValidator<CreateFacilityVM>
+    public class CreateFacilityVMValidator : AbstractValidator<CreateFacilityVM>
     {
-        public CreateDFacilityVMValidator()
+        public CreateFacilityVMValidator()
         {
             RuleFor(x => x.Name)
                 .NotEmpty()

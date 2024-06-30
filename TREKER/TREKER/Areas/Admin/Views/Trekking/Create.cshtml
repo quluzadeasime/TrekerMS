@@ -1,0 +1,144 @@
+﻿@using TREKER.Business.ViewModels.TrekkingVMs
+@using TREKER.Core.Entities
+@model CreateTrekkingVM
+
+<div class="wrapper">
+    <div class="container-fluid">
+
+        <!-- Page-Title -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-title-box">
+                    <div class="btn-group m-0 pull-right">
+                        <ol class="breadcrumb hide-phone p-0 m-0">
+                            <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Urora</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Tables" asp-controller="Dashboard">DB Tables</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Table" asp-controller="Trekking">Trekking Table</a></li>
+                            <li class="breadcrumb-item active">New Trekking</li>
+                        </ol>
+                    </div>
+                    <h4 class="page-title">Our Trekkings</h4>
+                </div>
+            </div>
+        </div>
+        <!-- end page title end breadcrumb -->
+        <!-- Form for CreateTeamMemberVM -->
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card mt-5 shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Create New Trekking</h4>
+                    </div>
+                    <div class="card-body mx-5 mb-4">
+                        <div asp-validation-summary="All" style="color: red; font-size: 16px">
+                        </div>
+                        <form method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label asp-for="Title" class="form-label">Title</label>
+                                <br />
+                                <input type="text" class="form-control" asp-for="Title" placeholder="Enter Title">
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label asp-for="SubTitle" class="form-label">Sub Title</label>
+                                <br />
+                                <input type="text" class="form-control" asp-for="SubTitle" placeholder="Enter Sub Title">
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label asp-for="Price" class="form-label"></label>
+                                <br />
+                                <input  class="form-control" asp-for="Price" placeholder="Enter Price">
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label asp-for="RoadHeight" class="form-label">Road Height</label>
+                                <br />
+                                <input class="form-control" asp-for="RoadHeight" placeholder="Enter Road Height">
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label asp-for="ReviewCount" class="form-label">Review Count</label>
+                                <br />
+                                <input class="form-control" asp-for="ReviewCount" placeholder="Enter Review Count">
+                            </div>
+                            <br /><div class="form-group">
+                                <label asp-for="Star" class="form-label">Star</label>
+                                <br />
+                                <input class="form-control" asp-for="Star" placeholder="Enter Star">
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label asp-for="GroupSize" class="form-label">Group Size</label>
+                                <br />
+                                <input type="text" class="form-control" asp-for="GroupSize" placeholder="Enter Group Size">
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label asp-for="Duration" class="form-label">Duration</label>
+                                <br />
+                                <input class="form-control" asp-for="Duration" placeholder="Enter Duration">
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label asp-for="DestinationId" class="form-label">Destination</label>
+                                <br />
+                                <select class="form-control" name="DestinationId" asp-for="DestinationId">
+                                    @foreach (var destination in Model.Destinations)
+                                    {
+                                        <option value="@destination.Id">@destination.Title</option>
+                                    }
+                                </select>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label asp-for="DifficultyId" class="form-label">Difficulty</label>
+                                <br />
+                                <select class="form-control" name="DifficultyId" asp-for="DifficultyId">
+                                    @foreach (var difficulty in Model.Destinations)
+                                    {
+                                        <option value="@difficulty.Id">@difficulty.Title</option>
+                                    }
+                                </select>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label asp-for="FacilityIds" class="form-label">Facilities</label>
+                                <br />
+                                <select asp-for="FacilityIds" asp-items="new SelectList(Model.Facilities, nameof(Facility.Id), nameof(Facility.Name))" class="form-select mx-3">
+                                </select>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label asp-for="FeatureIds" class="form-label">Features</label>
+                                <br />
+                                <select asp-for="FeatureIds" asp-items="new SelectList(Model.Features, nameof(Feature.Id), nameof(Feature.Name))" class="form-select mx-3">
+                                </select>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label asp-for="Description" class="form-label">Description</label>
+                                <br />
+                                <textarea class="form-control" name="Description" asp-for="Description" placeholder="Enter Description"></textarea>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label asp-for="Images" class="form-label">Images</label>
+                                <br />
+                                <input class="form-control" asp-for="Images" placeholder="Enter Images">
+                            </div>
+                            <br />
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary btn-block mt-3">Create</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end form -->
+
+    </div> <!-- end container -->
+</div>
+<!-- end wrapper -->

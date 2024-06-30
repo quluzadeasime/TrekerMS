@@ -13,10 +13,14 @@ namespace TREKER.Business.ViewModels.TeamMemberVMs
 {
     public class UpdateTeamMemberVm : BaseEntityVm
     {
+        // Base Fields
         public string? FullName { get; set; }
         public IFormFile? File { get; set; }
         public TeamMemberRoles? MemberRole { get; set; }
         public ICollection<TeamMemberRoles>? TeamMemberRoles { get; set; }
+
+        // Relation Fields
+        public string OldImage { get; set; }
     }
 
     public class UpdateTeamMemberVmValidator : AbstractValidator<UpdateTeamMemberVm>

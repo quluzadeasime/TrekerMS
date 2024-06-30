@@ -92,7 +92,7 @@ namespace TREKER.Business.Services.Abstractions
 
             Uri uri = new Uri(oldTeamMember.ImageUrl);
             string blobName = uri.Segments.Last();
-            await FileManager.DeleteFileAsync(blobName, _connectionString, "TeamMemberPictures/");
+            await FileManager.DeleteFileAsync(blobName, _connectionString, "/TeamMemberPictures/");
 
             _teamMemberRepository.Remove(id);
             await _teamMemberRepository.SaveChangesAsync();

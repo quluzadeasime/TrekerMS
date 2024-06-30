@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="wwwroot\manage\plugins\RWD-Table-Patterns\dist\" />
     <Folder Include="wwwroot\manage\plugins\RWD-Table-Patterns\src\" />
   </ItemGroup>

@@ -163,9 +163,6 @@ namespace TREKER.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("BlogId")
-                        .HasColumnType("int");
-
                     b.Property<string>("ByUsername")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -191,8 +188,6 @@ namespace TREKER.DAL.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("BlogId");
 
                     b.HasIndex("DestinationId");
 
@@ -228,6 +223,37 @@ namespace TREKER.DAL.Migrations
                     b.HasIndex("BlogId");
 
                     b.ToTable("BlogImages");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Day", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("TrekkingId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TrekkingId");
+
+                    b.ToTable("Days");
                 });
 
             modelBuilder.Entity("TREKER.Core.Entities.Destination", b =>
@@ -534,37 +560,6 @@ namespace TREKER.DAL.Migrations
                     b.ToTable("Trekkings");
                 });
 
-            modelBuilder.Entity("TREKER.Core.Entities.TrekkingDay", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("TrekkingId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("UpdatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("TrekkingId");
-
-                    b.ToTable("TrekkingDays");
-                });
-
             modelBuilder.Entity("TREKER.Core.Entities.TrekkingFacility", b =>
                 {
                     b.Property<int>("Id")
@@ -786,10 +781,6 @@ namespace TREKER.DAL.Migrations
 
             modelBuilder.Entity("TREKER.Core.Entities.Blog", b =>
                 {
-                    b.HasOne("TREKER.Core.Entities.Blog", null)
-                        .WithMany("Blogs")
-                        .HasForeignKey("BlogId");
-
                     b.HasOne("TREKER.Core.Entities.Destination", "Destination")
                         .WithMany("Blogs")
                         .HasForeignKey("DestinationId")
@@ -802,12 +793,23 @@ namespace TREKER.DAL.Migrations
             modelBuilder.Entity("TREKER.Core.Entities.BlogImage", b =>
                 {
                     b.HasOne("TREKER.Core.Entities.Blog", "Blog")
-                        .WithMany()
+                        .WithMany("Images")
                         .HasForeignKey("BlogId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Blog");
+                });
+
+            modelBuilder.Entity("TREKER.Core.Entities.Day", b =>
+                {
+                    b.HasOne("TREKER.Core.Entities.Trekking", "Trekking")
+                        .WithMany("Days")
+                        .HasForeignKey("TrekkingId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Trekking");
                 });
 
             modelBuilder.Entity("TREKER.Core.Entities.Destination", b =>
@@ -838,17 +840,6 @@ namespace TREKER.DAL.Migrations
                     b.Navigation("Destination");
 
                     b.Navigation("Difficulty");
-                });
-
-            modelBuilder.Entity("TREKER.Core.Entities.TrekkingDay", b =>
-                {
-                    b.HasOne("TREKER.Core.Entities.Trekking", "Trekking")
-                        .WithMany("Days")
-                        .HasForeignKey("TrekkingId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Trekking");
                 });
 
             modelBuilder.Entity("TREKER.Core.Entities.TrekkingFacility", b =>
@@ -902,7 +893,7 @@ namespace TREKER.DAL.Migrations
 
             modelBuilder.Entity("TREKER.Core.Entities.Blog", b =>
                 {
-                    b.Navigation("Blogs");
+                    b.Navigation("Images");
                 });
 
             modelBuilder.Entity("TREKER.Core.Entities.Destination", b =>

@@ -22,9 +22,9 @@ namespace TREKER.Core.Entities
         public float Star { get; set; }
         public string SubTitle { get; set; }
         public string Description { get; set; }
+        public IQueryable<Day> Days { get; set; }
         public IQueryable<TrekkingFeature> Features { get; set; }
         public IQueryable<TrekkingFacility> Facilities { get; set; }
-        public IQueryable<TrekkingDay> Days { get; set; }
         public IQueryable<TrekkingImage> Images { get; set; }
     }
 }

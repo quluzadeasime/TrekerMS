@@ -7,7 +7,7 @@ using TREKER.Core.Entities.Commons;
 
 namespace TREKER.Core.Entities
 {
-    public class TrekkingDay : BaseAuditableEntity
+    public class Day : BaseAuditableEntity
     {
         public string Description { get; set; }
         public int TrekkingId { get; set; }

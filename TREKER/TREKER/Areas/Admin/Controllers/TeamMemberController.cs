@@ -77,7 +77,8 @@ namespace TREKER.MVC.Areas.Admin.Controllers
             {
                 FullName = oldTeamMember.FullName,
                 MemberRole = oldTeamMember.TeamMemberRoles,
-                TeamMemberRoles = Enum.GetValues<TeamMemberRoles>()
+                TeamMemberRoles = Enum.GetValues<TeamMemberRoles>(),
+                OldImage = oldTeamMember.ImageUrl
             };
 
             return View(vm);

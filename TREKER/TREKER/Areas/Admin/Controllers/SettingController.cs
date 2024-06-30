@@ -19,7 +19,7 @@ namespace TREKER.MVC.Areas.Admin.Controllers
         [Authorize(Roles = "Moderator,Admin")]
         public async Task<IActionResult> Detail(int id)
         {
-            var settings = _settingService.GetAllAsync();
+            var settings =await _settingService.GetByIdAsync(id);
             return View(settings);
         }
 
