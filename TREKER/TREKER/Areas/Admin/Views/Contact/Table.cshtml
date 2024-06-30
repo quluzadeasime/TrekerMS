@@ -1,0 +1,140 @@
+﻿@using TREKER.Core.Entities
+@model IQueryable<Contact>
+
+<div class="wrapper">
+    <div class="container-fluid">
+        <!-- Page-Title -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-title-box">
+                    <div class="btn-group m-0 pull-right">
+                        <ol class="breadcrumb hide-phone p-0 m-0">
+                            <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Urora</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Tables" asp-controller="Dashboard">DB Tables</a></li>
+                            <li class="breadcrumb-item active">Contacts</li>
+                        </ol>
+                    </div>
+                    <h4 class="page-title">Our Destinations</h4>
+                </div>
+            </div>
+        </div>
+        <!-- end page title end breadcrumb -->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card m-b-30">
+                    <div class="card-body">
+                        <a asp-action="Table" asp-controller="Contact">
+                            <h4 class="mt-0 header-title text-center">Contacts</h4>
+                        </a>
+                        <div class="table-responsive">
+                            <table class="table table-striped mb-0 text-center">
+                                <thead class="thead-default">
+                                    <tr>
+                                        <th class="text-center">#</th>
+                                        <th class="text-center">Name</th>
+                                        <th class="text-center">Email</th>
+                                        <th class="text-center">Phone</th>
+                                        <th class="text-center">Subject</th>
+                                        <th class="text-center">Message</th>
+                                        <th class="text-center">Created Date</th>
+                                        <th class="text-center">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{
+                                        var count = 0;
+                                    }
+                                    @foreach (var item in Model)
+                                    {
+                                        count++;
+                                        <tr style="background-color: @(item.IsDeleted ? "orangered" : "")">
+                                            <td class="text-center">@count</td>
+                                            <td class="text-center">@item.Name</td>
+                                            <td class="text-center">@item.Email</td>
+                                            <td class="text-center">@item.Phone</td>
+                                            <td class="text-center">@item.Subject</td>
+                                            <td class="text-center">
+                                                @if (item.Message.Length > 50)
+                                                {
+                                                    var shortMessage = item.Message.Substring(0, 50);
+                                                    <span>@shortMessage<span id="dots-@item.Id"></span></span>
+                                                    <span id="more-@item.Id" class="d-none">@item.Message.Substring(50)</span>
+                                                    <button class="btn btn-link p-0 m-0 text-primary" onclick="showFullMessage('@item.Id')">...more</button>
+                                                }
+                                                else
+                                                {
+                                                    <span>@item.Message</span>
+                                                }
+                                            </td>
+                                            <td class="text-center">@item.CreatedDate.ToString("dd MMM yyyy")</td>
+                                            <td class="text-center">
+                                                <div class="btn-group d-flex justify-content-center">
+                                                    @if (item.IsDeleted)
+                                                    {
+                                                        <a asp-action="Recover" asp-route-id="@item.Id" class="icon-btn bg-success mx-1">
+                                                            <i class="mdi mdi-autorenew text-white"></i>
+                                                        </a>
+                                                        <a asp-action="Remove" asp-route-id="@item.Id" class="icon-btn bg-danger mx-1">
+                                                            <i class="mdi mdi-delete-variant text-white"></i>
+                                                        </a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <a asp-action="Delete" asp-route-id="@item.Id" class="icon-btn bg-danger mx-1">
+                                                            <i class="mdi mdi-delete-variant text-white"></i>
+                                                        </a>
+                                                    }
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end col -->
+        </div>
+        <!-- end row -->
+    </div> <!-- end container -->
+</div>
+<!-- end wrapper -->
+
+<script>
+    function showFullMessage(id) {
+        var dots = document.getElementById("dots-" + id);
+        var moreText = document.getElementById("more-" + id);
+        var button = event.target;
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            button.textContent = "...";
+            moreText.classList.add('d-none');
+            button.classList.add('text-primary');
+        } else {
+            dots.style.display = "none";
+            button.textContent = "less";
+            moreText.classList.remove('d-none');
+            button.classList.add('text-primary');
+        }
+    }
+</script>
+
+
+<style>
+    .icon-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 1;
+    }
+
+    .text-white {
+        color: #fff !important;
+    }
+</style>

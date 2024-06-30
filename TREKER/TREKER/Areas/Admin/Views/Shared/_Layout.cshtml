@@ -10,6 +10,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <link rel="shortcut icon" href="~/manage/images/favicon.ico">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <!--Morris Chart CSS -->
     <link href="~/manage/plugins/fullcalendar/vanillaCalendar.css" rel="stylesheet" type="text/css" />
@@ -63,7 +65,7 @@
                             <div class="dropdown notification-list nav-pro-img">
                                 <a class="dropdown-toggle nav-link arrow-none waves-effect nav-user" data-toggle="dropdown" href="#" role="button"
                                    aria-haspopup="false" aria-expanded="false">
-                                    <img src="~/manage/images/users/avatar-3.jpg" alt="user" class="rounded-circle">
+                                    <img src="~/manage/images/users/icon2.png" alt="user" class="rounded-circle">
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
                                     <a class="dropdown-item" asp-action="Logout" asp-controller="Account" asp-area=""><i class="mdi mdi-logout m-r-5 text-muted"></i> Logout</a>
@@ -122,12 +124,31 @@
                                 <li>
                                     <ul>
                                         <li><a asp-action="Table" asp-controller="Region">Regions</a></li>
-                                        <li><a asp-action="Table" asp-controller="Facility">Facilities</a></li>
-                                        <li><a asp-action="Table" asp-controller="Feature">Features</a></li>
+                                        <li><a asp-action="Table" asp-controller="Day">Days</a></li>
+                                        <li><a asp-action="Table" asp-controller="Blog">Blogs</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
+
+                        <li class="has-submenu ">
+                            <a asp-action="Detail" asp-controller="Setting"><i class="ti-settings"></i>Setting</a>
+                        </li>
+
+                        <li class="has-submenu ">
+                            <a asp-action="Table" asp-controller="Contact"><i class="mdi mdi-help-circle-outline"></i>Contact</a>
+                        </li>
+
+
+                        <li class="has-submenu ">
+                            <a asp-action="Table" asp-controller="Appointment"><i class="fa fa-send"></i>Appointment</a>
+                        </li>
+
+                        <li class="has-submenu ">
+                            <a asp-action="Index" asp-controller="Home" asp-area=""><i class="fa fa-sign-out"></i>Home</a>
+                        </li>
+                        
+
 
                         @* <li class="has-submenu">
                         <a href="#"><i class="mdi mdi-cards"></i>Components</a>

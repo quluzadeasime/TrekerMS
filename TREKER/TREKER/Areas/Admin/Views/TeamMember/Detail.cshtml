@@ -1,8 +1,48 @@
-﻿﻿@using System.Text
+﻿@using System.Text
 @using TREKER.Business.ViewModels.TeamMemberVMs
 @using TREKER.Core.Entities
 @using TREKER.MVC.Areas.Admin.Functions
 @model TeamMember
+
+<style>
+    .icon-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 1;
+    }
+
+        .icon-btn i {
+            color: #fff;
+        }
+
+    .btn-update {
+        background-color: #f39c12;
+        border-color: #f39c12;
+    }
+
+    .btn-delete {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+    .btn-back {
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+    }
+
+    .btn-icon {
+        padding: 6px;
+        border-radius: 50%;
+        color: #fff;
+        margin-right: 8px;
+    }
+</style>
 
 <div class="wrapper">
     <div class="container-fluid">
@@ -24,46 +64,60 @@
             </div>
         </div>
         <!-- end page title end breadcrumb -->
-        <!-- Form for CreateTeamMemberVM -->
+
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-4">
+                <div class="card m-b-30">
+                    <div class="card-body text-center">
+                        <img src="@Model.ImageUrl" alt="@Model.FullName" class="img-fluid mb-3" style="max-width: 250px; height: auto;">
+                        <h4 class="mt-0 header-title">@Model.FullName</h4>
+                        <p class="text-muted">@ViewFunctions.InsertSpacesBeforeUppercase(Model.TeamMemberRoles.ToString())</p>
+                        <p class="text-muted">Joined Date: @Model.CreatedDate.ToString("dd MMM yyyy")</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
                 <div class="card m-b-30">
                     <div class="card-body">
                         <h4 class="mt-0 header-title text-center">Team Member Details</h4>
                         <hr>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="text-center">
-                                    <img src="@Model.ImageUrl" alt="@Model.FullName" class="img-fluid rounded-circle" style="max-width: 250px;">
-                                </div>
-                            </div>
-                            <div class="col-md-9">
-                                <dl class="row" style="font-size: 20px;">
-                                    <dt class="col-sm-3">Full Name:</dt>
-                                    <dd class="col-sm-9">@Model.FullName</dd>
+                        <dl class="row" style="font-size: 18px;">
+                            <dt class="col-sm-3 text-right">Full Name:</dt>
+                            <dd class="col-sm-9">@Model.FullName</dd>
 
-                                    <dt class="col-sm-3">Role:</dt>
-                                    <dd class="col-sm-9">@ViewFunctions.InsertSpacesBeforeUppercase(Model.TeamMemberRoles.ToString())</dd>
+                            <dt class="col-sm-3 text-right">Role:</dt>
+                            <dd class="col-sm-9">@ViewFunctions.InsertSpacesBeforeUppercase(Model.TeamMemberRoles.ToString())</dd>
 
-                                    <dt class="col-sm-3">Joined Date:</dt>
-                                    <dd class="col-sm-9">@Model.CreatedDate.ToString("dd MMM yyyy")</dd>
-                                </dl>
-                                @if (!Model.IsDeleted)
-                                {
-                                    <div class="text-right m-5">
-                                        <a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-raised btn-warning">Update</a>
-                                        <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-raised btn-danger">Delete</a>
-                                        <a asp-action="Table" class="btn btn-raised btn-info">Back</a>  
-                                        <!-- Additional actions if needed -->
-                                    </div>
-                                }
-                            </div>
+                            <dt class="col-sm-3 text-right">Joined Date:</dt>
+                            <dd class="col-sm-9">@Model.CreatedDate.ToString("dd MMM yyyy")</dd>
+                        </dl>
+
+                        <div class="text-right mt-4" style="font-size: 18px;">
+                            @if (!Model.IsDeleted)
+                            {
+                                <a asp-action="Update" asp-route-id="@Model.Id" class="btn-icon btn-update">
+                                    <i class="mdi mdi-grease-pencil"></i>
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@Model.Id" class="btn-icon btn-delete">
+                                    <i class="mdi mdi-delete-variant"></i>
+                                </a>
+                                <a asp-action="Table" class="btn-icon btn-back">
+                                    <i class="mdi mdi-arrow-left-bold"></i>
+                                </a>
+
+                            }
+                            else
+                            {
+                                <a asp-action="Table" class="btn-icon btn-back">
+                                    <i class="mdi mdi-arrow-left-bold"></i>
+                                </a>
+                            }
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
-
 
         <!-- end form -->
 

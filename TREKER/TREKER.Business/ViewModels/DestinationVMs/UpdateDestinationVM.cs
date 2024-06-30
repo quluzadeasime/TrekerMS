@@ -16,10 +16,10 @@ namespace TREKER.Business.ViewModels.DestinationVMs
         // Base Fields
         public string? Title { get; set; }
         public IFormFile? File { get; set; }
-        public int? RegionId { get; set; }
+        public int RegionId { get; set; }
 
         // Relation Fields
-        public IQueryable<Region> Regions { get; set; }
+        public ICollection<Region> Regions { get; set; }
         public string OldImage { get; set; }
     }
 
@@ -32,7 +32,7 @@ namespace TREKER.Business.ViewModels.DestinationVMs
                 .MaximumLength(70)
                 .WithMessage("Title's length between 5-70 character.");
             RuleFor(x => x.File)
-                .Must(x => FileManager.CheckFile(x) == true)
+                .Must(x => x == null || FileManager.CheckFile(x))
                 .WithMessage("File type must be image and lower than 10 MB.");
         }
     }

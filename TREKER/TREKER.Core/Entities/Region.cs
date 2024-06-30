@@ -10,6 +10,6 @@ namespace TREKER.Core.Entities
     public class Region : BaseAuditableEntity
     {
         public string Name { get; set; }
-        public IQueryable<Destination> Destinations { get; set; }
+        public ICollection<Destination> Destinations { get; set; }
     }
 }

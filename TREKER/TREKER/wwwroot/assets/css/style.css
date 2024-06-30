@@ -37,6 +37,35 @@
   outline: none;
 }
 
+}
+.navigation .current > a {
+    color: rgba(29, 197, 206, 0.80);
+}
+
+.navigation .current a {
+    color: rgba(29, 197, 206, 0.80);
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .navigation li {
+        margin: 0 15px; /* Menü ö?eleri aras?ndaki bo?luk */
+    }
+
+
 /*** 
 
 ====================================================================

@@ -161,6 +161,30 @@
       "PackagePath": "staticwebassets\\assets\\images\\background\\60+ Pine Tree Backgrounds, Wallpapers, Illustrations (Free, High-Res).jpg"
     },
     {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\back-mountain.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\back-mountain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\background10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\background10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\background11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\background11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\backphoto3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\backphoto3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\backphoto5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\backphoto5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\backphoto6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\backphoto6.jpg"
+    },
+    {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\background\\banner-1.jpg"
     },
@@ -205,6 +229,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\background\\category-4.jpg"
     },
     {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\dest-detail.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\dest-detail.jpg"
+    },
+    {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\f-bottom-bg.svg",
       "PackagePath": "staticwebassets\\assets\\images\\background\\f-bottom-bg.svg"
     },
@@ -215,6 +243,10 @@
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\image-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\background\\image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\image-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\image-12.jpg"
     },
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\image-2.jpg",
@@ -243,6 +275,26 @@
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\image_1.png.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\background\\image_1.png.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\mountain-back.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\mountain-back.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\mountain-backg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\mountain-backg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\mountain-backgroundphoto.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\mountain-backgroundphoto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\naturebackground.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\naturebackground.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\naturebackground2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\naturebackground2.jpg"
     },
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\background\\newsletter-bg.png",
@@ -491,6 +543,30 @@
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\passport.svg",
       "PackagePath": "staticwebassets\\assets\\images\\icons\\passport.svg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\person1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\person1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\person2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\person2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\person3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\person3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\person4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\person4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\person5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\person5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\person6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\person6.jpg"
     },
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\icons\\phone-1.svg",
@@ -795,6 +871,10 @@
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\author-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\resource\\author-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\background-mountain.png",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\background-mountain.png"
     },
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\background_.jpg",
@@ -1617,6 +1697,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\resource\\world-map.svg"
     },
     {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\world-map2.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\resource\\world-map2.svg"
+    },
+    {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\assets\\images\\resource\\İlandag.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\resource\\İlandag.jpg"
     },
@@ -2029,6 +2113,10 @@
       "PackagePath": "staticwebassets\\manage\\images\\adminpanellogo.jpg"
     },
     {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\back-mountain.jpg",
+      "PackagePath": "staticwebassets\\manage\\images\\back-mountain.jpg"
+    },
+    {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\bg-account.jpg",
       "PackagePath": "staticwebassets\\manage\\images\\bg-account.jpg"
     },
@@ -2059,10 +2147,6 @@
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\colorpicker\\transparent.png",
       "PackagePath": "staticwebassets\\manage\\images\\colorpicker\\transparent.png"
-    },
-    {
-      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\errorpage.jpg",
-      "PackagePath": "staticwebassets\\manage\\images\\errorpage.jpg"
     },
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\extra.png",
@@ -2179,6 +2263,14 @@
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\users\\avatar-6.jpg",
       "PackagePath": "staticwebassets\\manage\\images\\users\\avatar-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\users\\icon1.png",
+      "PackagePath": "staticwebassets\\manage\\images\\users\\icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\images\\users\\icon2.png",
+      "PackagePath": "staticwebassets\\manage\\images\\users\\icon2.png"
     },
     {
       "Id": "C:\\Users\\Asime\\Desktop\\TREKER\\TREKER\\TREKER\\wwwroot\\manage\\js\\app.js",

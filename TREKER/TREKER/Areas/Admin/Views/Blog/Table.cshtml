@@ -1,0 +1,118 @@
+﻿@using TREKER.Core.Entities
+@model IQueryable<Blog>
+
+<div class="wrapper">
+    <div class="container-fluid">
+
+        <!-- Page-Title -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-title-box">
+                    <div class="btn-group m-0 pull-right">
+                        <ol class="breadcrumb hide-phone p-0 m-0">
+                            <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Urora</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Tables" asp-controller="Dashboard">DB Tables</a></li>
+                            <li class="breadcrumb-item active">Blogs</li>
+                        </ol>
+                    </div>
+                    <h4 class="page-title">Our Blogs</h4>
+                </div>
+            </div>
+        </div>
+        <!-- end page title end breadcrumb -->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="d-flex justify-content-end mb-3">
+                    <a asp-action="Create" asp-controller="Blog" class="btn btn-raised btn-primary">Create</a>
+                </div>
+                <div class="card m-b-30">
+                    <div class="card-body">
+                        <a asp-action="Table" asp-controller="Blog">
+                            <h4 class="mt-0 header-title text-center">Blogs</h4>
+                        </a>
+                        <div class="table-responsive">
+                            <table class="table table-striped mb-0 text-center">
+                                <thead class="thead-default">
+                                    <tr>
+                                        <th class="text-center">#</th>
+                                        <th class="text-center">Title</th>
+                                        <th class="text-center">By Username</th>
+                                        <th class="text-center">Description</th>
+                                        <th class="text-center">Actions</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{
+                                        var count = 0;
+                                    }
+                                    @foreach (var item in Model)
+                                    {
+                                        count++;
+                                        <tr style="background-color: @(item.IsDeleted ? "orangered" : "")">
+                                            <td class="text-center">@count</td>
+                                            <td class="text-center">@item.Title</td>
+                                            <td class="text-center">@item.ByUsername</td>
+                                            <td class="text-center">@item.Description</td>
+                                            <td class="text-center">
+                                                <div class="btn-group d-flex justify-content-center">
+                                                    <a asp-action="Update" asp-route-id="@item.Id" class="icon-btn bg-primary mx-1">
+                                                        <i class="mdi mdi-grease-pencil text-white"></i>
+                                                    </a>
+                                                    <a asp-action="Detail" asp-route-id="@item.Id" class="icon-btn bg-info mx-1">
+                                                        <i class="mdi mdi-eye text-white"></i>
+                                                    </a>
+                                                    @if (item.IsDeleted)
+                                                    {
+                                                        <a asp-action="Recover" asp-route-id="@item.Id" class="icon-btn bg-success mx-1">
+                                                            <i class="mdi mdi-autorenew text-white"></i>
+                                                        </a>
+                                                        <a asp-action="Remove" asp-route-id="@item.Id" class="icon-btn bg-danger mx-1">
+                                                            <i class="mdi mdi-delete-variant text-white"></i>
+                                                        </a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <a asp-action="Delete" asp-route-id="@item.Id" class="icon-btn bg-danger mx-1">
+                                                            <i class="mdi mdi-delete-variant text-white"></i>
+                                                        </a>
+                                                    }
+                                                    <!-- Additional buttons if needed -->
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end col -->
+        </div>
+
+        <!-- end row -->
+
+
+    </div> <!-- end container -->
+</div>
+<!-- end wrapper -->
+
+
+<style>
+    .icon-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 1;
+    }
+
+    .text-white {
+        color: #fff !important;
+    }
+</style>

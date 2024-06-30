@@ -54,17 +54,27 @@
                                             <td class="text-center">@item.CreatedDate.ToString("dd MMM yyyy")</td>
                                             <td class="text-center">
                                                 <div class="btn-group d-flex justify-content-center">
-                                                    <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-raised mx-2 btn-warning">Update</a>
-                                                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-raised mx-2 btn-danger">Delete</a>
+                                                    <a asp-action="Update" asp-route-id="@item.Id" class="icon-btn bg-primary mx-1">
+                                                        <i class="mdi mdi-grease-pencil text-white"></i>
+                                                    </a>
+                                                    <a asp-action="Detail" asp-route-id="@item.Id" class="icon-btn bg-info mx-1">
+                                                        <i class="mdi mdi-eye text-white"></i>
+                                                    </a>
                                                     @if (item.IsDeleted)
                                                     {
-                                                        <a asp-action="Recover" asp-route-id="@item.Id" class="btn btn-raised mx-2 btn-success">Recover</a>
-                                                        <a asp-action="Remove" asp-route-id="@item.Id" class="btn btn-raised mx-2 btn-danger">Remove</a>
+                                                        <a asp-action="Recover" asp-route-id="@item.Id" class="icon-btn bg-success mx-1">
+                                                            <i class="mdi mdi-autorenew text-white"></i>
+                                                        </a>
+                                                        <a asp-action="Remove" asp-route-id="@item.Id" class="icon-btn bg-danger mx-1">
+                                                            <i class="mdi mdi-delete-variant text-white"></i>
+                                                        </a>
                                                     }
                                                     else
                                                     {
-                                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-raised mx-2 btn-danger">Delete</a>
-                                                    }                                                    <!-- Additional buttons if needed -->
+                                                        <a asp-action="Delete" asp-route-id="@item.Id" class="icon-btn bg-danger mx-1">
+                                                            <i class="mdi mdi-delete-variant text-white"></i>
+                                                        </a>
+                                                    }                                         <!-- Additional buttons if needed -->
                                                 </div>
                                             </td>
                                         </tr>
@@ -82,4 +92,23 @@
 
     </div> <!-- end container -->
 </div>
-<!-- end wrapper -->    
+<!-- end wrapper -->
+
+
+<style>
+    .icon-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 1;
+    }
+
+    .text-white {
+        color: #fff !important;
+    }
+</style>

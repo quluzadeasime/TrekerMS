@@ -10,6 +10,6 @@ namespace TREKER.Core.Entities
     public class Difficulty : BaseAuditableEntity
     {
         public string Name { get; set; }
-        public IQueryable<Trekking> Trekkings { get; set; }
+        public ICollection<Trekking> Trekkings { get; set; }
     }
 }

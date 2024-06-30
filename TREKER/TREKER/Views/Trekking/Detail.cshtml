@@ -1,0 +1,340 @@
+﻿@using TREKER.Business.ViewModels.AppointmentVMs
+@using TREKER.MVC.Areas.Admin.Functions
+@model CreateAppointmentVM
+
+<!-- Banner Section -->
+<section class="packages-banner" style="background-image: url('@Url.Content("/assets/images/background/dest-detail.jpg")'); background-size: cover;">
+    <div class="auto-container">
+        <ul class="banner-list">
+            <li><span class="icon"><img src="~/assets/images/icons/location.svg" alt="" /></span>Azerbaijan</li>
+            <li><a href="https://www.google.com/maps/place/Azerbaijan" style="color:white" target="_blank">View on Map</a></li>
+        </ul>
+    </div>
+</section>
+
+<!--End Banner Section -->
+<!-- Package Detail Section -->
+<section class="package-detail-section">
+    <div class="auto-container">
+
+        <!-- Upper Box -->
+        <div class="upper-box">
+            <div class="clearfix">
+                <div class="pull-left">
+                    <h4>@Model.Trekking.Title</h4>
+                </div>
+                <div class="pull-right">
+                    <div class="price">$@Model.Trekking.Price<span>/Person</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="package-info-box">
+            <div class="inner-container d-flex justify-content-between align-items-center">
+
+                <!-- Package Info Block -->
+                <div class="package-info-block">
+                    <div class="inner-box">
+                        <div class="icon"><img src="~/assets/images/icons/duration.svg" alt="" /></div>
+                        <strong>Duration</strong>
+                        @Model.Trekking.Days.Count
+                    </div>
+                </div>
+
+                <!-- Package Info Block -->
+                <div class="package-info-block">
+                    <div class="inner-box">
+                        <div class="icon"><img src="~/assets/images/icons/speedometer.svg" alt="" /></div>
+                        <strong>Difficulty</strong>
+                        @Model.Trekking.Difficulty.Name
+                    </div>
+                </div>
+
+                <!-- Package Info Block -->
+                <div class="package-info-block">
+                    <div class="inner-box">
+                        <div class="icon"><img src="~/assets/images/icons/team-group.svg" alt="" /></div>
+                        <strong>Group Size</strong>
+                        @Model.Trekking.GroupSize Person
+                    </div>
+                </div>
+
+                <!-- Package Info Block -->
+                <div class="package-info-block">
+                    <div class="inner-box">
+                        <div class="icon"><img src="~/assets/images/icons/hill.svg" alt="" /></div>
+                        <strong>Height</strong>
+                        @Model.Trekking.RoadHeight km
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Rating Box -->
+        <div class="rating-box">
+            <div class="clearfix">
+                <div class="pull-left">
+                    <div class="rating">
+                        (@Model.Trekking.ReviewCount review) &nbsp;
+                        @Html.Raw(ViewFunctions.GetStarRating(Model.Trekking.Star))
+                    </div>
+                </div>
+                <div class="pull-right">
+                    <ul class="post-info">
+                        <li><span class="icon "><img src="~/assets/images/icons/review-icon.svg" alt="" /></span>Review</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Rating Box -->
+
+        <div class="row clearfix">
+            <!-- Content Column -->
+            <div class="content-column col-xl-8 col-lg-7 col-md-12 col-sm-12">
+                <h5>@Model.Trekking.SubTitle</h5>
+                <p>@Model.Trekking.Description</p>
+                <div class="feature-box">
+                    <h5>Features</h5>
+                    <ul class="feature-list">
+                        @foreach (var item in Model.Trekking.Features.Select(x => x.Feature).ToList())
+                        {
+                            <li>@item.Name</li>
+                        }
+                    </ul>
+                </div>
+                <div class="facility-box">
+                    <h5>Facilities</h5>
+                    <div class="row clearfix">
+                        @for (int i = 0; i < Model.Trekking.Facilities.Select(x => x.Facility).Count(); i += 2)
+                        {
+                            <div class="column col-lg-4 col-md-4 col-sm-12">
+                                <div class="facility-option">
+                                    <span class="icon">
+                                        @Html.Raw(Model.Trekking.Facilities.Select(x => x.Facility).ElementAt(i).Icon)
+                                    </span>
+                                    @Model.Trekking.Facilities.Select(x => x.Facility).ElementAt(i).Name
+                                </div>
+                            </div>
+                            @if (i + 1 < Model.Trekking.Facilities.Select(x => x.Facility).Count())
+                            {
+                                <div class="column col-lg-4 col-md-4 col-sm-12">
+                                    <div class="facility-option">
+                                        <span class="icon">
+                                            @Html.Raw(Model.Trekking.Facilities.Select(x => x.Facility).ElementAt(i + 1).Icon)
+                                        </span>
+                                        @Model.Trekking.Facilities.Select(x => x.Facility).ElementAt(i + 1).Name
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+
+
+                <!-- Itinerary Box -->
+                <div class="itinerary-box">
+                    <h5>Itinerary</h5>
+                    <div class="days-outer">
+
+                        @{
+                            var dayCount = 0;
+                        }
+                        @foreach (var item in Model.Trekking.Days)
+                        {
+                            dayCount++;
+
+                            <div class="day-box">
+                                <div class="title">Day @dayCount</div>
+                                <div class="day-text">@item.Description</div>
+                            </div>
+                        }
+                        <!-- Day Box -->
+
+
+                    </div>
+                </div>
+                <!-- End Itinerary Box -->
+                <!-- Gallery Box -->
+                <div class="gallery-box">
+                    <h5>Gallery</h5>
+                    <div class="single-item-carousel owl-carousel owl-theme">
+
+                        @foreach (var item in Model.Trekking.Images)
+                        {
+                            <div class="slide">
+                                <div class="image">
+                                    <img src="@item.ImageUrl" alt="" />
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+
+                <!-- Map Box -->
+                <div class="map-box">
+                    <h5>Location</h5>
+                    <!--Map Outer-->
+                    <div class="map-outer">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4127414.367543847!2d45.73821732994489!3d40.14310511803744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030ac3f8a477995%3A0x65b5f10c3e0f3f5a!2sAzerbaijan!5e0!3m2!1sen!2s!4v1625646308950!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- Sidebar Column -->
+            <div class="sidebar-column col-xl-4 col-lg-5 col-md-12 col-sm-12">
+                <div class="inner-column">
+
+                    <!-- Booking Widget -->
+                    <div class="sidebar-widget booking-widget" style="background-image: url(images/background/booking-bg.jpg);">
+                        <h5>Book this Treks</h5>
+
+                        <!-- Booking Form -->
+                        <div class="booking-form">
+
+                            <!-- Contact Form -->
+                            <form method="post">
+
+                                <div class="form-group">
+                                    <input type="text" asp-for="Fullname" placeholder="Full Name" required>
+                                    <span class="icon fal fa-user fa-fw"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="email" asp-for="Email" placeholder="Email" required>
+                                    <span class="icon fal fa-envelope fa-fw"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" asp-for="Phone" placeholder="Phone *" required>
+                                    <span class="icon fal fa-phone fa-fw"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" value="2004-10-9" min="@DateTime.Now.AddYears(-0).ToString("yyyy-MM-dd")" max="@DateTime.Now.AddYears(1).ToString("yyyy-MM-dd")" class="datepicker" asp-for="Date" placeholder="DD - MM - YYYY" required>
+                                    <span class="icon fal fa-calendar fa-fw"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <button class="theme-btn send-btn" type="submit"><span class="txt">Send Now <i class="fa fa-angle-right"></i></span></button>
+                                </div>
+
+                            </form>
+
+                        </div>
+                        <!-- End Booking Form -->
+
+                    </div>
+
+                    <!-- Follow Widget -->
+                    <div class="sidebar-widget follow-widget">
+                        <div class="sidebar-title">
+                            <h5>Follow us</h5>
+                        </div>
+                        <ul class="social-list">
+                            <li class="facebook"><span class="icon fab fa-facebook-f fa-fw"></span> <strong>12K +</strong> Followers</li>
+                            <li class="twitter"><span class="icon fab fa-twitter fa-fw"></span> <strong>14K +</strong> Followers</li>
+                            <li class="youtube"><span class="icon fab fa-youtube fa-fw"></span> <strong>4K +</strong> Followers</li>
+                            <li class="linkedin"><span class="icon fab fa-linkedin-in fa-fw"></span> <strong>2K +</strong> Followers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Category Widget -->
+                    <div class="sidebar-widget category-widget">
+                        <div class="sidebar-title">
+                            <h5>Destinations</h5>
+                        </div>
+                        @{
+                            // Materialize Model.Destinations into a list
+                            var destinations = Model.Destinations.Take(8).ToList();
+
+                            // Materialize Model.Trekkings into a list
+                            var trekkings = Model.Trekkings.ToList();
+                        }
+
+                        <ul class="sidebar-category-list">
+                            @foreach (var item in destinations)
+                            {
+                                <li style="background-image: url('@Url.Content(item.ImageUrl)')">
+                                    <span class="txt">@item.Title</span>
+                                    <span class="number">
+                                        @{
+                                            // Count trekkings for the current destination
+                                            var count = trekkings.Count(t => t.DestinationId == item.Id);
+                                        }
+                                        @count
+                                    </span>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- End Package Detail Section -->
+<!-- News Section Two -->
+<section class="news-section-two">
+    <div class="auto-container">
+        <div class="title-box centered">
+            <h2><span>Explore More Trekking</span></h2>
+        </div>
+        <div class="content-box">
+
+            <div class="popular-carousel owl-theme owl-carousel">
+
+                @foreach (var item in Model.Trekkings.Where(x => x.DestinationId == Model.Trekking.DestinationId && x.Id != Model.Trekking.Id).Take(4))
+                {
+                    <div class="activity-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <div class="image"><a asp-action="Detail" asp-controller="Trekking" asp-route-id="@item.Id"><img src="@item.Images.FirstOrDefault().ImageUrl" alt="" title=""></a></div>
+                                <div class="price"><span>$@item.Price</span></div>
+                                <div class="info">
+                                    <span class="i-block"><i class="icon far fa-clock"></i> @item.Days.Count days</span> &ensp; | &ensp; <span class="i-block">@item.Destination.Title</span>
+                                </div>
+                            </div>
+                            <div class="lower-content">
+                                <h4><a asp-action="Detail" asp-controller="Trekking" asp-route-id="@item.Id">@item.Title</a></h4>
+                                <div class="ratings clearfix">
+                                    <div class="stars">
+                                        @Html.Raw(ViewFunctions.GetStarRating(item.Star))
+                                    </div>
+                                    <div class="rev"><a href="#">@item.ReviewCount Review</a></div>
+                                </div>
+                                <div class="text">
+                                    @if (item.Description.Length > 150)
+                                    {
+                                        @Html.Raw(item.Description.Substring(0, 150) + "...")
+                                    }
+                                    else
+                                    {
+                                        @Html.Raw(item.Description)
+                                    }
+                                </div>
+                                <div class="bottom-box clearfix" style="text-align: center;">
+                                    <div class="more-link">
+                                        <a asp-action="Detail" asp-controller="Trekking" asp-route-id="@item.Id" style="display: inline-block; padding: 10px; border: 2px solid #2ec4b6; border-radius: 10px; background-color: #2ec4b6; color: white;">
+                                            <span style="font-size: 16px;">View Details</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+
+                        </div>
+                    </div>
+                }
+                <!--Block-->
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- End News Section Two -->

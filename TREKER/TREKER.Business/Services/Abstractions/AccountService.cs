@@ -40,6 +40,20 @@ namespace TREKER.Business.Services.Abstractions
             return await _userManager.FindByEmailAsync(emailAddress);
         }
 
+        public async Task<bool> CheckIsRegisteredOnUser(string emailAddress)
+        {
+            var oldUser = await _userManager.FindByEmailAsync(emailAddress);
+
+            if(oldUser is null)
+            {
+                return false;
+            }
+            else
+            {
+                return oldUser.IsRegistered;
+            }
+        }
+
         public async Task LoginAsync(LoginVM vm)
         {
             var oldUser = await _userManager.FindByEmailAsync(vm.Email);
@@ -60,7 +74,6 @@ namespace TREKER.Business.Services.Abstractions
                 LastName = vm.LastName,
                 Email = vm.Email,
                 UserName = $"{vm.FirstName.ToLower()}_{vm.LastName.ToLower()}",
-
             };
 
             await _userManager.CreateAsync(newUser, vm.Password);

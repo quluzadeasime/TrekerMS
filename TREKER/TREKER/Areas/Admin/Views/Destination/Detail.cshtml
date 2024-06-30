@@ -1,6 +1,79 @@
 ﻿@using TREKER.Core.Entities
 @model Destination
 
+<style>
+    .icon-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 1;
+    }
+
+        .icon-btn i {
+            color: #fff;
+        }
+
+    .btn-update {
+        background-color: #f39c12;
+        border-color: #f39c12;
+    }
+
+    .btn-delete {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+    .btn-back {
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+    }
+
+    .btn-icon {
+        padding: 6px;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 16px; /* Icon font size */
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+    }
+
+    .destination-card {
+        background: #fff;
+        border: 1px solid #e2e2e2;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .destination-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .detail-title {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .detail-item {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+</style>
+
+
 <div class="wrapper">
     <div class="container-fluid">
 
@@ -12,46 +85,52 @@
                         <ol class="breadcrumb hide-phone p-0 m-0">
                             <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Urora</a></li>
                             <li class="breadcrumb-item"><a asp-action="Tables" asp-controller="Dashboard">DB Tables</a></li>
-                            <li class="breadcrumb-item"><a asp-action="Table" asp-controller="TeamMember">Destinations</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Table" asp-controller="Destination">Destinations</a></li>
                             <li class="breadcrumb-item active">@Model.Title</li>
                         </ol>
                     </div>
-                    <h4 class="page-title">Our Team Member: @Model.Title</h4>
+                    <h4 class="page-title">Our Destinations: @Model.Title</h4>
                 </div>
             </div>
         </div>
         <!-- end page title end breadcrumb -->
-        <!-- Form for CreateTeamMemberVM -->
+
         <div class="row">
             <div class="col-md-12">
-                <div class="card m-b-30">
+                <div class="card m-b-30 destination-card">
                     <div class="card-body">
                         <h4 class="mt-0 header-title text-center">Destination Details</h4>
                         <hr>
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="text-center">
-                                    <img src="@Model.ImageUrl" alt="@Model.Title" class="img-fluid rounded-circle" style="max-width: 250px;">
+                                    <img src="@Model.ImageUrl" alt="@Model.Title" class="img-fluid destination-image">
                                 </div>
                             </div>
                             <div class="col-md-9">
-                                <dl class="row" style="font-size: 20px;">
-                                    <dt class="col-sm-3">Title:</dt>
-                                    <dd class="col-sm-9">@Model.Title</dd>
-
-                                    <dt class="col-sm-3">Region:</dt>
-                                    <dd class="col-sm-9">@Model.Region.Name</dd>
-
-                                    <dt class="col-sm-3">Created Date:</dt>
-                                    <dd class="col-sm-9">@Model.CreatedDate.ToString("dd MMM yyyy")</dd>
-                                </dl>
+                                <div class="detail-title">Title: @Model.Title</div>
+                                <div class="detail-item">Region: @Model.Region.Name</div>
+                                <div class="detail-item">Created Date: @Model.CreatedDate.ToString("dd MMM yyyy")</div>
                                 @if (!Model.IsDeleted)
                                 {
-                                    <div class="text-right m-5">
-                                        <a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-raised btn-warning">Update</a>
-                                        <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-raised btn-danger">Delete</a>
-                                        <a asp-action="Table" class="btn btn-raised btn-info">Back</a>
-                                        <!-- Additional actions if needed -->
+                                    <div class="text-right mt-4">
+                                        <div class="d-inline-block ml-auto">
+                                            <a asp-action="Update" asp-route-id="@Model.Id" class="btn-icon btn-update mr-3">
+                                                <span class="icon-btn" style="background-color: #f39c12;">
+                                                    <i class="fa fa-pencil" style="line-height: 1;"></i>
+                                                </span>
+                                            </a>
+                                            <a asp-action="Delete" asp-route-id="@Model.Id" class="btn-icon btn-delete mr-3">
+                                                <span class="icon-btn" style="background-color: #dc3545;">
+                                                    <i class="fa fa-trash" style="line-height: 1;"></i>
+                                                </span>
+                                            </a>
+                                            <a asp-action="Table" class="btn-icon btn-back">
+                                                <span class="icon-btn" style="background-color: #17a2b8;">
+                                                    <i class="fa fa-arrow-left" style="line-height: 1;"></i>
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 }
                             </div>
@@ -61,9 +140,8 @@
             </div>
         </div>
 
-
-        <!-- end form -->
-
     </div> <!-- end container -->
 </div>
 <!-- end wrapper -->
+<!-- Include Font Awesome for icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">

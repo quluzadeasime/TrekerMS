@@ -11,6 +11,6 @@ namespace TREKER.Core.Entities
     {
         public string Name { get; set; }
         public string Icon { get; set; }
-        public IQueryable<TrekkingFacility> Trekkings { get; set; }
+        public ICollection<TrekkingFacility> Trekkings { get; set; }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using TREKER.Business.Services.Abstractions;
 using TREKER.Business.Services.Interfaces;
 using TREKER.Business.ViewModels.DestinationVMs;
@@ -41,7 +42,7 @@ namespace TREKER.MVC.Areas.Admin.Controllers
         {
             CreateDestinationVM vm = new()
             {
-                Regions = await _regionService.GetAllAsync()
+                Regions = await (await _regionService.GetAllAsync()).ToListAsync()
             };
 
             return View(vm);
@@ -51,7 +52,7 @@ namespace TREKER.MVC.Areas.Admin.Controllers
         [Authorize(Roles = "Moderator, Admin")]
         public async Task<IActionResult> Create(CreateDestinationVM vm)
         {
-            vm.Regions = await _regionService.GetAllAsync();
+            vm.Regions = await (await _regionService.GetAllAsync()).ToListAsync();
 
             CreateDestinationVMValidator validations = new CreateDestinationVMValidator();
             var validationResult = await validations.ValidateAsync(vm);
@@ -79,7 +80,7 @@ namespace TREKER.MVC.Areas.Admin.Controllers
             UpdateDestinationVM vm = new()
             {
                 Title = oldTDestination.Title,
-                Regions = await _regionService.GetAllAsync(),
+                Regions = await (await _regionService.GetAllAsync()).ToListAsync(),
                 OldImage = oldTDestination.ImageUrl,
                 RegionId = oldTDestination.RegionId
             };
@@ -91,7 +92,8 @@ namespace TREKER.MVC.Areas.Admin.Controllers
         [Authorize(Roles = "Moderator, Admin")]
         public async Task<IActionResult> Update(UpdateDestinationVM vm)
         {
-            vm.Regions = await _regionService.GetAllAsync();
+            vm.Regions = await(await _regionService.GetAllAsync()).ToListAsync();
+            //vm.OldImage = (await _destinationService.GetByIdAsync(vm.Id)).ImageUrl;
 
             UpdateDestinationVMValidator validations = new UpdateDestinationVMValidator();
             var validationResult = await validations.ValidateAsync(vm);

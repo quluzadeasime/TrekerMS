@@ -12,6 +12,9 @@ namespace TREKER.Business.ViewModels.DayVMs
     {
         public string Description { get; set; }
         public int TrekkingId { get; set; }
+
+        // View Models
+        public ICollection<Trekking>? Trekkings { get; set; }
     }
 
     public class CreateDayVMValidator : AbstractValidator<CreateDayVM>

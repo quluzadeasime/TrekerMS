@@ -1,4 +1,9 @@
-﻿﻿<div class="wrapper">
+﻿@using TREKER.Business.ViewModels.PageVM
+@using TREKER.MVC.Areas.Admin.Functions
+
+@model TablesVM
+
+<div class="wrapper">
     <div class="container-fluid">
 
         <!-- Page-Title -->
@@ -17,6 +22,78 @@
         </div>
 
         <div class="row">
+            <!-- Trekkings Table -->
+            <div class="col-md-12 col-lg-12 col-xl-6">
+                <div class="card m-b-30">
+                    <div class="card-body">
+                        <a asp-action="Table" asp-controller="Trekking"><h4 class="mt-0 header-title">Trekkings</h4></a>
+                        <table class="table mb-0">
+                            <thead class="thead-default">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Title</th>
+                                    <th>Price</th>
+                                    <th>Group Size</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    var countTrek = 0;
+                                }
+                                @foreach (var item in Model.Trekkings)
+                                {
+                                    countTrek++;
+                                    <tr>
+                                        <th scope="row">@countTrek</th>
+                                        <td>@item.Title</td>
+                                        <td>@item.Price</td>
+                                        <td>@item.GroupSize</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div> <!-- end col -->
+            <!-- Blogs Table -->
+            <div class="col-md-12 col-lg-12 col-xl-6">
+                <div class="card m-b-30">
+                    <div class="card-body">
+                        <a asp-action="Table" asp-controller="Blog"><h4 class="mt-0 header-title">Blogs</h4></a>
+                        <table class="table mb-0">
+                            <thead class="thead-default">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Title</th>
+                                    <th>By Username</th>
+                                    <th>Destination</th>
+                            </thead>
+                            <tbody>
+
+                                @{
+                                    var countBlog = 0;
+                                }
+                                @foreach (var item in Model.Blogs)
+                                {
+                                    countBlog++;
+                                    <tr>
+                                        <th scope="row">@countBlog</th>
+                                        <td>@item.Title</td>
+                                        <td>@item.ByUsername</td>
+                                        <td>@item.Destination.Title</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div> <!-- end col -->
+        </div>
+
+
+
+        <div class="row">
+            <!-- Team Members Table -->
             <div class="col-md-12 col-lg-12 col-xl-6">
                 <div class="card m-b-30">
                     <div class="card-body">
@@ -25,73 +102,199 @@
                             <thead class="thead-default">
                                 <tr>
                                     <th>#</th>
-                                    <th>First Name</th>
-                                    <th>Last Name</th>
-                                    <th>Username</th>
+                                    <th>Full Name</th>
+                                    <th>Role</th>
+                                    <th>Joined Date</th>
                                 </tr>
                             </thead>
                             <tbody>
+                                @{
+                                    var countTM = 0;
+                                }
+                                @foreach(var item in Model.TeamMembers)
+                                {
+                                    countTM++;
+                                    <tr>
+                                        <th scope="row">@countTM</th>
+                                        <td>@item.FullName</td>
+                                        <td>@ViewFunctions.InsertSpacesBeforeUppercase(item.TeamMemberRoles.ToString())</td>
+                                        <td>@item.CreatedDate.ToString("dd MMM yyyy")</td>
+                                    </tr>
+                                }
+
+                            </tbody>
+                         
+                        </table>
+                    </div>
+                </div>
+            </div> <!-- end col -->
+            <!-- Destinations Table -->
+            <div class="col-md-12 col-lg-12 col-xl-6">
+                <div class="card m-b-30">
+                    <div class="card-body">
+                        <a asp-action="Table" asp-controller="Destination"><h4 class="mt-0 header-title">Destinations</h4></a>
+                        <table class="table mb-0">
+                            <thead class="thead-default">
                                 <tr>
-                                    <th scope="row">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>mdo</td>
+                                    <th>#</th>
+                                    <th>Title</th>
+                                    <th>Region</th>
+                                    <th>Created Date</th>
                                 </tr>
+                            </thead>
+                            <tbody>
+
+                                @{
+                                    var countDest = 0;
+                                }
+                                @foreach (var item in Model.Destinations)
+                                {
+                                    countDest++;
+                                    <tr>
+                                        <th scope="row">@countDest</th>
+                                        <td>@item.Title</td>
+                                        <td>@item.Region.Name</td>
+                                        <td>@item.CreatedDate.ToString("dd MMM yyyy")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div> <!-- end col -->
+            <!-- Trekkings Table -->
+            <div class="col-md-12 col-lg-12 col-xl-6">
+                <div class="card m-b-30">
+                    <div class="card-body">
+                        <a asp-action="Table" asp-controller="Facility"><h4 class="mt-0 header-title">Facilities</h4></a>
+                        <table class="table mb-0">
+                            <thead class="thead-default">
                                 <tr>
-                                    <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>fat</td>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Icon</th>
+                                    <th>Created Date</th>
                                 </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    var countFacil = 0;
+                                }
+                                @foreach (var item in Model.Facilities)
+                                {
+                                    countFacil++;
+                                    <tr>
+                                        <th scope="row">@countFacil</th>
+                                        <td>@item.Name</td>
+                                        <td style="font-size: 18px;">@Html.Raw(item.Icon)</td>
+                                        <td>@item.CreatedDate.ToString("dd MMM yyyy")</td>
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div> <!-- end col -->
+            <!-- Destinations Table -->
+            <div class="col-md-12 col-lg-12 col-xl-6">
+                <div class="card m-b-30">
+                    <div class="card-body">
+                        <a asp-action="Table" asp-controller="Feature"><h4 class="mt-0 header-title">Features</h4></a>
+                        <table class="table mb-0">
+                            <thead class="thead-default">
                                 <tr>
-                                    <th scope="row">3</th>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>twitter</td>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Created Date</th>
                                 </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    var countFeat = 0;
+                                }
+                                @foreach (var item in Model.Features)
+                                {
+                                    countFeat++;
+                                    <tr>
+                                        <th scope="row">@countFeat</th>
+                                        <td>@item.Name</td>
+                                        <td>@item.CreatedDate.ToString("dd MMM yyyy")</td>
+                                    </tr>
+                                }
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div> <!-- end col -->
 
+            <!-- Difficulties Table -->
             <div class="col-md-12 col-lg-12 col-xl-6">
                 <div class="card m-b-30">
                     <div class="card-body">
-                        <h4 class="mt-0 header-title">Blogs</h4>
+                        <a asp-action="Table" asp-controller="Difficulty"><h4 class="mt-0 header-title">Difficulties</h4></a>
                         <table class="table mb-0">
                             <thead class="thead-default">
                                 <tr>
                                     <th>#</th>
-                                    <th>First Name</th>
-                                    <th>Last Name</th>
-                                    <th>Username</th>
+                                    <th>Name</th>
+                                    <th>Created Date</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>mdo</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>fat</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>twitter</td>
-                                </tr>
+                                @{
+                                    var countDiff = 0;
+                                }
+                                @foreach(var item in Model.Difficulties)
+                                {
+                                    countDiff++;
+                                    <tr>
+                                        <th scope="row">@countDiff</th>
+                                        <td>@item.Name</td>
+                                        <td>@item.CreatedDate.ToString("dd MMM yyyy")</td>
+                                    </tr>
+                                }
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div> <!-- end col -->
+           
+           
+          
+    
+            <!-- Regions Table -->
+            <div class="col-md-12 col-lg-12 col-xl-6">
+                <div class="card m-b-30">
+                    <div class="card-body">
+                        <a asp-action="Table" asp-controller="Region"><h4 class="mt-0 header-title">Regions</h4></a>
+                        <table class="table mb-0">
+                            <thead class="thead-default">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Created Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    var countReg = 0;
+                                }
+                                @foreach (var item in Model.Regions)
+                                {
+                                    countReg++;
+                                    <tr>
+                                        <th scope="row">@countReg</th>
+                                        <td>@item.Name</td>
+                                        <td>@item.CreatedDate.ToString("dd MMM yyyy")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div> <!-- end col -->
+         
         </div> <!-- end row -->
 
     </div> <!-- end container -->

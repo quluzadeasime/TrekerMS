@@ -268,3 +268,4 @@ C:\Users\Asime\Desktop\TREKER\TREKER\TREKER\bin\Debug\net8.0\Azure.Storage.Commo
 C:\Users\Asime\Desktop\TREKER\TREKER\TREKER\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\Asime\Desktop\TREKER\TREKER\TREKER\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\Asime\Desktop\TREKER\TREKER\TREKER\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\Asime\Desktop\TREKER\TREKER\TREKER\bin\Debug\net8.0\QRCoder.dll

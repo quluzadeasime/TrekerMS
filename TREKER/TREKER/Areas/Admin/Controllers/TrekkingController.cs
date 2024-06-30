@@ -1,10 +1,13 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Security.AccessControl;
 using TREKER.Business.Services.Abstractions;
 using TREKER.Business.Services.Interfaces;
 using TREKER.Business.ViewModels.DestinationVMs;
 using TREKER.Business.ViewModels.TrekkingVMs;
 using TREKER.Core.Entities;
+using TREKER.DAL.Repositories.Interfaces;
 
 namespace TREKER.MVC.Areas.Admin.Controllers
 {
@@ -19,7 +22,8 @@ namespace TREKER.MVC.Areas.Admin.Controllers
         private readonly IFacilityService _facilityService;
         private readonly IDayService _dayService;
 
-        public TrekkingController(ITrekkingService trekkingService, IDestinationService destinationService, IDifficultyService difficultyService, IFeatureService featureService, IFacilityService facilityService, IDayService dayService)
+        public TrekkingController(ITrekkingService trekkingService, IDestinationService destinationService, IDifficultyService difficultyService, 
+            IFeatureService featureService, IFacilityService facilityService, IDayService dayService)
         {
             _trekkingService = trekkingService;
             _destinationService = destinationService;
@@ -49,10 +53,10 @@ namespace TREKER.MVC.Areas.Admin.Controllers
         {
             CreateTrekkingVM vm = new()
             {
-                Features = await _featureService.GetAllAsync(),
-                Facilities = await _facilityService.GetAllAsync(),
-                Destinations = await _destinationService.GetAllAsync(),
-                Difficulties = await _difficultyService.GetAllAsync(),
+                Features = await (await _featureService.GetAllAsync()).ToListAsync(),
+                Facilities = await (await _facilityService.GetAllAsync()).ToListAsync(),
+                Destinations = await (await _destinationService.GetAllAsync()).ToListAsync(),
+                Difficulties = await (await _difficultyService.GetAllAsync()).ToListAsync(),
             };
 
             return View(vm);
@@ -62,10 +66,10 @@ namespace TREKER.MVC.Areas.Admin.Controllers
         [Authorize(Roles = "Moderator, Admin")]
         public async Task<IActionResult> Create(CreateTrekkingVM vm)
         {
-            vm.Features = await _featureService.GetAllAsync();
-            vm.Facilities = await _facilityService.GetAllAsync();
-            vm.Destinations = await _destinationService.GetAllAsync();
-            vm.Difficulties = await _difficultyService.GetAllAsync();
+            vm.Features = await (await _featureService.GetAllAsync()).ToListAsync();
+            vm.Facilities = await(await _facilityService.GetAllAsync()).ToListAsync();
+            vm.Destinations = await (await _destinationService.GetAllAsync()).ToListAsync();
+            vm.Difficulties = await (await _difficultyService.GetAllAsync()).ToListAsync();
 
             CreateTrekkingVMValidator validations = new();
             var validationResult = await validations.ValidateAsync(vm);
@@ -104,10 +108,12 @@ namespace TREKER.MVC.Areas.Admin.Controllers
                 OldImages = oldTrekking.Images,
                 DestinationId = oldTrekking.DestinationId,
                 DifficultyId = oldTrekking.DifficultyId,
-                Features = await _featureService.GetAllAsync(),
-                Facilities = await _facilityService.GetAllAsync(),
-                Destinations = await _destinationService.GetAllAsync(),
-                Difficulties = await _difficultyService.GetAllAsync(),
+                FeatureIds = oldTrekking.Features.Select(x => x.FeatureId).ToList(),
+                FacilityIds = oldTrekking.Facilities.Select(x => x.FacilityId).ToList(),
+                Features = await (await _featureService.GetAllAsync()).ToListAsync(),
+                Facilities = await (await _facilityService.GetAllAsync()).ToListAsync(),
+                Destinations = await (await _destinationService.GetAllAsync()).ToListAsync(),
+                Difficulties = await (await _difficultyService.GetAllAsync()).ToListAsync(),
             };
 
             return View(vm);
@@ -117,11 +123,14 @@ namespace TREKER.MVC.Areas.Admin.Controllers
         [Authorize(Roles = "Moderator, Admin")]
         public async Task<IActionResult> Update(UpdateTrekkingVM vm)
         {
-            vm.Features = await _featureService.GetAllAsync();
-            vm.Facilities = await _facilityService.GetAllAsync();
-            vm.Destinations = await _destinationService.GetAllAsync();
-            vm.Difficulties = await _difficultyService.GetAllAsync();
+            var oldTrekking = await _trekkingService.GetByIdAsync(vm.Id);
 
+            vm.Features = await (await _featureService.GetAllAsync()).ToListAsync();
+            vm.Facilities = await (await _facilityService.GetAllAsync()).ToListAsync();
+            vm.Destinations = await (await _destinationService.GetAllAsync()).ToListAsync();
+            vm.Difficulties = await (await _difficultyService.GetAllAsync()).ToListAsync();
+            vm.OldImages = oldTrekking.Images;
+    
             UpdateTrekkingVMValidator validations = new UpdateTrekkingVMValidator();
             var validationResult = await validations.ValidateAsync(vm);
 

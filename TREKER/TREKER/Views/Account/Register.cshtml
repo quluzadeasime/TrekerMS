@@ -52,6 +52,15 @@
                                         <div asp-validation-summary="All" style="color: red; font-size: 16px">
                                         </div>
 
+                                        @if (ViewData["notRegistered"]?.ToString() is not null)
+                                        {
+                                            <div style="color:red; font-size: 16px;">
+                                                <li>
+                                                    @ViewData["notRegistered"]?.ToString()
+                                                </li>
+                                            </div>
+                                        }
+
                                         <form class="form-horizontal mb-0" method="post">
 
                                             <div class="form-group row">
@@ -101,7 +110,7 @@
 
                                             <div class="form-group m-t-10 mb-0 row">
                                                 <div class="col-12 m-t-20 text-center">
-                                                    <a asp-action="Login" class="text-muted">Already have account?</a>
+                                                    <a asp-action="CheckIsRegisteredUser" class="text-muted">Already have account?</a>
                                                 </div>
                                             </div>
                                         </form>

@@ -13,7 +13,7 @@ namespace TREKER.Core.Entities
         public string ImageUrl { get; set; }
         public int RegionId { get; set; }
         public Region Region { get; set; }
-        public IQueryable<Trekking> Trekkings { get; set; }
-        public IQueryable<Blog> Blogs { get; set; }
+        public ICollection<Trekking> Trekkings { get; set; }
+        public ICollection<Blog> Blogs { get; set; }
     }
 }

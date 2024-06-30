@@ -19,15 +19,15 @@ namespace TREKER.Business.ViewModels.TrekkingVMs
         public float Star { get; set; }
         public string SubTitle { get; set; }
         public string Description { get; set; }
-        public IQueryable<int> FacilityIds { get; set; }
-        public IQueryable<int> FeatureIds { get; set; }
-        public IQueryable<IFormFile> Images { get; set; }
+        public ICollection<int> FacilityIds { get; set; }
+        public ICollection<int> FeatureIds { get; set; }
+        public ICollection<IFormFile> Images { get; set; }
 
         // Relation Fileds
-        public IQueryable<Facility> Facilities { get; set; }
-        public IQueryable<Destination> Destinations { get; set; }
-        public IQueryable<Difficulty> Difficulties { get; set; }
-        public IQueryable<Feature> Features { get; set; }
+        public ICollection<Facility> Facilities { get; set; }
+        public ICollection<Destination> Destinations { get; set; }
+        public ICollection<Difficulty> Difficulties { get; set; }
+        public ICollection<Feature> Features { get; set; }
     }
 
     public class CreateTrekkingVMValidator : AbstractValidator<CreateTrekkingVM>
@@ -53,7 +53,7 @@ namespace TREKER.Business.ViewModels.TrekkingVMs
             RuleFor(x => x.Images)
                 .NotEmpty()
                 .WithMessage("You must filled the input Images.")
-                .Must(x => x.Any(x => FileManager.CheckFile(x.File) == true))
+                .Must(x => x is not null ? x.Any(x => FileManager.CheckFile(x) == true) : false)
                 .WithMessage("File type must be image and lower than 10 MB.");
 
             RuleFor(x => x.Price)

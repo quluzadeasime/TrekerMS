@@ -10,7 +10,7 @@ namespace TREKER.Business.Services.Interfaces
 {
     public interface ISettingService
     {
-        Task<Setting> GetByIdAsync(int id);
-        Task Update(LayoutVM vm);
+        Task<IQueryable<Setting>> GetAllAsync();
+        Task UpdateAsync(SettingVM vm);
     }
 }

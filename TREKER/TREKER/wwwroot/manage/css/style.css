@@ -3172,11 +3172,12 @@ select.form-control:not([size]):not([multiple]),
   Account Pages
 ===================*/
 .accountbg {
-    background: url("../images/errorpage.jpg");
+    background: url("/manage/images/back-mountain.jpg") no-repeat center center fixed;
     position: absolute;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
-    background-position: center center;
     background-size: cover;
 }
 

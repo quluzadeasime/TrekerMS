@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Authentication;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,10 @@ namespace TREKER.Business.Services.Abstractions
     public class DayService : IDayService
     {
         private readonly IDayRepository _dayRepository;
+        private readonly string[] includes =
+        {
+            "Trekking"
+        };
 
         public DayService(IDayRepository dayRepository)
         {
@@ -25,6 +30,7 @@ namespace TREKER.Business.Services.Abstractions
             var newDay = new Day()
             {
                 Description = vm.Description,
+                TrekkingId = vm.TrekkingId,
                 CreatedDate = DateTime.UtcNow,
                 UpdatedDate = DateTime.UtcNow
             };
@@ -41,12 +47,12 @@ namespace TREKER.Business.Services.Abstractions
 
         public async Task<IQueryable<Day>> GetAllAsync()
         {
-            return await _dayRepository.GetAllAsync();
+            return await _dayRepository.GetAllAsync(includes: includes);
         }
 
         public async Task<Day> GetByIdAsync(int id)
         {
-            return await _dayRepository.GetByIdAsync(id);
+            return await _dayRepository.GetByIdAsync(id, includes);
         }
 
         public async Task RecoverAsync(int id)
@@ -66,6 +72,7 @@ namespace TREKER.Business.Services.Abstractions
             var oldDay = await _dayRepository.GetByIdAsync(vm.Id);
 
             oldDay.Description = vm.Description ?? oldDay.Description;
+            oldDay.TrekkingId = vm.TrekkingId;
             oldDay.UpdatedDate = DateTime.UtcNow;
 
             await _dayRepository.UpdateAsync(oldDay);

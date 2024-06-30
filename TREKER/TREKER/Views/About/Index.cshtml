@@ -1,12 +1,17 @@
-﻿ <!-- Banner Section -->
+﻿@using TREKER.Core.Entities
+@using TREKER.MVC.Areas.Admin.Functions
+ 
+@model IQueryable<TeamMember>
+
+<!-- Banner Section -->
 <section class="inner-banner">
-    <div class="image-layer" style="background-image: url('@Url.Content("/assets/images/resource/bg-1.jpg")');"></div>
+    <div class="image-layer" style="background-image: url('@Url.Content("/assets/images/background/backphoto3.jpg")');"></div>
     <div class="auto-container">
         <div class="content-box">
             <h2>ABOUT US</h2>
             <div class="bread-crumb">
                 <ul class="clearfix">
-                    <li><span class="icon-home fa fa-home"></span><a href="index.html">Home</a></li>
+                    <li><span class="icon-home fa fa-home"></span><a asp-action="Index" asp-controller="Home">Home</a></li>
                     <li class="current">About Us</li>
                 </ul>
             </div>
@@ -65,12 +70,13 @@
 
 <!-- Facts Section -->
 <section class="facts-section">
-    <div class="image-layer" style="background-image: url(images/background/image-6.jpg);"></div>
+    <div class="image-layer" style="background-image: url('@Url.Content("/assets/images/background/backphoto5.jpg")');"></div>
+
     <div class="auto-container">
         <div class="content-box">
-            <div class="video-btn"><a href="https://www.youtube.com/watch?v=0xhr0j877bI" class="theme-btn lightbox-image"><span class="icon"><img src="~/assets/images/icons/video-icon-2.svg" alt="" title=""></span></a></div>
+            <div class="video-btn"><a href="https://youtu.be/OPN9uYZywgM?si=NyqtwigzoTHp_Zli" class="theme-btn lightbox-image"><span class="icon"><img src="~/assets/images/icons/video-icon-2.svg" alt="" title=""></span></a></div>
             <div class="subtitle">Are you ready to travel?</div>
-            <h2>Treker is a World Leading Online Tour Booking Platform</h2>
+            <h2>Treker platform streamlines project management and enhances collaboration.</h2>
         </div>
     </div>
     <div class="facts-box">
@@ -80,28 +86,28 @@
                     <!--Block-->
                     <div class="fact-block col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="inner">
-                            <div class="count"><span>07+</span></div>
+                            <div class="count"><span>02+</span></div>
                             <div class="fact-title"><span>Years Exp</span></div>
                         </div>
                     </div>
                     <!--Block-->
                     <div class="fact-block col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="inner">
-                            <div class="count"><span>2k+</span></div>
+                            <div class="count"><span>25+</span></div>
                             <div class="fact-title"><span>Top Hosts</span></div>
                         </div>
                     </div>
                     <!--Block-->
                     <div class="fact-block col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="inner">
-                            <div class="count"><span>50+</span></div>
-                            <div class="fact-title"><span>Top Country</span></div>
+                            <div class="count"><span>30+</span></div>
+                            <div class="fact-title"><span>Top Region</span></div>
                         </div>
                     </div>
                     <!--Block-->
                     <div class="fact-block col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="inner">
-                            <div class="count"><span>10k+</span></div>
+                            <div class="count"><span>2k+</span></div>
                             <div class="fact-title"><span>Client Avilable</span></div>
                         </div>
                     </div>
@@ -186,7 +192,7 @@
 
 <!-- Features Section -->
 <section class="features-section">
-    <div class="image-layer" style="background-image: url(images/background/image-7.jpg);"></div>
+    <div class="image-layer" style="background-image: url('@Url.Content("/assets/images/background/backphoto6.jpg")');"></div>
     <div class="auto-container">
         <div class="upper-box">
             <div class="row clearfix">
@@ -195,7 +201,7 @@
                     <div class="inner-box">
                         <div class="icon-box"><img src="~/assets/images/resource/f-icon-1.svg" alt=""></div>
                         <h5>Private Transport</h5>
-                        <div class="text">Richly varied landscapes, luxury accommodation travel Fully.</div>
+                        <div class="text">Enjoy the convenience of private transportation for a seamless journey.</div>
                     </div>
                 </div>
                 <!--Block-->
@@ -203,7 +209,7 @@
                     <div class="inner-box">
                         <div class="icon-box"><img src="~/assets/images/resource/f-icon-2.svg" alt=""></div>
                         <h5>Diverse Destination</h5>
-                        <div class="text">Richly varied landscapes, luxury accommodation travel Fully.</div>
+                        <div class="text">Explore a variety of stunning destinations with us.</div>
                     </div>
                 </div>
                 <!--Block-->
@@ -211,7 +217,7 @@
                     <div class="inner-box">
                         <div class="icon-box"><img src="~/assets/images/resource/f-icon-3.svg" alt=""></div>
                         <h5>Great Hotel</h5>
-                        <div class="text">Richly varied landscapes, luxury accommodation travel Fully.</div>
+                        <div class="text">Stay in top-rated hotels for a comfortable and luxurious experience.</div>
                     </div>
                 </div>
                 <!--Block-->
@@ -219,7 +225,7 @@
                     <div class="inner-box">
                         <div class="icon-box"><img src="~/assets/images/resource/f-icon-4.svg" alt=""></div>
                         <h5>Fast Booking</h5>
-                        <div class="text">Richly varied landscapes, luxury accommodation travel Fully.</div>
+                        <div class="text">Experience quick and easy booking with our user-friendly system.</div>
                     </div>
                 </div>
             </div>
@@ -233,14 +239,13 @@
                     <div class="slide-item">
                         <div class="inner">
                             <div class="left-image">
-                                <div class="icon"><img src="~/assets/images/icons/quotes-3.svg" alt=""></div>
-                                <div class="image"><img src="~/assets/images/resource/rev-thumb-4.png" alt=""></div>
+                                <div class="image"><img src="~/assets/images/icons/person1.jpg" alt=""></div>
                             </div>
                             <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
-                            <div class="text">" Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Occaecat cupidatat non proident,sunt.</div>
+                            <div class="text">"  The trails are well-marked and suitable for all levels of hikers. Plus, the cultural heritage of the region adds a fascinating layer to the experience.</div>
                             <div class="info">
-                                <span class="name">William Smith</span>
-                                <span class="designation">CEO of tourbuzz</span>
+                                <span class="name">John Smith</span>
+                                <span class="designation">Travel Blogger</span>
                             </div>
                         </div>
                     </div>
@@ -248,14 +253,13 @@
                     <div class="slide-item">
                         <div class="inner">
                             <div class="left-image">
-                                <div class="icon"><img src="~/assets/images/icons/quotes-3.svg" alt=""></div>
-                                <div class="image"><img src="~/assets/images/resource/rev-thumb-4.png" alt=""></div>
+                                <div class="image"><img src="~/assets/images/icons/person2.jpg" alt=""></div>
                             </div>
                             <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
-                            <div class="text">" Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Occaecat cupidatat non proident,sunt.</div>
+                            <div class="text">"  The combination of ancient ruins, lush forests, and panoramic views makes each hike a memorable adventure. The local hospitality adds to the charm, making Shamakhi a must-visit for any trekking enthusiast.</div>
                             <div class="info">
-                                <span class="name">William Smith</span>
-                                <span class="designation">CEO of tourbuzz</span>
+                                <span class="name">Maria Gonzalez</span>
+                                <span class="designation">Outdoor Enthusiast</span>
                             </div>
                         </div>
                     </div>
@@ -263,14 +267,13 @@
                     <div class="slide-item">
                         <div class="inner">
                             <div class="left-image">
-                                <div class="icon"><img src="~/assets/images/icons/quotes-3.svg" alt=""></div>
-                                <div class="image"><img src="~/assets/images/resource/rev-thumb-4.png" alt=""></div>
+                                <div class="image"><img src="~/assets/images/icons/person3.jpg" alt=""></div>
                             </div>
-                            <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
-                            <div class="text">" Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Occaecat cupidatat non proident,sunt.</div>
+                            <div class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-half-star"></i></div>
+                            <div class="text">" The local food and warm welcome from the villagers make the trekking experience even more enjoyable. Shamakhi should be on every trekker's bucket list.</div>
                             <div class="info">
-                                <span class="name">William Smith</span>
-                                <span class="designation">CEO of tourbuzz</span>
+                                <span class="name">Alex Johnson</span>
+                                <span class="designation">Adventure Guide</span>
                             </div>
                         </div>
                     </div>
@@ -293,130 +296,23 @@
         <div class="carousel-box">
             <div class="team-carousel owl-theme owl-carousel">
                 <!--Block-->
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/treker_img.jpg" alt="" title=""></a></div>
-                        </div>
-                        <div class="lower-box">
-                            <h4><a href="#">Andree Hoy</a></h4>
-                            <div class="designation">Tour Guide</div>
-                           
-                        </div>
-                    </div>
-                </div>
+                @foreach(var item in Model)
+                {
+                    <div class="team-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <div class="image"><a href="#"><img src="@item.ImageUrl" alt="" title=""></a></div>
+                            </div>
+                            <div class="lower-box">
+                                <h4><a href="#">@item.FullName</a></h4>
+                                <td class="text-center">@ViewFunctions.InsertSpacesBeforeUppercase(item.TeamMemberRoles.ToString())</td>
 
-                <!--Block-->
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/team-2.jpg" alt="" title=""></a></div>
-                        </div>
-                        <div class="lower-box">
-                            <h4><a href="#">Andree Hoy</a></h4>
-                            <div class="designation">Tour Guide</div>
-                           
+                            </div>
                         </div>
                     </div>
-                </div>
+                }
 
-                <!--Block-->
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/team-3.jpg" alt="" title=""></a></div>
-                        </div>
-                        <div class="lower-box">
-                            <h4><a href="#">Andree Hoy</a></h4>
-                            <div class="designation">Tour Guide</div>
-                           
-                        </div>
-                    </div>
-                </div>
-
-                <!--Block-->
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/team-1.jpg" alt="" title=""></a></div>
-                        </div>
-                        <div class="lower-box">
-                            <h4><a href="#">Andree Hoy</a></h4>
-                            <div class="designation">Tour Guide</div>
-                           
-                        </div>
-                    </div>
-                </div>
-
-                <!--Block-->
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/team-2.jpg" alt="" title=""></a></div>
-                        </div>
-                        <div class="lower-box">
-                            <h4><a href="#">Andree Hoy</a></h4>
-                            <div class="designation">Tour Guide</div>
-                           
-                        </div>
-                    </div>
-                </div>
-
-                <!--Block-->
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/team-3.jpg" alt="" title=""></a></div>
-                        </div>
-                        <div class="lower-box">
-                            <h4><a href="#">Andree Hoy</a></h4>
-                            <div class="designation">Tour Guide</div>
-                          
-                        </div>
-                    </div>
-                </div>
-
-                <!--Block-->
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/team-1.jpg" alt="" title=""></a></div>
-                        </div>
-                        <div class="lower-box">
-                            <h4><a href="#">Andree Hoy</a></h4>
-                            <div class="designation">Tour Guide</div>
-                         
-                        </div>
-                    </div>
-                </div>
-
-                <!--Block-->
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/team-2.jpg" alt="" title=""></a></div>
-                        </div>
-                        <div class="lower-box">
-                            <h4><a href="#">Andree Hoy</a></h4>
-                            <div class="designation">Tour Guide</div>
-                           
-                        </div>
-                    </div>
-                </div>
-
-                <!--Block-->
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/team-3.jpg" alt="" title=""></a></div>
-                        </div>
-                        <div class="lower-box">
-                            <h4><a href="#">Andree Hoy</a></h4>
-                            <div class="designation">Tour Guide</div>
-                           
-                        </div>
-                    </div>
-                </div>
+              
 
             </div>
         </div>

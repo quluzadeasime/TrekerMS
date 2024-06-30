@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using FluentValidation;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client;
 using System.Net.Mail;
@@ -26,6 +27,35 @@ namespace TREKER.MVC.Controllers
             _sendMessageService = sendMessageService;
             _signInManager = signInManager;
             _userManager = userManager;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> CheckIsRegisteredUser()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CheckIsRegisteredUser(IsRegisterVM vm)
+        {
+            IsRegisterVMValidator validator = new IsRegisterVMValidator();
+            var validationResult = await validator.ValidateAsync(vm);
+
+            if (!validationResult.IsValid)
+            {
+                ModelState.Clear();
+                validationResult.Errors.ForEach(x => ModelState.AddModelError(x.PropertyName, x.ErrorMessage));
+                return View(vm);
+            }
+
+            if (await _accountService.CheckIsRegisteredOnUser(vm.Email))
+            {
+                return RedirectToAction(nameof(Login));
+            }
+            else
+            {
+                return Redirect("/Account/Register?notRegistered=1");
+            }
         }
 
         [HttpGet]
@@ -57,11 +87,12 @@ namespace TREKER.MVC.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Register(int? messageSended, int? passwordMessageSended, int? changePasswordIsOpen)
+        public async Task<IActionResult> Register(int? messageSended, int? passwordMessageSended, int? changePasswordIsOpen, int? notRegistered)
         {
             if (messageSended == 1) return NotFound();
             if (passwordMessageSended == 1) return NotFound();
             if (changePasswordIsOpen == 1) return NotFound();
+            if (notRegistered == 1) ViewData["notRegistered"] = "This email address was not registered!";
 
             if (User.Identity.IsAuthenticated)
             {
@@ -69,8 +100,6 @@ namespace TREKER.MVC.Controllers
             }
             else
             {
-                HttpContext.Session.SetString("BeginRegister", "true");
-
                 return View();
             }
         }
@@ -85,9 +114,7 @@ namespace TREKER.MVC.Controllers
             if (!validationResult.IsValid)
             {
                 ModelState.Clear();
-
                 validationResult.Errors.ForEach(x => ModelState.AddModelError(x.PropertyName, x.ErrorMessage));
-
                 return View(vm);
             }
 
@@ -111,11 +138,11 @@ namespace TREKER.MVC.Controllers
                 Expires = DateTimeOffset.UtcNow.AddMinutes(30)
             });
 
-            HttpContext.Session.Remove("BeginRegister");
             HttpContext.Session.SetString("MessageSended", "true");
 
             return RedirectToAction(nameof(CheckEmailAddress));
         }
+
 
         [HttpGet]
         public async Task<IActionResult> Login()
@@ -129,16 +156,9 @@ namespace TREKER.MVC.Controllers
             }
             else
             {
-                if (HttpContext.Session.Keys.Any(x => x == "BeginRegister"))
-                {
-                    return Redirect("/Account/Register?beginRegister=1");
-                }
-                else
-                {
-                    HttpContext.Session.Remove("MessageSended");
+                HttpContext.Session.Remove("MessageSended");
 
-                    return View();
-                }
+                return View();
             }
         }
 

@@ -25,23 +25,26 @@ namespace TREKER.Business.ViewModels.AccountVMs
         public RegisterVMValidator(UserManager<AppUser> userManager)
         {
             _userManager = userManager;
+
             RuleFor(vm => vm.FirstName)
-               .NotEmpty()
-               .WithMessage("First name is required.")
-               .MaximumLength(50)
-               .WithMessage("First name cannot exced 50 characters.");
+                .NotEmpty()
+                .WithMessage("First name is required.")
+                .MaximumLength(50)
+                .WithMessage("First name cannot exceed 50 characters.");
 
             RuleFor(vm => vm.LastName)
                 .NotEmpty()
                 .WithMessage("Last name is required.")
                 .MaximumLength(50)
-                .WithMessage("Last name cannot exced 50 characters.");
+                .WithMessage("Last name cannot exceed 50 characters.");
 
             RuleFor(vm => vm.Email)
                 .NotEmpty()
                 .WithMessage("Email address is required.")
                 .EmailAddress()
-                .WithMessage("Invalid email address.");
+                .WithMessage("Invalid email address.")
+                .MustAsync(BeAUniqueEmail)
+                .WithMessage("Email address is already taken.");
 
             RuleFor(vm => vm.Password)
                 .NotEmpty().WithMessage("Password is required.")
@@ -52,25 +55,22 @@ namespace TREKER.Business.ViewModels.AccountVMs
                 .Matches("[^a-zA-Z0-9]").WithMessage("Password must contain at least one non-alphanumeric character.");
 
             RuleFor(x => x.ConfirmPassword)
-                 .NotEmpty()
-                 .WithMessage("Please enter your confirm password.")
-                 .Equal(x => x.Password)
-                 .WithMessage("Password and Confirm Password do not match.");
+                .NotEmpty()
+                .WithMessage("Please enter your confirm password.")
+                .Equal(x => x.Password)
+                .WithMessage("Password and Confirm Password do not match.");
         }
 
-      
-        private async Task<bool> BeAValidUser(string email, CancellationToken cancellationToken)
+        private async Task<bool> BeAUniqueEmail(string email, CancellationToken cancellationToken)
         {
-            var user = email is null ? null : await _userManager.FindByEmailAsync(email);
-
-            if (user == null)
-            {
-                return true;
-            }
-            else
+            if (string.IsNullOrEmpty(email))
             {
                 return false;
             }
+
+            var user = await _userManager.FindByEmailAsync(email);
+            return user == null;
         }
     }
+
 }

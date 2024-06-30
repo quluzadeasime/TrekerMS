@@ -20,7 +20,7 @@ namespace TREKER.Business.ViewModels.DestinationVMs
         public int RegionId { get; set; }
 
         // Relation Fields
-        public IQueryable<Region> Regions { get; set; }
+        public ICollection<Region> Regions { get; set; }
     }
 
     public class CreateDestinationVMValidator : AbstractValidator<CreateDestinationVM>
@@ -30,9 +30,9 @@ namespace TREKER.Business.ViewModels.DestinationVMs
             RuleFor(x => x.Title)
                 .NotEmpty()
                 .WithMessage("You must filled the input Title.")
-                .MinimumLength(5)
+                .MinimumLength(4)
                 .MaximumLength(70)
-                .WithMessage("Title's length between 5-70 character.");
+                .WithMessage("Title's length between 4-70 character.");
             RuleFor(x => x.File)
                 .NotNull()
                 .WithMessage("You must filled the input image.")

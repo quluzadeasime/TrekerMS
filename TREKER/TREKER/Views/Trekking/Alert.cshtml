@@ -1,0 +1,25 @@
+﻿@model int
+
+<div class="container vh-100 d-flex align-items-center justify-content-center">
+    <div class="row">
+        <div class="col-md-8 offset-md-2 text-center">
+            <div class="success-checkmark">
+                <div class="check-icon">
+                    <span class="icon-line line-tip"></span>
+                    <span class="icon-line line-long"></span>
+                    <div class="icon-circle"></div>
+                    <div class="icon-fix"></div>
+                </div>
+            </div>
+            <p class="mt-4">
+                Your appointment is confirmed! Thank you for choosing us. You will be contacted within a certain period of time.
+                Please check your email for further details regarding your appointment.
+            </p>
+            <div class="mt-4">
+                <a asp-action="Index" asp-controller="Trekking" class="btn btn-primary">
+                    <span class="far fa-long-arrow-right"></span> Explore More
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

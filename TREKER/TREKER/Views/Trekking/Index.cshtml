@@ -1,12 +1,16 @@
-﻿ <!-- Banner Section -->
+﻿@using TREKER.Business.ViewModels.PageVM
+@using TREKER.MVC.Areas.Admin.Functions
+@model TrekkingVM
+
+ <!-- Banner Section -->
 <section class="inner-banner">
-    <div class="image-layer" style="background-image: url('@Url.Content("/assets/images/resource/bg-1.jpg")');"></div>
+    <div class="image-layer" style="background-image: url('@Url.Content("/assets/images/background/backphoto3.jpg")');"></div>
     <div class="auto-container">
         <div class="content-box">
             <h2>Trekking</h2>
             <div class="bread-crumb">
                 <ul class="clearfix">
-                    <li><span class="icon-home fa fa-home"></span><a href="index.html">Home</a></li>
+                    <li><span class="icon-home fa fa-home"></span><a asp-action="Index" asp-controller="Home">Home</a></li>
                     <li class="current">Trekking</li>
                 </ul>
             </div>
@@ -29,179 +33,84 @@
             <!--Filter-->
             <div class="gallery-filters centered clearfix">
                 <ul class="filter-tabs filter-btns clearfix">
-                    <li class="active filter" data-role="button" data-filter="all">All Types</li>
-                    <li class="filter" data-role="button" data-filter=".easy-m">Easy Moderate</li>
-                    <li class="filter" data-role="button" data-filter=".moderate">Moderate</li>
-                    <li class="filter" data-role="button" data-filter=".m-difficult">Moderate Difficult</li>
-                    <li class="filter" data-role="button" data-filter=".difficult">Difficult</li>
+                    <li class="active filter" data-role="button" data-filter="all">All</li>
+                    @foreach (var item in Model.Difficulties)
+                    {
+                        <li class="filter" data-role="button" data-filter=".@(item.Name.Replace(" ", ""))">@item.Name</li>
+                    }
                 </ul>
             </div>
             <div class="filter-list row clearfix">
                 <!--Block-->
-                <div class="trek-block-one style-two mix all moderate m-difficult col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/f-image-1.jpg" alt="" title=""></a></div>
-                            <div class="price"><span>$120</span></div>
-                            <div class="info">
-                                <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span> &ensp; | &ensp; <span class="i-block">259P, Himalaya Ag</span>
+                @foreach (var item in Model.Trekkings)
+                {
+                    <div class="trek-block-one style-two mix @(item.Difficulty.Name.Replace(" ", "")) col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                        <div 
+                            lass="inner-box">
+                            <div class="image-box">
+                                <div class="image">
+                                    <a asp-action="Detail" asp-controller="Trekking" asp-route-id="@item.Id">
+                                        <img src="@item.Images.FirstOrDefault().ImageUrl" alt="" title="">
+                                    </a>
+                                </div>
+                                <div class="price">
+                                    <span>$@item.Price</span>
+                                </div>
+                                <div class="info">
+                                    <span class="i-block"><i class="icon far fa-clock"></i> @item.Days.Count days</span> &ensp; | &ensp; <span class="i-block">@item.Destination.Title</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="lower-content">
-                            <h4><a href="#">Moscow Red City Land</a></h4>
-                            <div class="ratings clearfix">
-                                <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                <div class="rev"><a href="#">05 Review</a></div>
-                            </div>
-                            <div class="text">Richly varied landscapes, luxurious accommodation and a wide range of wild experiences await you. </div>
-                        </div>
-                        <div class="bottom-box clearfix">
-                            <div class="more-link"><a href="#" class="theme-btn"><span>View Details <i class="icon"><img src="~/assets/images/icons/logo-icon.svg" alt=""></i></span></a></div>
-                            <div class="video-link"><a href="#" class="theme-btn"><i class="icon far fa-video-camera"></i></a></div>
-                        </div>
-                    </div>
-                </div>
+                            <div class="lower-content">
+                                <h4><a asp-action="Detail" asp-controller="Trekking" asp-route-id="@item.Id">@item.Title</a></h4>
+                                <div class="ratings clearfix">
+                                    <div class="stars">
+                                        @Html.Raw(ViewFunctions.GetStarRating(item.Star))
+                                    </div>
+                                    <div class="rev">
+                                        <a href="#">@item.ReviewCount Review</a>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                    @if (item.Description.Length > 150)
+                                    {
+                                        @Html.Raw(item.Description.Substring(0, 150) + "...")
+                                    }
+                                    else
+                                    {
+                                        @Html.Raw(item.Description)
+                                    }
 
-                <!--Block-->
-                <div class="trek-block-one style-two mix all easy-m difficult col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/f-image-2.jpg" alt="" title=""></a></div>
-                            <div class="price"><span>$120</span></div>
-                            <div class="info">
-                                <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span> &ensp; | &ensp; <span class="i-block">259P, Himalaya Ag</span>
+                                    <div class="bottom-box clearfix" style="text-align: center;">
+                                        <div class="more-link">
+                                            <a asp-action="Detail" asp-controller="Trekking" asp-route-id="@item.Id" style="display: inline-block; padding: 10px; border: 2px solid #2ec4b6; border-radius: 10px; background-color: #2ec4b6; color: white;">
+                                                <span style="font-size: 16px;">View Details</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="lower-content">
-                            <h4><a href="#">Yellowstone & Mt Rushm</a></h4>
-                            <div class="ratings clearfix">
-                                <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                <div class="rev"><a href="#">05 Review</a></div>
-                            </div>
-                            <div class="text">Richly varied landscapes, luxurious accommodation and a wide range of wild experiences await you. </div>
-                        </div>
-                        <div class="bottom-box clearfix">
-                            <div class="more-link"><a href="#" class="theme-btn"><span>View Details <i class="icon"><img src="~/assets/images/icons/logo-icon.svg" alt=""></i></span></a></div>
-                            <div class="video-link"><a href="#" class="theme-btn"><i class="icon far fa-video-camera"></i></a></div>
+                           
+                          
                         </div>
                     </div>
-                </div>
+                }
 
-                <!--Block-->
-                <div class="trek-block-one style-two mix all m-difficult col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/f-image-3.jpg" alt="" title=""></a></div>
-                            <div class="price"><span>$120</span></div>
-                            <div class="info">
-                                <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span> &ensp; | &ensp; <span class="i-block">259P, Himalaya Ag</span>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <h4><a href="#">Los Angeles to San Franc</a></h4>
-                            <div class="ratings clearfix">
-                                <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                <div class="rev"><a href="#">05 Review</a></div>
-                            </div>
-                            <div class="text">Richly varied landscapes, luxurious accommodation and a wide range of wild experiences await you. </div>
-                        </div>
-                        <div class="bottom-box clearfix">
-                            <div class="more-link"><a href="#" class="theme-btn"><span>View Details <i class="icon"><img src="~/assets/images/icons/logo-icon.svg" alt=""></i></span></a></div>
-                            <div class="video-link"><a href="#" class="theme-btn"><i class="icon far fa-video-camera"></i></a></div>
-                        </div>
-                    </div>
-                </div>
 
-                <!--Block-->
-                <div class="trek-block-one style-two mix all easy-m moderate col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/f-image-4.jpg" alt="" title=""></a></div>
-                            <div class="price"><span>$120</span></div>
-                            <div class="info">
-                                <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span> &ensp; | &ensp; <span class="i-block">259P, Himalaya Ag</span>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <h4><a href="#">Best Of Switzerland</a></h4>
-                            <div class="ratings clearfix">
-                                <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                <div class="rev"><a href="#">05 Review</a></div>
-                            </div>
-                            <div class="text">Richly varied landscapes, luxurious accommodation and a wide range of wild experiences await you. </div>
-                        </div>
-                        <div class="bottom-box clearfix">
-                            <div class="more-link"><a href="#" class="theme-btn"><span>View Details <i class="icon"><img src="~/assets/images/icons/logo-icon.svg" alt=""></i></span></a></div>
-                            <div class="video-link"><a href="#" class="theme-btn"><i class="icon far fa-video-camera"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Block-->
-                <div class="trek-block-one style-two mix all moderate difficult col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/f-image-5.jpg" alt="" title=""></a></div>
-                            <div class="price"><span>$120</span></div>
-                            <div class="info">
-                                <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span> &ensp; | &ensp; <span class="i-block">259P, Himalaya Ag</span>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <h4><a href="#">Italian Dolomites</a></h4>
-                            <div class="ratings clearfix">
-                                <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                <div class="rev"><a href="#">05 Review</a></div>
-                            </div>
-                            <div class="text">Richly varied landscapes, luxurious accommodation and a wide range of wild experiences await you. </div>
-                        </div>
-                        <div class="bottom-box clearfix">
-                            <div class="more-link"><a href="#" class="theme-btn"><span>View Details <i class="icon"><img src="~/assets/images/icons/logo-icon.svg" alt=""></i></span></a></div>
-                            <div class="video-link"><a href="#" class="theme-btn"><i class="icon far fa-video-camera"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Block-->
-                <div class="trek-block-one style-two mix all easy-m moderate m-difficult difficult col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="#"><img src="~/assets/images/resource/f-image-3.jpg" alt="" title=""></a></div>
-                            <div class="price"><span>$120</span></div>
-                            <div class="info">
-                                <span class="i-block"><i class="icon far fa-clock"></i> 5 days</span> &ensp; | &ensp; <span class="i-block">259P, Himalaya Ag</span>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <h4><a href="#">Los Angeles to San Franc</a></h4>
-                            <div class="ratings clearfix">
-                                <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star empty"></i></div>
-                                <div class="rev"><a href="#">05 Review</a></div>
-                            </div>
-                            <div class="text">Richly varied landscapes, luxurious accommodation and a wide range of wild experiences await you. </div>
-                        </div>
-                        <div class="bottom-box clearfix">
-                            <div class="more-link"><a href="#" class="theme-btn"><span>View Details <i class="icon"><img src="~/assets/images/icons/logo-icon.svg" alt=""></i></span></a></div>
-                            <div class="video-link"><a href="#" class="theme-btn"><i class="icon far fa-video-camera"></i></a></div>
-                        </div>
-                    </div>
-                </div>
 
             </div>
 
-            <div class="load-more"><a href="#" class="theme-btn btn-style-one"><span>Load More......</span></a></div>
         </div>
     </div>
 </section>
 
 <!-- Facts Section -->
 <section class="facts-section">
-    <div class="image-layer" style="background-image: url(images/background/image-6.jpg);"></div>
+    <div class="image-layer" style="background-image: url('@Url.Content("/assets/images/background/backphoto5.jpg")');"></div>
     <div class="auto-container">
         <div class="content-box">
-            <div class="video-btn"><a href="https://youtu.be/dtuyJ6y9Mu8?si=yCuCJu1j18un77Rc" class="theme-btn lightbox-image"><span class="icon"><img src="~/assets/images/icons/video-icon-2.svg" alt="" title=""></span></a></div>
+            <div class="video-btn"><a href="https://youtu.be/ruQdDdLB420?si=PXJpfrFMQGH_OLiK" class="theme-btn lightbox-image"><span class="icon"><img src="~/assets/images/icons/video-icon-2.svg" alt="" title=""></span></a></div>
             <div class="subtitle">Are you ready to travel?</div>
-            <h2>Treker is a World Leading Online Tour Booking Platform</h2>
+            <h2>How to Pack Your Backpack the Right Way</h2>
         </div>
     </div>
     <div class="facts-box">
@@ -211,28 +120,28 @@
                     <!--Block-->
                     <div class="fact-block col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="inner">
-                            <div class="count"><span class="odometer" data-count="07"></span>+</div>
+                            <div class="count"><span class="odometer" data-count="02"></span>+</div>
                             <div class="fact-title"><span>Years Exp</span></div>
                         </div>
                     </div>
                     <!--Block-->
                     <div class="fact-block col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="inner">
-                            <div class="count"><span class="odometer" data-count="02"></span>k+</div>
+                            <div class="count"><span class="odometer" data-count="25"></span>+</div>
                             <div class="fact-title"><span>Top Hosts</span></div>
                         </div>
                     </div>
                     <!--Block-->
                     <div class="fact-block col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="inner">
-                            <div class="count"><span class="odometer" data-count="50"></span>+</div>
-                            <div class="fact-title"><span>Top Country</span></div>
+                            <div class="count"><span class="odometer" data-count="30"></span>+</div>
+                            <div class="fact-title"><span>Top Region</span></div>
                         </div>
                     </div>
                     <!--Block-->
                     <div class="fact-block col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="inner">
-                            <div class="count"><span class="odometer" data-count="10"></span>k+</div>
+                            <div class="count"><span class="odometer" data-count="2"></span>k+</div>
                             <div class="fact-title"><span>Client Avilable</span></div>
                         </div>
                     </div>

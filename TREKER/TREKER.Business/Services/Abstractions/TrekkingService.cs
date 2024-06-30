@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,10 +17,14 @@ namespace TREKER.Business.Services.Abstractions
     public class TrekkingService : ITrekkingService
     {
         private readonly ITrekkingRepository _trekkingRepository;
+        private readonly ITrekkingFacilityRepository _trekkingFacilityRepository;
+        private readonly ITrekkingFeatureRepository _trekkingFeatureRepository;
         private readonly IConfiguration _configuration;
+        private readonly ITrekkingImageRepository _trekkingImageRepository;
         private readonly string _connectionString;
         private readonly string[] includes =
         {
+            "Images",
             "Difficulty",
             "Destination",
             "Days",
@@ -29,11 +34,24 @@ namespace TREKER.Business.Services.Abstractions
             "Facilities.Facility"
         };
 
-        public TrekkingService(ITrekkingRepository trekkingRepository, IConfiguration configuration)
+        private readonly string[] includes2 =
+        {
+            "Images",
+            "Features",
+            "Features.Feature",
+            "Facilities",
+            "Facilities.Facility"
+        };
+
+
+        public TrekkingService(ITrekkingRepository trekkingRepository, IConfiguration configuration, ITrekkingImageRepository trekkingImageRepository, ITrekkingFacilityRepository trekkingFacilityRepository, ITrekkingFeatureRepository trekkingFeatureRepository)
         {
             _trekkingRepository = trekkingRepository;
             _configuration = configuration;
             _connectionString = _configuration.GetConnectionString("AzureContainer");
+            _trekkingImageRepository = trekkingImageRepository;
+            _trekkingFacilityRepository = trekkingFacilityRepository;
+            _trekkingFeatureRepository = trekkingFeatureRepository;
         }
 
         public async Task CreateAsync(CreateTrekkingVM vm)
@@ -51,45 +69,42 @@ namespace TREKER.Business.Services.Abstractions
                 RoadHeight = vm.RoadHeight,
                 DestinationId = vm.DestinationId,
                 DifficultyId = vm.DifficultyId,
+                Features = new List<TrekkingFeature>(),
+                Facilities = new List<TrekkingFacility>(),
                 CreatedDate = DateTime.UtcNow,
                 UpdatedDate = DateTime.UtcNow,
             };
 
-            CreateTrekkingFeatures(vm, ref newTrekking);
-            CreateTrekkingFacilities(vm, ref newTrekking);
-
-            newTrekking.Images = (await CreateTrekkingImages(vm, newTrekking)).AsQueryable();
-
-            await _trekkingRepository.CreateAsync(newTrekking);
-            await _trekkingRepository.SaveChangesAsync();
-        }
-
-        public void CreateTrekkingFeatures(CreateTrekkingVM vm, ref Trekking newTrekking)
-        {
             foreach (var featureId in vm.FeatureIds)
             {
-                newTrekking.Features.ToList().Add(
+                newTrekking.Features.Add(
                     new TrekkingFeature
                     {
                         Trekking = newTrekking,
                         FeatureId = featureId,
+                        CreatedDate = DateTime.UtcNow,
+                        UpdatedDate = DateTime.UtcNow
                     }
                     );
-            }            
-        }
+            }
 
-        public void CreateTrekkingFacilities(CreateTrekkingVM vm, ref Trekking newTrekking)
-        {
             foreach (var facilityId in vm.FacilityIds)
             {
-                newTrekking.Facilities.ToList().Add(
+                newTrekking.Facilities.Add(
                     new TrekkingFacility
                     {
                         Trekking = newTrekking,
                         FacilityId = facilityId,
+                        CreatedDate = DateTime.UtcNow,
+                        UpdatedDate = DateTime.UtcNow, 
                     }
                     );
             }
+
+            newTrekking.Images = await CreateTrekkingImages(vm, newTrekking);
+
+            await _trekkingRepository.CreateAsync(newTrekking);
+            await _trekkingRepository.SaveChangesAsync();
         }
 
         public async Task<List<TrekkingImage>> CreateTrekkingImages(CreateTrekkingVM vm, Trekking newTrekking)
@@ -102,7 +117,9 @@ namespace TREKER.Business.Services.Abstractions
                     new TrekkingImage
                     {
                         Trekking = newTrekking,
-                        ImageUrl = await image.UploadFileAsync(_connectionString, "/TrekkingPictures/")
+                        ImageUrl = await image.UploadFileAsync(_connectionString, "/TrekkingPictures/"),
+                        CreatedDate = DateTime.UtcNow, 
+                        UpdatedDate = DateTime.UtcNow,
                     }
                     );
             }
@@ -151,7 +168,7 @@ namespace TREKER.Business.Services.Abstractions
 
         public async Task UpdateAsync(UpdateTrekkingVM vm)
         {
-            var oldTrekking = await _trekkingRepository.GetByIdAsync(vm.Id, includes);
+            var oldTrekking = await _trekkingRepository.GetByIdAsync(vm.Id, includes2);
 
             oldTrekking.Title = vm.Title ?? oldTrekking.Title;
             oldTrekking.Description = vm.Description ?? oldTrekking.Description;
@@ -163,50 +180,56 @@ namespace TREKER.Business.Services.Abstractions
             oldTrekking.ReviewCount = vm.ReviewCount ?? oldTrekking.ReviewCount;
             oldTrekking.Duration = vm.Duration ?? oldTrekking.Duration;
             oldTrekking.RoadHeight = vm.RoadHeight ?? oldTrekking.RoadHeight;
-            oldTrekking.DestinationId = vm.DestinationId ?? oldTrekking.DestinationId;
-            oldTrekking.DifficultyId = vm.DifficultyId ?? oldTrekking.DifficultyId;
-
-            UpdateTrekkingFacilities(vm, ref oldTrekking);
-            UpdateTrekkingFeatures(vm, ref oldTrekking);
-
-            oldTrekking.Images = (await UpdateTrekkingImagesAsync(vm, oldTrekking)).AsQueryable();
-
-            await _trekkingRepository.CreateAsync(oldTrekking);
-            await _trekkingRepository.SaveChangesAsync();
+            oldTrekking.DestinationId = vm.DestinationId;
+            oldTrekking.DifficultyId = vm.DifficultyId;
 
 
-        }
+            foreach (var item in oldTrekking.Features)
+            {
+                _trekkingFeatureRepository.Remove(item.Id);
+            }
 
-        public void UpdateTrekkingFeatures(UpdateTrekkingVM vm, ref Trekking oldTrekking)
-        {
-            oldTrekking.Features.ToList().Clear();
+            foreach (var item in oldTrekking.Facilities)
+            {
+                _trekkingFacilityRepository.Remove(item.Id);
+            }
+
+            oldTrekking.Facilities.Clear();
+            oldTrekking.Features.Clear();
+
 
             foreach (var featureId in vm.FeatureIds)
             {
-                oldTrekking.Features.ToList().Add(
+                oldTrekking.Features.Add(
                     new TrekkingFeature
                     {
                         Trekking = oldTrekking,
                         FeatureId = featureId,
+                        CreatedDate = DateTime.UtcNow,
+                        UpdatedDate = DateTime.UtcNow,
                     }
                     );
             }
-        }
-
-        public void UpdateTrekkingFacilities(UpdateTrekkingVM vm, ref Trekking oldTrekking)
-        {
-            oldTrekking.Facilities.ToList().Clear();
 
             foreach (var facilityId in vm.FacilityIds)
             {
-                oldTrekking.Facilities.ToList().Add(
+                oldTrekking.Facilities.Add(
                     new TrekkingFacility
                     {
                         Trekking = oldTrekking,
                         FacilityId = facilityId,
+                        CreatedDate = DateTime.UtcNow,
+                        UpdatedDate = DateTime.UtcNow,
                     }
                     );
             }
+            
+            oldTrekking.Images = await UpdateTrekkingImagesAsync(vm, oldTrekking);
+
+            await _trekkingRepository.UpdateAsync(oldTrekking);
+            await _trekkingRepository.SaveChangesAsync();
+
+
         }
 
         public async Task<List<TrekkingImage>> UpdateTrekkingImagesAsync(UpdateTrekkingVM vm, Trekking oldTrekking)
@@ -216,6 +239,11 @@ namespace TREKER.Business.Services.Abstractions
             if (vm.ViewImageIds == null)
             {
                 trekkingImages.RemoveAll(x => x.TrekkingId == vm.Id);
+
+                foreach (var item in oldTrekking.Images)
+                {
+                    _trekkingImageRepository.Remove(item.Id);
+                }
             }
             else
             {
@@ -225,7 +253,9 @@ namespace TREKER.Business.Services.Abstractions
                 {
                     foreach (var item in removeList)
                     {
-                        oldTrekking.Images.ToList().Remove(item);
+                        trekkingImages.Remove(item);
+
+                        _trekkingImageRepository.Remove(item.Id);
 
                         Uri uri = new Uri(item.ImageUrl);
                         string blobName = uri.Segments.Last();
@@ -234,15 +264,20 @@ namespace TREKER.Business.Services.Abstractions
                 }
             }
 
-            foreach (var image in vm.Images)
+            if(vm.Images is not null)
             {
-                trekkingImages.Add(
-                    new TrekkingImage
-                    {
-                        ImageUrl = await image.UploadFileAsync(_connectionString, "/TrekkingPictures/"),
-                        Trekking = oldTrekking,
-                    }
-                    );
+                foreach (var image in vm.Images)
+                {
+                    trekkingImages.Add(
+                        new TrekkingImage
+                        {
+                            ImageUrl = await image.UploadFileAsync(_connectionString, "/TrekkingPictures/"),
+                            Trekking = oldTrekking,
+                            CreatedDate = DateTime.UtcNow,
+                            UpdatedDate = DateTime.UtcNow,
+                        }
+                        );
+                }
             }
 
             return trekkingImages;

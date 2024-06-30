@@ -1,8 +1,16 @@
-﻿<!DOCTYPE html>
+﻿@using TREKER.Business.Services.Abstractions
+@inject LayoutService LayoutService
+
+@{
+    var settings = await LayoutService.GetSettingsAsync();
+}
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Treker - Home 01</title>
+    <title>Treker </title>
     <!-- Stylesheets -->
     <link href="~/assets/css/bootstrap.css" rel="stylesheet">
     <link href="~/assets/css/style.css" rel="stylesheet">
@@ -15,6 +23,7 @@
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 
 </head>
+
 
 <body>
     <div class="page-wrapper">
@@ -31,8 +40,8 @@
                     <div class="inner clearfix">
                         <div class="top-left clearfix">
                             <ul class="info clearfix">
-                                <li><i class="icon fa fa-envelope"></i> <a href="mailto:INFO@TREKER.COM">INFO@TREKER.COM</a></li>
-                                <li><i class="icon fa fa-phone-circle"></i> <a href="tel:+11256326501">+11 256 3265 01</a></li>
+                                <li><i class="icon fa fa-envelope"></i> <a href="mailto:@settings.Email">@settings.Email</a></li>
+                                <li><i class="icon fa fa-phone-circle"></i> <a href="tel:@settings.Phone1">@settings.Phone1</a></li>
                             </ul>
                         </div>
                     </div>
@@ -42,54 +51,57 @@
             <div class="header-upper">
                 <div class="auto-container">
                     <!-- Main Box -->
-                    <div class="main-box clearfix">
+                    <div class="main-box clearfix" style="display: flex; justify-content: center;">
                         <!--Logo-->
-                        <div class="logo-box">
-                            <div class="logo"><a href="index.html" title="Treker"><img src="~/assets/images/logo.svg" alt="" title="Treker"></a></div>
+                        <div class="logo-box" style="flex: 1;">
+                            <div class="logo"><a asp-action="Index" asp-controller="Home" title="Home"><img src="~/assets/images/logo.svg" alt="" title="Home"></a></div>
                         </div>
 
-                        <div class="nav-box clearfix">
+                        <div class="nav-box clearfix" style="flex: 2; text-align: center; margin-left: -6rem;">
                             <!--Nav Outer-->
-                            <div class="nav-outer clearfix" style="text-align: center;">
-                                <nav class="main-menu" style="display: inline-block; float: none;">
+                            <div class="nav-outer" style="text-align: center;">
+                                <nav class="main-menu">
                                     <ul class="navigation clearfix">
-                                        <li class="current dropdown">
+                                        <li class="@(ViewBag.ActivePage == "Home" ? "current" : "") dropdown">
                                             <a asp-action="Index" asp-controller="Home">Home</a>
                                         </li>
-                                        <li class="dropdown">
+                                        <li class="@(ViewBag.ActivePage == "About" ? "current" : "") dropdown">
                                             <a asp-action="Index" asp-controller="About">About Us</a>
-                                            
                                         </li>
-
-                                        <li><a asp-action="Index" asp-controller="Destination">Destinations</a></li>
-
-                                        <li><a asp-action="Index" asp-controller="Trekking">Trekking</a></li>
-
-                                        <li class="dropdown">
+                                        <li class="@(ViewBag.ActivePage == "Destination" ? "current" : "")">
+                                            <a asp-action="Index" asp-controller="Destination">Destinations</a>
+                                        </li>
+                                        <li class="@(ViewBag.ActivePage == "Trekking" ? "current" : "")">
+                                            <a asp-action="Index" asp-controller="Trekking">Trekking</a>
+                                        </li>
+                                        <li class="@(ViewBag.ActivePage == "News" ? "current" : "") dropdown">
                                             <a asp-action="Index" asp-controller="News">News</a>
-                                            
                                         </li>
-                                        <li><a asp-action="Index" asp-controller="Contact">Contact</a></li>
+                                        <li class="@(ViewBag.ActivePage == "Contact" ? "current" : "")">
+                                            <a asp-action="Create" asp-controller="ContactUs">Contact</a>
+                                        </li>
+                                        @if (User.Identity.IsAuthenticated)
+                                        {
+                                            <li class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Dashboard" ? "current" : "")">
+                                                <a asp-action="Index" asp-controller="Dashboard" asp-area="Admin">Admin</a>
+                                            </li>
+                                        }
                                     </ul>
                                 </nav>
                                 <!-- Main Menu End-->
                             </div>
                             <!--Nav Outer End-->
-
-
                             <!-- Hidden Nav Toggler -->
                             <div class="nav-toggler">
                                 <button class="hidden-bar-opener"><span class="icon"><img src="~/assets/images/icons/menu-icon.svg" alt=""></span></button>
                             </div>
-
                         </div>
-
-                        <!-- End Header Upper -->
-
                     </div>
+                    <!-- End Header Upper -->
                 </div>
             </div>
         </header>
+
         <!--End Main Header -->
         <!--Search Backdrop-->
         <div class="search-backdrop"></div>
@@ -103,75 +115,47 @@
             <div class="hidden-bar-wrapper">
                 <div class="hidden-bar-closer"><span class="icon"><svg class="icon-close" role="presentation" viewBox="0 0 16 14"><path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path></svg></span></div>
                 <div class="nav-logo-box">
-                    <div class="logo"><a href="index.html" title="Treker"><img src="~/assets/images/logo.svg" alt="" title="Treker"></a></div>
+                    <div class="logo"><a asp-action="Index" asp-controller="Home" title="Home"><img src="~/assets/images/logo.svg" alt="" title="Home"></a></div>
                 </div>
                 <!-- .Side-menu -->
                 <div class="side-menu">
                     <ul class="navigation clearfix">
-                        <li class="current dropdown">
-                            <a href="index.html">Home</a>
+                        <li class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" ? "current" : "") dropdown">
+                            <a asp-action="Index" asp-controller="Home">Home</a>
                         </li>
-                        <li class="dropdown">
-                            <a href="about.html">About Us</a>
+                        <li class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "About" ? "current" : "") dropdown">
+                            <a asp-action="Index" asp-controller="About">About Us</a>
                         </li>
-
-                        <li><a href="destinations.html">Destinations</a></li>
-                        <li><a href="trekking.html">Trekking</a></li>
-                        <li class="dropdown">
-                            <a href="blog.html">News</a>
+                        <li class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Destination" ? "current" : "")">
+                            <a asp-action="Index" asp-controller="Destination">Destinations</a>
                         </li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Trekking" ? "current" : "")">
+                            <a asp-action="Index" asp-controller="Trekking">Trekking</a>
+                        </li>
+                        <li class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "News" ? "current" : "") dropdown">
+                            <a asp-action="Index" asp-controller="News">News</a>
+                        </li>
+                        <li class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "ContactUs" ? "current" : "")">
+                            <a asp-action="Create" asp-controller="ContactUs">Contact</a>
+                        </li>
+                        <li class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Dashboard" ? "current" : "")">
+                            <a asp-action="Index" asp-controller="Dashboard" asp-area="Admin">Admin</a>
+                        </li>
                     </ul>
                 </div><!-- /.Side-menu -->
-
-
             </div><!-- / Hidden Bar Wrapper -->
         </section>
         <!-- / Hidden Bar -->
 
-        <div class="cart-backdrop"></div>
-
-        <!--Cart Sidebar-->
-        <div class="cart-sidebar">
-            <div class="cart-side-inner">
-                <div class="cart-side-header">
-                    <div class="closer-btn"><span>Close</span></div>
-                    <h5>Shopping Cart</h5>
-                </div>
-                <div class="prod-box">
-                    <div class="prod-block">
-                        <div class="prod-inner">
-                            <div class="prod-thumb"><a href="#"><img src="~/assets/images/resource/shop/shop-thumb-1.jpg" alt=""></a></div>
-                            <div class="remove-item"><a href="#"><i class="far fa-times"></i></a></div>
-                            <div class="prod-title"><a href="#">Smart Air Bag Travel</a></div>
-                            <div class="quantity-box">
-                                <div class="item-quantity">
-                                    <input class="qty-spinner" type="text" value="1" name="quantity">
-                                </div>
-                            </div>
-                            <div class="calculations">1 x <span>$225.00</span></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="lower-content">
-                <div class="count clearfix">
-                    <span class="ttl">Subtotal</span>
-                    <span class="dtl">$225.00</span>
-                </div>
-                <div class="links clearfix">
-                    <div class="left"><a href="#" class="theme-btn btn-style-one"><span>View Cart</span></a></div>
-                    <div class="right"><a href="#" class="theme-btn btn-style-two"><span>Checkout</span></a></div>
-                </div>
-            </div>
-        </div>
+       
 
 
 
         @RenderBody()
         <!--Main Footer-->
         <footer class="footer-two">
-            <div class="bg-layer" style="background-image: url(~/assets/images/resource/background_.jpg);"></div>
+            <div class="image-layer" style="background-image: url('@Url.Content("/assets/images/background/naturebackground.jpg")');"></div>
+
             <div class="upper-section">
                 <div class="auto-container">
 
@@ -180,17 +164,17 @@
                         <div class="footer-column col-xl-4 col-lg-12 col-md-12 col-sm-12">
                             <!--Logo-->
                             <div class="footer-logo">
-                                <div class="logo"><a href="index.html" title="Treker"><img src="~/assets/images/logo.svg" alt="" title="Treker"></a></div>
+                                <div class="logo"><a asp-action="Index" asp-controller="Trekking" title="Treker"><img src="~/assets/images/logo.svg" alt="" title="Treker"></a></div>
                             </div>
                             <div class="footer-text">
                                 Embark on extraordinary journeys with TREKER, where every trip is a unique adventure tailored to your desires. Discover hidden gems, immerse yourself in diverse cultures, and create unforgettable memories.
                             </div>
                             <div class="social-links">
                                 <ul class="clearfix">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="@settings.Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="@settings.Twitter"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="@settings.Youtube"><i class="fab fa-youtube"></i></a></li>
+                                    <li><a href="@settings.Instagram"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -202,11 +186,10 @@
                                     <h6>Exlopre Treker</h6>
                                     <div class="links">
                                         <ul>
-                                            <li><a href="#">Account</a></li>
-                                            <li><a href="#">Privacy Policy</a></li>
-                                            <li><a href="#">Affilitate</a></li>
-                                            <li><a href="#">Program</a></li>
-                                            <li><a href="#">Our Partner</a></li>
+                                            <li><a asp-action="Create" asp-controller="ContactUs">Privacy Policy</a></li>
+                                            <li><a asp-action="Index" asp-controller="About">Affilitate</a></li>
+                                            <li><a asp-action="Index" asp-controller="Destination">Program</a></li>
+                                            <li><a asp-action="Index" asp-controller="Home">Our Partner</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -216,22 +199,28 @@
                                     <div class="links">
                                         <ul>
                                             <li><a asp-action="Index" asp-controller="About">About us</a></li>
-                                            <li><a href="#">News & press</a></li>
                                             <li><a asp-action="Index" asp-controller="News">Blog</a></li>
-                                            <li><a href="#">FAQs</a></li>
-                                            <li><a href="#">Careers</a></li>
+                                            <li><a asp-action="Create" asp-controller="ContactUs">FAQs</a></li>
+                                            <li><a asp-action="Index" asp-controller="Trekking">Careers</a></li>
                                         </ul>
                                     </div>
                                 </div>
 
                                 <div class="info-block col-lg-6 col-md-4 col-sm-12">
                                     <h6>Address</h6>
-                                    <div class="info">
+                                    <div class="info address-item" style="margin-bottom: 15px;">
                                         <ul>
-                                            <li>Azerbaijan 28 May Road Baku 9RHX+WC<a href="tel:+44(0)2036715709">+44 (0)20 3671 5709</a></li>
+                                            <li>@settings.Address1<a href="tel:@settings.Phone1">@settings.Phone1</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="info address-item">
+                                        <ul>
+                                            <li>@settings.Address2<a href="tel:@settings.Phone2">@settings.Phone2</a></li>
                                         </ul>
                                     </div>
                                 </div>
+
 
                             </div>
                         </div>
@@ -267,5 +256,6 @@
     <script src="~/assets/js/wow.js"></script>
     <script src="~/assets/js/odometer.js"></script>
     <script src="~/assets/js/custom-script.js"></script>
+
 </body>
 </html>

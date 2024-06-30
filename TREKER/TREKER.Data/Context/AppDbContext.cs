@@ -24,8 +24,10 @@ namespace TREKER.DAL.Context
         public DbSet<Region> Regions { get; set; }
         public DbSet<Trekking> Trekkings { get; set; }
         public DbSet<Day> Days { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
         public DbSet<TrekkingFacility> TrekkingFacilities { get; set; }
         public DbSet<TrekkingFeature> TrekkingFeatures { get; set; }
         public DbSet<TrekkingImage> TrekkingImages { get; set; }
+        public DbSet<Appointment> Appointments { get; set; }
     }
 }

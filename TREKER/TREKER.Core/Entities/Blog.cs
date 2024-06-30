@@ -14,6 +14,6 @@ namespace TREKER.Core.Entities
         public string Description { get; set; }
         public int DestinationId { get; set; }
         public Destination Destination { get; set; }
-        public IQueryable<BlogImage> Images { get; set; }
+        public ICollection<BlogImage> Images { get; set; }
     }
 }

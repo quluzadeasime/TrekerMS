@@ -22,7 +22,7 @@
         </div>
         <!-- end page title end breadcrumb -->
         <!-- Form for CreateTeamMemberVM -->
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mb-5">
             <div class="col-md-8">
                 <div class="card mt-5 shadow-sm">
                     <div class="card-header bg-primary text-white">
@@ -38,11 +38,25 @@
                                 <input type="text" class="form-control" asp-for="Description" placeholder="Enter description">
                             </div>
                             <br />
-
+                            <div class="form-group">
+                                <label asp-for="TrekkingId" class="form-label">Trekking</label>
+                                <select class="form-control" asp-for="TrekkingId">
+                                    @foreach (var trekking in Model.Trekkings)
+                                    {
+                                        <option value="@trekking.Id">@trekking.Title</option>
+                                    }
+                                </select>
+                            </div>
+                            <br />
                             <div class="d-grid">
                                 <button type="submit" class="btn btn-primary btn-block mt-3">Update</button>
                             </div>
                         </form>
+                        <div class="d-grid">
+                            <a href="@Url.Action("Table", "Day")" class="btn btn-success btn-block mt-3" style="background-color: #28a745; color: white;">
+                                Back
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

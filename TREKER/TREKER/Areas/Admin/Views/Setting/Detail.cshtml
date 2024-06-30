@@ -1,3 +1,112 @@
-﻿@using TREKER.Business.ViewModels.PageVM
-@model LayoutVM
+﻿@using TREKER.Core.Entities
+@model Setting
 
+<style>
+    .card-wrapper {
+        background: #fff;
+        border: 1px solid #e2e2e2;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .detail-title {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .detail-item {
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+</style>
+
+<div class="wrapper">
+    <div class="container-fluid">
+
+        <!-- Page-Title -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-title-box">
+                    <div class="btn-group m-0 pull-right">
+                        <ol class="breadcrumb hide-phone p-0 m-0">
+                            <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Urora</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Tables" asp-controller="Dashboard">DB Tables</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Detail" asp-controller="Setting">Settings</a></li>
+                            <li class="breadcrumb-item active">Setting</li>
+                        </ol>
+                    </div>
+                    <h4 class="page-title">Our Settings</h4>
+                </div>
+            </div>
+        </div>
+        <!-- end page title end breadcrumb -->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card m-b-30 card-wrapper">
+                    <div class="card-body">
+                        <h4 class="mt-0 header-title text-center">Setting Details</h4>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <dl class="row" style="font-size: 16px;">
+                                    <dt class="col-sm-3 font-weight-bold text-left">Email:</dt>
+                                    <dd class="col-sm-9">@Model.Email</dd>
+
+                                    <dt class="col-sm-3 font-weight-bold text-left">Description:</dt>
+                                    <dd class="col-sm-9">@Model.Description</dd>
+
+                                    <dt class="col-sm-3 font-weight-bold text-left">Phone 1:</dt>
+                                    <dd class="col-sm-9">@Model.Phone1</dd>
+
+                                    <dt class="col-sm-3 font-weight-bold text-left">Phone 2:</dt>
+                                    <dd class="col-sm-9">@Model.Phone2</dd>
+
+                                    <dt class="col-sm-3 font-weight-bold text-left">Address 1:</dt>
+                                    <dd class="col-sm-9">@Model.Address1</dd>
+
+                                    <dt class="col-sm-3 font-weight-bold text-left">Address 2:</dt>
+                                    <dd class="col-sm-9">@Model.Address2</dd>
+
+                                    <dt class="col-sm-3 font-weight-bold text-left">Facebook link:</dt>
+                                    <dd class="col-sm-9">@Model.Facebook</dd>
+
+                                    <dt class="col-sm-3 font-weight-bold text-left">Instagram link:</dt>
+                                    <dd class="col-sm-9">@Model.Instagram</dd>
+
+                                    <dt class="col-sm-3 font-weight-bold text-left">Youtube link:</dt>
+                                    <dd class="col-sm-9">@Model.Youtube</dd>
+
+                                    <dt class="col-sm-3 font-weight-bold text-left">Twitter link:</dt>
+                                    <dd class="col-sm-9">@Model.Twitter</dd>
+
+                                    <dt class="col-sm-3 font-weight-bold text-left">Logo:</dt>
+                                    <dd class="col-sm-9">
+                                        <img src="@Model.LogoUrl" class="img-fluid" style="max-width: 100px;">
+                                    </dd>
+
+                                    <dt class="col-sm-3 font-weight-bold text-left">Updated Date:</dt>
+                                    <dd class="col-sm-9">@Model.UpdatedDate.ToString("dd MMM yyyy")</dd>
+                                </dl>
+                                @if (!Model.IsDeleted)
+                                {
+                                    <div class="text-right m-5">
+                                        <a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-raised btn-warning text-white rounded-circle" style="font-size: 20px; width: 40px; height: 40px;">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end container -->
+</div>
+<!-- end wrapper -->
+<!-- Include FontAwesome for the icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>

@@ -35,7 +35,8 @@ namespace TREKER.DAL.Repositories.Implementations
                 }
             }
 
-            var entity = await query.AsNoTracking().Where(x => x.Id == id).FirstOrDefaultAsync();
+            var entity = await query.Where(x => x.Id == id).AsNoTracking().FirstOrDefaultAsync();
+
             return entity;
         }
 

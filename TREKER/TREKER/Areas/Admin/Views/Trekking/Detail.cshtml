@@ -1,64 +1,110 @@
 ﻿@using TREKER.Core.Entities
 @model Trekking
 
+<style>
+    .icon-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 1;
+    }
+
+        .icon-btn i {
+            color: #fff;
+        }
+
+    .btn-update {
+        background-color: #f39c12;
+        border-color: #f39c12;
+    }
+
+    .btn-delete {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+    .btn-back {
+        background-color: #17a2b8;
+        border-color: #17a2b8;
+    }
+
+    .btn-icon {
+        padding: 6px;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 16px; /* Icon font size */
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+    }
+
+    .destination-card {
+        background: #fff;
+        border: 1px solid #e2e2e2;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .destination-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .detail-title {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .detail-item {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+</style>
+
 <div class="wrapper">
     <div class="container-fluid">
 
-        <!-- Page-Title -->
         <div class="row">
             <div class="col-sm-12">
                 <div class="page-title-box">
-                    <div class="btn-group m-0 pull-right">
-                        <ol class="breadcrumb hide-phone p-0 m-0">
-                            <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Urora</a></li>
-                            <li class="breadcrumb-item"><a asp-action="Tables" asp-controller="Dashboard">DB Tables</a></li>
-                            <li class="breadcrumb-item"><a asp-action="Table" asp-controller="Trekking">Trekking Table</a></li>
-                            <li class="breadcrumb-item active">@Model.Title</li>
-                        </ol>
-                    </div>
+                    <ol class="breadcrumb hide-phone p-0 m-0">
+                        <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Urora</a></li>
+                        <li class="breadcrumb-item"><a asp-action="Tables" asp-controller="Dashboard">DB Tables</a></li>
+                        <li class="breadcrumb-item"><a asp-action="Table" asp-controller="Trekking">Trekking Table</a></li>
+                        <li class="breadcrumb-item active">@Model.Title</li>
+                    </ol>
                     <h4 class="page-title">Our Trekking: @Model.Title</h4>
                 </div>
             </div>
         </div>
-        <!-- end page title end breadcrumb -->
-        <!-- Form for CreateTeamMemberVM -->
+
         <div class="row">
             <div class="col-md-12">
                 <div class="card m-b-30">
                     <div class="card-body">
                         <h4 class="mt-0 header-title text-center">Trekking Details</h4>
                         <hr>
+
                         <div class="row">
-                            <div class="col-md-3">
-                                <div class="text-center">
-                                    <img src="@Model.Images" alt="@Model.Title" class="img-fluid rounded-circle" style="max-width: 250px;">
-                                </div>
-                            </div>
                             <div class="col-md-9">
-                                <dl class="row" style="font-size: 20px;">
+                                <dl class="row">
+
                                     <dt class="col-sm-3">Title:</dt>
                                     <dd class="col-sm-9">@Model.Title</dd>
 
-                                    <dt class="col-sm-3">Sub Title:</dt>
-                                    <dd class="col-sm-9">@Model.SubTitle</dd>
-
-                                    <dt class="col-sm-3">Price:</dt>
-                                    <dd class="col-sm-9">@Model.Price</dd>
-
-                                    <dt class="col-sm-3">Group Size:</dt>
-                                    <dd class="col-sm-9">@Model.GroupSize</dd>
-
-                                    <dt class="col-sm-3">Road Height:</dt>
-                                    <dd class="col-sm-9">@Model.RoadHeight</dd>
-
-                                    <dt class="col-sm-3">Star:</dt>
-                                    <dd class="col-sm-9">@Model.Star</dd>
-
-                                    <dt class="col-sm-3">Review Count:</dt>
-                                    <dd class="col-sm-9">@Model.ReviewCount</dd>
-
-                                    <dt class="col-sm-3">Description:</dt>
-                                    <dd class="col-sm-9">@Model.Description</dd>
+                                    <!-- Add other details here -->
 
                                     <dt class="col-sm-3">Difficulty:</dt>
                                     <dd class="col-sm-9">@Model.Difficulty.Name</dd>
@@ -70,40 +116,54 @@
                                     <dd class="col-sm-9">@Model.Duration.ToString("dd MMM yyyy")</dd>
 
                                     <dt class="col-sm-3">Facilities:</dt>
-                                    <dd class="col-sm-9">@(string.Join(", ", Model.Facilities.Select(x => x.Facility).Select(x => x.Name)   .ToList()))</dd>
+                                    <dd class="col-sm-9">@string.Join(", ", Model.Facilities.Select(x => x.Facility.Name))</dd>
 
                                     <dt class="col-sm-3">Features:</dt>
-                                    <dd class="col-sm-9">@(string.Join(", ", Model.Features.Select(x => x.Feature).Select(x => x.Name).ToList()))</dd>
+                                    <dd class="col-sm-9">@string.Join(", ", Model.Features.Select(x => x.Feature.Name))</dd>
 
-                                    <div class="row align-items-start">
-                                        @foreach (var item in Model.Images.ToList())
-                                        {
-                                            <div class="col-2 mb-3 position-relative">
-                                                <img style="width: 100%; height: 200px; border-radius: 5px;" src="~/Upload/ProductImages/@item.ImageUrl" />
-                                            </div>
-                                        }
-                                    </div>
+                                    <dt class="col-sm-3">Images:</dt>
+                                    <dd class="col-sm-9">
+                                        <div class="row">
+                                            @foreach (var image in Model.Images)
+                                            {
+                                                <div class="col-2 mb-3 position-relative">
+                                                    <img class="img-fluid rounded" src="@image.ImageUrl" alt="@image.Trekking.Title">
+                                                </div>
+                                            }
+                                        </div>
+                                    </dd>
 
                                 </dl>
-                                @if (!Model.IsDeleted)
-                                {
-                                    <div class="text-right m-5">
-                                        <a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-raised btn-warning">Update</a>
-                                        <a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-raised btn-danger">Delete</a>
-                                        <a asp-action="Table" class="btn btn-raised btn-info">Back</a>
-                                        <!-- Additional actions if needed -->
-                                    </div>
-                                }
+                                @* Additional actions if needed *@
                             </div>
+                            @if (!Model.IsDeleted)
+                            {
+                                <div class="text-right m-5">
+                                    <a asp-action="Update" asp-route-id="@Model.Id" class="btn-icon btn-update mr-3">
+                                        <span class="icon-btn" style="background-color: #f39c12;">
+                                            <i class="fa fa-pencil" style="line-height: 1;"></i>
+                                        </span>
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@Model.Id" class="btn-icon btn-delete mr-3">
+                                        <span class="icon-btn" style="background-color: #dc3545;">
+                                            <i class="fa fa-trash" style="line-height: 1;"></i>
+                                        </span>
+                                    </a>
+                                    <a asp-action="Table" class="btn-icon btn-back">
+                                        <span class="icon-btn" style="background-color: #17a2b8;">
+                                            <i class="fa fa-arrow-left" style="line-height: 1;"></i>
+                                        </span>
+                                    </a>
+                                    <!-- Additional actions if needed -->
+                                </div>
+                            }
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
 
-
-        <!-- end form -->
-
-    </div> <!-- end container -->
+    </div>
 </div>
-<!-- end wrapper -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">

@@ -1,0 +1,123 @@
+﻿@using TREKER.Business.ViewModels.PageVM
+@model SettingVM
+
+<div class="wrapper">
+    <div class="container-fluid">
+
+        <!-- Page-Title -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-title-box">
+                    <div class="btn-group m-0 pull-right">
+                        <ol class="breadcrumb hide-phone p-0 m-0">
+                            <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Urora</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Tables" asp-controller="Dashboard">DB Tables</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Table" asp-controller="Setting">Settings</a></li>
+                            <li class="breadcrumb-item active">Settings</li>
+                        </ol>
+                    </div>
+                    <h4 class="page-title">Our Regions</h4>
+                </div>
+            </div>
+        </div>
+        <!-- end page title end breadcrumb -->
+        <!-- Form for CreateTeamMemberVM -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-8">
+                <div class="card mt-5 shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Update Old Setting</h4>
+                    </div>
+                    <div class="card-body mx-5 mb-4">
+                        <div asp-validation-summary="All" style="color: red; font-size: 16px">
+                        </div>
+                        <form method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label asp-for="Email" class="form-label">Email</label>
+                                <br />
+                                <input type="text" class="form-control" asp-for="Email" placeholder="Enter Email address">
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Address1" class="form-label">Address 1</label>
+                                <br />
+                                <input type="text" class="form-control" asp-for="Address1" placeholder="Enter Address 1">
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Address2" class="form-label">Address 2</label>
+                                <br />
+                                <input type="text" class="form-control" asp-for="Address2" placeholder="Enter Address 2">
+                            </div> 
+
+                            <div class="form-group">
+                                <label asp-for="Phone1" class="form-label">Phone 1</label>
+                                <br />
+                                <input type="text" class="form-control" asp-for="Phone1" placeholder="Enter Phone 1">
+                            </div> 
+                            
+                            <div class="form-group">
+                                <label asp-for="Phone2" class="form-label">Phone 2</label>
+                                <br />
+                                <input type="text" class="form-control" asp-for="Phone2" placeholder="Enter Phone 2">
+                            </div> 
+                            
+                            <div class="form-group">
+                                <label asp-for="Instagram" class="form-label">Instagram link</label>
+                                <br />
+                                <input type="text" class="form-control" asp-for="Instagram" placeholder="Enter Instagram address">
+                            </div> 
+                            
+                            <div class="form-group">
+                                <label asp-for="Facebook" class="form-label">Facebook link</label>
+                                <br />
+                                <input type="text" class="form-control" asp-for="Facebook" placeholder="Enter Facebook address">
+                            </div>
+
+                              <div class="form-group">
+                                <label asp-for="Twitter" class="form-label">Twitter link</label>
+                                <br />
+                                <input type="text" class="form-control" asp-for="Twitter" placeholder="Enter Twitter address">
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Youtube" class="form-label">Youtube link</label>
+                                <br />
+                                <input type="text" class="form-control" asp-for="Youtube" placeholder="Enter Youtube address">
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="File" class="form-label">Logo</label>
+                                <br />
+                                <input class="form-control" asp-for="File" placeholder="Enter Logo">
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Description" class="form-label">Description</label>
+                                <br />
+                                <textarea class="form-control" asp-for="Description" placeholder="Enter Description"></textarea>
+                            </div>
+
+                            <br />
+
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary btn-block mt-3">Update</button>
+                            </div>
+                        </form>
+
+                        <div class="d-grid">
+                            <a href="@Url.Action("Detail", "Setting")" class="btn btn-success btn-block mt-3" style="background-color: #28a745; color: white;">
+                                Back
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end form -->
+
+    </div> <!-- end container -->
+</div>
+<!-- end wrapper -->

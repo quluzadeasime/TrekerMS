@@ -10,6 +10,6 @@ namespace TREKER.Core.Entities
     public class Feature : BaseAuditableEntity
     {
         public string Name { get; set; }
-        public IQueryable<TrekkingFeature> Trekkings { get; set; }
+        public ICollection<TrekkingFeature> Trekkings { get; set; }
     }
 }

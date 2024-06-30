@@ -1,0 +1,116 @@
+﻿@using TREKER.Business.ViewModels.AppointmentVMs
+@model UpdateAppointmentVM
+
+<div class="wrapper">
+    <div class="container-fluid">
+
+        <!-- Page-Title -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-title-box">
+                    <div class="btn-group m-0 pull-right">
+                        <ol class="breadcrumb hide-phone p-0 m-0">
+                            <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Urora</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Tables" asp-controller="Dashboard">DB Tables</a></li>
+                            <li class="breadcrumb-item"><a asp-action="Table" asp-controller="Appointment">Appointments Table</a></li>
+                            <li class="breadcrumb-item active">@Model.Fullname</li>
+                        </ol>
+                    </div>
+                    <h4 class="page-title">Our Appointments</h4>
+                </div>
+            </div>
+        </div>
+        <!-- end page title end breadcrumb -->
+        <!-- Form for CreateTeamMemberVM -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-8">
+                <div class="card mt-5 shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">Update Old Appointments</h4>
+                    </div>
+                    <div class="card-body mx-5 mb-4">
+                        <div asp-validation-summary="All" style="color: red; font-size: 16px">
+                        </div>
+                        <form method="post" >
+                            <div class="form-group">
+                                <label asp-for="Fullname" class="form-label">Full Name</label>
+                                <br />
+                                <input type="text" class="form-control" asp-for="Fullname" placeholder="Enter full name">
+                            </div>
+                            <br/>
+                            <div class="form-group">
+                                <label asp-for="Email" class="form-label">Email</label>
+                                <br />
+                                <input type="text" class="form-control" asp-for="Email" placeholder="Enter email">
+                            </div> 
+                            <br />
+                            <div class="form-group">
+                                <label asp-for="Phone" class="form-label">Phone</label>
+                                <br />
+                                <input type="text" class="form-control" asp-for="Phone" placeholder="Enter phone">
+                            </div> 
+                            <br />
+                            <div class="form-group">
+                                <label asp-for="Date" class="form-label">Date</label>
+                                <br />
+                                <input asp-for="Date" min="@DateTime.Now.AddYears(-0).ToString("yyyy-MM-dd")" max="@DateTime.Now.AddYears(1).ToString("yyyy-MM-dd")" class="datepicker" required>
+
+                            </div>
+
+                            <br />
+
+                            <div class="form-group">
+                                <label asp-for="IsVerified" class="form-label">Verification</label>
+                                <br />
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="status1" id="product_active" value="option1" checked>
+                                    <label class="form-check-label" for="product_active">
+                                        Verified
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input  class="form-check-input" type="radio" name="status1" id="product_inactive" value="option2">
+                                    <label class="form-check-label" for="product_inactive">
+                                        Not Verified
+                                    </label>
+                                </div>
+                            </div>
+
+                            <br />
+
+                            <div class="form-group">
+                                <label asp-for="IsFinished" class="form-label">Finishing</label>
+                                <br />
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="status2" value="option1" checked>
+                                    <label class="form-check-label" for="product_active">
+                                        Finished
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="status2" id="product_inactive" value="option2">
+                                    <label class="form-check-label" for="product_inactive">
+                                        Not Finished
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary btn-block mt-3">Update</button>
+                            </div>
+                        </form>
+                        <div class="d-grid">
+                            <a href="@Url.Action("Table", "Appointment")" class="btn btn-success btn-block mt-3" style="background-color: #28a745; color: white;">
+                                Back
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end form -->
+
+    </div> <!-- end container -->
+</div>
+<!-- end wrapper -->

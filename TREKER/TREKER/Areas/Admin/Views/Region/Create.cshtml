@@ -13,7 +13,8 @@
                         <ol class="breadcrumb hide-phone p-0 m-0">
                             <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Urora</a></li>
                             <li class="breadcrumb-item"><a asp-action="Tables" asp-controller="Dashboard">DB Tables</a></li>
-                            <li class="breadcrumb-item active">Regions</li>
+                            <li class="breadcrumb-item"><a asp-action="Table" asp-controller="Region">Regions</a></li>
+                            <li class="breadcrumb-item active">New Region</li>
                         </ol>
                     </div>
                     <h4 class="page-title">Our Regions</h4>
@@ -22,7 +23,7 @@
         </div>
         <!-- end page title end breadcrumb -->
         <!-- Form for CreateTeamMemberVM -->
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mb-5">
             <div class="col-md-8">
                 <div class="card mt-5 shadow-sm">
                     <div class="card-header bg-primary text-white">
@@ -42,6 +43,11 @@
                                 <button type="submit" class="btn btn-primary btn-block mt-3">Create</button>
                             </div>
                         </form>
+                        <div class="d-grid">
+                            <a href="@Url.Action("Table", "Region")" class="btn btn-success btn-block mt-3" style="background-color: #28a745; color: white;">
+                                Back
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

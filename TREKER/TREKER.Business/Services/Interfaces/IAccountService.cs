@@ -10,6 +10,7 @@ namespace TREKER.Business.Services.Interfaces
 {
     public interface IAccountService
     {
+        Task<bool> CheckIsRegisteredOnUser(string emailAddress);
         Task<AppUser> GetUserByEmailAddress(string emailAddress);
         Task RegisterAsync(RegisterVM vm);
         Task LoginAsync(LoginVM vm);

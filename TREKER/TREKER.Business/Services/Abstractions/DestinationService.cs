@@ -21,7 +21,7 @@ namespace TREKER.Business.Services.Abstractions
         private readonly string _connectionString;
         private readonly string[] includes =
         {
-            "Region"
+            "Region",
         };
 
         public DestinationService(IDestinationRepository destinationRepository, IConfiguration configuration)
@@ -82,10 +82,10 @@ namespace TREKER.Business.Services.Abstractions
 
         public async Task UpdateAsync(UpdateDestinationVM vm)
         {
-            var oldDestination = await _destinationRepository.GetByIdAsync(vm.Id,includes);
+            var oldDestination = await _destinationRepository.GetByIdAsync(vm.Id);
 
             oldDestination.Title = vm.Title ?? oldDestination.Title;
-            oldDestination.RegionId = vm.RegionId ?? oldDestination.RegionId;
+            oldDestination.RegionId = vm.RegionId;
             oldDestination.UpdatedDate = DateTime.UtcNow;
 
             if (vm.File is not null)

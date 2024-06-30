@@ -18,10 +18,10 @@ namespace TREKER.Business.ViewModels.BlogVMs
         public string ByUsername { get; set; }
         public string Description { get; set; }
         public int DestinationId { get; set; }
-        public IQueryable<BlogImageVM> Images { get; set; }
+        public ICollection<IFormFile> Images { get; set; }
 
         // Relation Fields
-        public IQueryable<Destination>? Destinations { get; set; } 
+        public ICollection<Destination>? Destinations { get; set; } 
     }
 
     public class BlogImageVM
@@ -52,7 +52,7 @@ namespace TREKER.Business.ViewModels.BlogVMs
             RuleFor(x => x.Images)
                 .NotEmpty()
                 .WithMessage("You must filled the input Images.")
-                .Must(x => x.Any(x => FileManager.CheckFile(x.File) == true))
+                .Must(x => x.Any(x => FileManager.CheckFile(x) == true))
                 .WithMessage("File type must be image and lower than 10 MB.");
 
         }

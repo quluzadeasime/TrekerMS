@@ -25,6 +25,9 @@ namespace TREKER.Business.Services
             services.AddScoped<IRegionService, RegionService>();
             services.AddScoped<ITrekkingService, TrekkingService>();
             services.AddScoped<IDayService, DayService>();
+            services.AddScoped<IContactService, ContactService>();
+            services.AddScoped<IAppointmentService, AppointmentService>();
+            services.AddScoped<LayoutService>();
         }
     }
 }
